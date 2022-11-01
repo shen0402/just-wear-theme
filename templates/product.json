@@ -1,0 +1,855 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "89826e55-08e0-40cb-a0d4-ac010254cf91": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "2070bbf7-6587-4bfe-af1a-9dda56240053": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "disabled": true,
+          "settings": {
+            "data_key": "credit-promotion-badge",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "light",
+            "topPadding": "0",
+            "bottomPadding": "0"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "1e86e61d-fd96-431b-8c66-407c4d7ba25f": {
+          "type": "variant",
+          "settings": {
+            "title": "Information",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/information.jpg"
+          }
+        },
+        "8d1c9269-a479-4712-8eb3-283305912a14": {
+          "type": "variant",
+          "settings": {
+            "title": "All Black Collection",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/all_black_collection.jpg"
+          }
+        },
+        "cea67297-bcc8-4002-a0be-1c9c2f6b7213": {
+          "type": "variant",
+          "settings": {
+            "title": "All Black",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/black_hill_collection.jpg"
+          }
+        },
+        "6c2c73fa-93fd-48eb-b43f-9343624d1271": {
+          "type": "variant",
+          "settings": {
+            "title": "All White Collection",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/all_white_collection.jpg"
+          }
+        },
+        "2facafb8-d012-4862-8237-d890c440ea56": {
+          "type": "variant",
+          "settings": {
+            "title": "New Heights Collection",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/New-Heights_3pack_Swatch.jpg"
+          }
+        },
+        "68bdb27d-1f14-4642-962f-1b7ebb2c4590": {
+          "type": "variant",
+          "settings": {
+            "title": "Hidden Oasis Collection",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/Hidden-Oasis_3pack_Swatch.jpg"
+          }
+        },
+        "f5d099aa-feb9-4ec6-a5e1-f9db418065fb": {
+          "type": "variant",
+          "settings": {
+            "title": "Rydal Water Collection",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/rydal_water_collection.jpg"
+          }
+        },
+        "aa977edb-39ab-4c7f-893f-8a1771626417": {
+          "type": "variant",
+          "settings": {
+            "title": "Discovery Collection",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/discovery_collection.jpg"
+          }
+        },
+        "c07ea74c-40bf-4289-bdd9-1f962db3ca9c": {
+          "type": "variant",
+          "settings": {
+            "title": "In The Woods Collection",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/in_the_woods_collection.jpg"
+          }
+        },
+        "ee2e7061-40f2-4b25-8a49-f0418ecfa324": {
+          "type": "variant",
+          "settings": {
+            "title": "Surprise Me Collection",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/surprise_me_collection.jpg"
+          }
+        },
+        "dbcf945f-9198-4cca-85c1-18134ce1faf7": {
+          "type": "variant",
+          "settings": {
+            "title": "Classic Collection",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/classic_collection.jpg"
+          }
+        },
+        "7f7e0eb7-aedc-4333-80d8-2fbada39f76e": {
+          "type": "variant",
+          "settings": {
+            "title": "Modern Collection",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/modern_collection.jpg"
+          }
+        },
+        "be9592a8-0703-48d7-ab82-41533382d835": {
+          "type": "variant",
+          "settings": {
+            "title": "Classic Black",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/classic_black.jpg"
+          }
+        },
+        "323afffe-b67c-4419-97f7-3c10fd82e7ee": {
+          "type": "variant",
+          "disabled": true,
+          "settings": {
+            "title": "Urban Collection",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/urban_collection.jpg"
+          }
+        },
+        "8cfed568-ad73-47fa-b470-ba81a3634125": {
+          "type": "variant",
+          "disabled": true,
+          "settings": {
+            "title": "Outdoor Collection",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/outdoor_collection.jpg"
+          }
+        },
+        "ba90394e-c8e1-4781-96fc-800ccb21088e": {
+          "type": "variant",
+          "disabled": true,
+          "settings": {
+            "title": "Ben Nevis Collection",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/ben_nevis_collection.jpg"
+          }
+        },
+        "ab55d357-6124-4dc6-bc4e-28476e392b86": {
+          "type": "variant",
+          "disabled": true,
+          "settings": {
+            "title": "Oxford Blue",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/oxford_blue.jpg"
+          }
+        },
+        "6866680a-4533-448f-afd7-29c26aded281": {
+          "type": "variant",
+          "disabled": true,
+          "settings": {
+            "title": "Charcoal Grey",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/charcoal_grey.jpg"
+          }
+        },
+        "bd9730be-275f-4b4d-8a64-7feafed19799": {
+          "type": "variant",
+          "disabled": true,
+          "settings": {
+            "title": "Watermelon Red",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/watermelon_red.jpg"
+          }
+        },
+        "444f2bfe-497d-43d9-bfca-7510b203c595": {
+          "type": "variant",
+          "disabled": true,
+          "settings": {
+            "title": "Azure Blue",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/azure_blue.jpg"
+          }
+        },
+        "da5055a6-f7c0-42be-9af6-7650043aa6f5": {
+          "type": "variant",
+          "disabled": true,
+          "settings": {
+            "title": "Mint Green",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/mint_green.jpg"
+          }
+        },
+        "743db5b7-23ec-40c8-9549-0d083879c1c4": {
+          "type": "variant",
+          "disabled": true,
+          "settings": {
+            "title": "Loch Ness Collection",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/loch_ness_collection.jpg"
+          }
+        },
+        "bc20b4cf-2978-4aaf-ac12-c7d4931ddcf6": {
+          "type": "variant",
+          "disabled": true,
+          "settings": {
+            "title": "Red & Yellow",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/red_yellow.jpg"
+          }
+        },
+        "721b2e42-fbf3-4006-a932-7be83dd9c30b": {
+          "type": "variant",
+          "disabled": true,
+          "settings": {
+            "title": "Grey & White",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/grey_white.jpg"
+          }
+        },
+        "1261e44b-d8dd-45a3-8f30-26991c7429fa": {
+          "type": "variant",
+          "settings": {
+            "title": "All White",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/all_white.jpg"
+          }
+        },
+        "2bf4ead8-fbac-45a7-83e2-7313bef3099a": {
+          "type": "variant",
+          "settings": {
+            "title": "Green & Red",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/green_red.jpg"
+          }
+        },
+        "b53eda81-9200-49ae-9611-1de232293bf4": {
+          "type": "variant",
+          "settings": {
+            "title": "Blue & Green",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/blue_green.jpg"
+          }
+        },
+        "35c505e6-1c8d-42f1-b2db-1f6a4caa06ae": {
+          "type": "variant",
+          "settings": {
+            "title": "Dark Green & Light Green",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/dark_green_light_green.jpg"
+          }
+        },
+        "5f42ec77-27ed-4af8-8478-3c0633852eed": {
+          "type": "variant",
+          "settings": {
+            "title": "Blue & Grey",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/New-Heights_2pack_Swatch.jpg"
+          }
+        },
+        "54c9ea96-e343-4a79-b15f-70551d70ee4a": {
+          "type": "variant",
+          "settings": {
+            "title": "Orange & Green",
+            "color": "",
+            "image": "shopify:\/\/shop_images\/Hidden-Oasis_2pack_Swatch.jpg"
+          }
+        },
+        "236ccc13-b145-4e07-8064-50899f673d1d": {
+          "type": "info_box",
+          "settings": {
+            "heading": "51%",
+            "text": "<p>Impact on global warming<\/p>"
+          }
+        },
+        "a894c7e9-8cbf-48d6-a4e8-98ba469abc81": {
+          "type": "info_box",
+          "settings": {
+            "heading": "43%",
+            "text": "<p>Impact on fossil fuels<\/p>"
+          }
+        },
+        "b9affb9b-d358-4d07-9f1b-d02788e07e34": {
+          "type": "info_box",
+          "settings": {
+            "heading": "37%",
+            "text": "<p>Impact on water scarcity<\/p>"
+          }
+        },
+        "5827d720-3542-4bc7-bdcb-b40fdf3ea3e1": {
+          "type": "gift_box",
+          "settings": {
+            "text": "<p>🎄 Gifting this item? Why not add a gift box (+£3)<\/p>"
+          }
+        },
+        "d24009ff-8170-487b-8b4b-2814f5e65e2d": {
+          "type": "shipping_box",
+          "settings": {
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"18.148\" height=\"18.947\" viewbox=\"0 0 18.148 18.947\">\n    <path d=\"M18.147 5.044 14.179-.004H3.967L-.005 5.044v13.9h18.153zm-1.569-.339H9.595v-3.66h4.091zM4.459 1.045H8.55v3.66H1.568zM1.014 17.896V5.719h16.117v12.177zm8.059-9.934 2.676 2.676-.738.738-1.446-1.442v5.475H8.55V9.934L7.105 11.38l-.738-.738z\"><\/path>\n<\/svg>",
+            "heading": "Free Shipping",
+            "text": "<p>For all UK mainland orders!<\/p>"
+          }
+        },
+        "45b10ce9-fa7f-49c8-ad47-fcde9b75fb21": {
+          "type": "shipping_box",
+          "settings": {
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24.436\" height=\"24.867\" viewbox=\"0 0 24.436 24.867\">\n    <g data-name=\"Group 10926\">\n        <path d=\"M14.606.387A12 12 0 0 0 2.672 3.84l-.172.172V.65H.48v5.8l1.01 1.01h5.786V5.436H3.934l.2-.2a9.986 9.986 0 0 1 17.288 7.904l1.727 1.727A12.005 12.005 0 0 0 14.606.387z\" transform=\"translate(.659 .283)\" style=\"stroke:#fafafa;stroke-width:.5px\"><\/path>\n        <path d=\"M16.727 7.543v2.019h3.342l-.2.2A10 10 0 0 1 2.581 1.838L.854.111a12.015 12.015 0 0 0 8.546 14.5 12.333 12.333 0 0 0 3.12.414 11.976 11.976 0 0 0 8.815-3.867l.172-.172v3.373h2.019V8.553l-1.01-1.01z\" transform=\"translate(-.222 9.592)\" style=\"stroke:#fafafa;stroke-width:.5px\"><\/path>\n        <path d=\"M16.787 14.089h-1.182v.89h-4.463a3.574 3.574 0 0 0 .916-2.364v-.592h2.364v-1.182h-2.364V9.659a1.779 1.779 0 0 1 1.776-1.77 1.582 1.582 0 0 1 1.182.443l.8-.886a2.642 2.642 0 0 0-1.98-.739 2.964 2.964 0 0 0-2.96 2.953v1.182H9.103v1.181h1.773v.591a2.371 2.371 0 0 1-2.364 2.365v1.182h8.275z\"><\/path>\n    <\/g>\n<\/svg>",
+            "heading": "Free Exchange",
+            "text": "<p>First pair within 30 days.<\/p>"
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Delivery & Returns",
+            "content": "<p><strong>Delivery: <\/strong>Free delivery available to all UK & EU customers. Next day delivery also available in some areas for orders placed pre-2pm. <br\/><br\/><strong>Returns & Exchanges: <\/strong>We're so confident you'll love your JustWears, we'll give you a full refund on your first pair if you don't like them for whatever reason. How awesome is that! <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Sustainability",
+            "content": "<p>JustWears products are certified by ClimatePartner to be carbon neutral through compensating emissions via carbon offset projects.<\/p><p><\/p><p>JustWears products are also certified on the Higg Materials Index as showing at least a <strong>25% reduction <\/strong>in environmental impact when compared to conventional materials.<\/p><p><\/p><p>For further details, please visit our <a href=\"\/pages\/sustainability\" target=\"_blank\" title=\"Sustainability\">Sustainability<\/a> pages. <\/p>",
+            "page": ""
+          }
+        },
+        "2a0abd37-287a-4920-b72d-8a48f7dddcc9": {
+          "type": "style",
+          "settings": {
+            "heading": "Which style is right for you",
+            "active_icon": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 1080 1080\" style=\"enable-background:new 0 0 1080 1080;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<g>\n\t<g>\n\t\t<path d=\"M729.01,784.62c-62.17,0-115.61-13.66-117.86-14.24c-4.62-1.2-7.94-5.24-8.22-10.01l-5.36-92.81H485.26l-6.67,93.95\n\t\t\tc-0.35,4.86-3.85,8.91-8.6,9.96c-2.26,0.5-55.96,12.16-115.57,12.16c-59.54,0-116.34-11.64-118.73-12.13\n\t\t\tc-5.39-1.12-9.12-6.04-8.73-11.53l31.75-454.36c0.4-5.76,5.19-10.23,10.97-10.23h541.66c5.78,0,10.58,4.48,10.97,10.25\n\t\t\tl30.75,453.36c0.35,5.24-3.04,9.99-8.11,11.36C842.77,770.93,791.23,784.62,729.01,784.62z M624.41,750.9\n\t\t\tc16.78,3.69,58.68,11.73,104.6,11.73c44.81,0,84.5-7.63,101.47-11.42l-29.43-433.85H279.92l-30.35,434.36\n\t\t\tc18.48,3.26,61.46,9.91,104.85,9.91c44.16,0,85.85-6.87,102.83-10.05l6.8-95.8c0.41-5.75,5.2-10.21,10.97-10.21h132.93\n\t\t\tc5.83,0,10.64,4.54,10.97,10.36L624.41,750.9z M467.63,760.73h0.02H467.63z\"><\/path>\n\t<\/g>\n\t<g>\n\t\t<path d=\"M815.43,371.83H265.86c-6.07,0-10.99-4.92-10.99-10.99s4.92-10.99,10.99-10.99h549.57c6.07,0,10.99,4.92,10.99,10.99\n\t\t\tS821.5,371.83,815.43,371.83z\"><\/path>\n\t<\/g>\n\t<g>\n\t\t<path d=\"M540.5,570.34c-6.07,0-10.99-4.92-10.99-10.99V362.92c0-6.07,4.92-10.99,10.99-10.99c6.07,0,10.99,4.92,10.99,10.99\n\t\t\tv196.42C551.49,565.42,546.57,570.34,540.5,570.34z\"><\/path>\n\t<\/g>\n\t<g>\n\t\t<path d=\"M607.96,667.56c-3.26,0-6.48-1.44-8.65-4.2c-3.74-4.76-2.93-11.65,1.82-15.41c2.19-1.76,51.39-42.37,51.39-140.19\n\t\t\tc0-84.45-17.22-143.09-17.39-143.67c-1.74-5.81,1.57-11.94,7.38-13.68c5.81-1.74,11.94,1.56,13.68,7.37\n\t\t\tc0.75,2.49,18.32,62.08,18.32,149.98c0,109.24-57.32,155.53-59.76,157.45C612.73,666.79,610.34,667.56,607.96,667.56z\"><\/path>\n\t<\/g>\n\t<g>\n\t\t<path d=\"M478.96,667.55c-2.37,0-4.75-0.76-6.76-2.34c-2.44-1.92-59.76-48.21-59.76-157.45c0-87.9,17.57-147.49,18.32-149.98\n\t\t\tc1.74-5.82,7.88-9.11,13.69-7.37c5.82,1.74,9.12,7.87,7.37,13.69c-0.17,0.58-17.39,59.21-17.39,143.66\n\t\t\tc0,97.92,49.29,138.51,51.39,140.19c4.72,3.78,5.52,10.69,1.76,15.43C485.41,666.12,482.2,667.55,478.96,667.55z\"><\/path>\n\t<\/g>\n\t<g>\n\t\t<path d=\"M539.5,587.2c-81.63,0-120.94-46.67-122.58-48.65c-3.86-4.69-3.18-11.62,1.51-15.47c4.68-3.85,11.58-3.18,15.44,1.48\n\t\t\tc1.42,1.7,34.89,40.67,105.62,40.67c72.14,0,114.01-39.22,114.43-39.61c4.39-4.19,11.35-4.04,15.54,0.35\n\t\t\tc4.19,4.39,4.04,11.35-0.35,15.54C667.17,543.37,620.36,587.2,539.5,587.2z\"><\/path>\n\t<\/g>\n<\/g>\n<\/svg>",
+            "active_image": "shopify:\/\/shop_images\/style-boxers-active.png",
+            "active_heading": "Featured Benefits:",
+            "active_content": "<p>Signature pouch keeps your bits in place even when exercising<\/p><p>Ventilated under-carriage increases airflow to your balls.<\/p><p>Sustainable, anti-odour, sweat busting<\/p><p>Tagless design keeps you itch free<\/p><p>Easy-Access Fly<\/p>",
+            "pro_icon": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 1080 1080\" style=\"enable-background:new 0 0 1080 1080;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<g>\n\t<g>\n\t\t<path d=\"M730.36,786.37c-62.61,0-116.44-13.76-118.7-14.34c-4.66-1.21-8-5.28-8.28-10.08l-5.39-93.48H484.87l-6.72,94.62\n\t\t\tc-0.35,4.89-3.87,8.97-8.66,10.03c-2.27,0.5-56.36,12.25-116.39,12.25c-59.96,0-117.17-11.72-119.58-12.22\n\t\t\tc-5.42-1.12-9.18-6.09-8.8-11.61l31.97-457.61c0.41-5.8,5.23-10.3,11.04-10.3h545.53c5.82,0,10.65,4.51,11.05,10.32l30.97,456.61\n\t\t\tc0.36,5.27-3.06,10.07-8.17,11.44C844.94,772.59,793.03,786.37,730.36,786.37z M625.01,752.41c16.9,3.71,59.1,11.82,105.35,11.82\n\t\t\tc45.13,0,85.11-7.68,102.2-11.5l-29.64-436.95H278.06l-30.57,437.47c18.61,3.29,61.9,9.98,105.6,9.98\n\t\t\tc44.48,0,86.47-6.91,103.57-10.13l6.85-96.49c0.41-5.8,5.23-10.29,11.04-10.29h133.89c5.87,0,10.72,4.58,11.05,10.43\n\t\t\tL625.01,752.41z M467.11,762.31h0.02H467.11z\"><\/path>\n\t<\/g>\n\t<g>\n\t\t<path d=\"M817.4,370.63H263.9c-6.11,0-11.07-4.96-11.07-11.07s4.96-11.07,11.07-11.07H817.4c6.11,0,11.07,4.96,11.07,11.07\n\t\t\tS823.52,370.63,817.4,370.63z\"><\/path>\n\t<\/g>\n\t<g>\n\t\t<path d=\"M540.5,668.47c-6.11,0-11.07-4.96-11.07-11.07V361.65c0-6.11,4.96-11.07,11.07-11.07c6.11,0,11.07,4.96,11.07,11.07V657.4\n\t\t\tC551.57,663.51,546.61,668.47,540.5,668.47z\"><\/path>\n\t<\/g>\n\t<g>\n\t\t<path d=\"M608.45,668.47c-3.28,0-6.53-1.45-8.71-4.23c-3.77-4.8-2.95-11.74,1.83-15.52c2.21-1.77,51.75-42.67,51.75-141.19\n\t\t\tc0-85.06-17.34-144.11-17.52-144.7c-1.75-5.86,1.58-12.03,7.43-13.78s12.02,1.57,13.78,7.42c0.75,2.51,18.45,62.52,18.45,151.06\n\t\t\tc0,110.03-57.73,156.65-60.18,158.58C613.25,667.7,610.84,668.47,608.45,668.47z\"><\/path>\n\t<\/g>\n\t<g>\n\t\t<path d=\"M478.52,668.47c-2.39,0-4.79-0.77-6.81-2.36c-2.46-1.93-60.18-48.55-60.18-158.58c0-88.53,17.7-148.54,18.45-151.06\n\t\t\tc1.76-5.86,7.93-9.18,13.79-7.42c5.86,1.76,9.18,7.93,7.42,13.79c-0.17,0.58-17.52,59.63-17.52,144.69\n\t\t\tc0,98.62,49.65,139.51,51.76,141.2c4.76,3.81,5.56,10.76,1.77,15.54C485.02,667.02,481.79,668.47,478.52,668.47z\"><\/path>\n\t<\/g>\n<\/g>\n<\/svg>",
+            "pro_image": "shopify:\/\/shop_images\/style-boxers-pro.png",
+            "pro_heading": "Featured Benefits:",
+            "pro_content": "<p>Signature pouch keeps your bits in place even when exercising<\/p><p>Ventilated under-carriage increases airflow to your balls.<\/p><p>Sustainable, anti-odour, sweat busting<\/p><p>Tagless design keeps you itch free<\/p><p>Easy-Access Fly<\/p>",
+            "briefs_icon": "",
+            "briefs_heading": "",
+            "briefs_content": "",
+            "close_label": "Close"
+          }
+        },
+        "cea05c8d-09b6-435a-8ecc-1b9e9300ec4e": {
+          "type": "size_chart",
+          "settings": {
+            "heading": "Size Guide",
+            "image": "shopify:\/\/shop_images\/sizes-chart-boxers-desktop_b36ab7db-c0b7-4ef3-88d5-e6b6cefa9d22.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/sizes-chart-boxers-mobile_dc3751c3-c150-4560-a018-5100a6d49e3f.jpg",
+            "close_label": "Close"
+          }
+        }
+      },
+      "block_order": [
+        "89826e55-08e0-40cb-a0d4-ac010254cf91",
+        "2070bbf7-6587-4bfe-af1a-9dda56240053",
+        "title",
+        "caption",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "1e86e61d-fd96-431b-8c66-407c4d7ba25f",
+        "8d1c9269-a479-4712-8eb3-283305912a14",
+        "cea67297-bcc8-4002-a0be-1c9c2f6b7213",
+        "6c2c73fa-93fd-48eb-b43f-9343624d1271",
+        "2facafb8-d012-4862-8237-d890c440ea56",
+        "68bdb27d-1f14-4642-962f-1b7ebb2c4590",
+        "f5d099aa-feb9-4ec6-a5e1-f9db418065fb",
+        "aa977edb-39ab-4c7f-893f-8a1771626417",
+        "c07ea74c-40bf-4289-bdd9-1f962db3ca9c",
+        "ee2e7061-40f2-4b25-8a49-f0418ecfa324",
+        "dbcf945f-9198-4cca-85c1-18134ce1faf7",
+        "7f7e0eb7-aedc-4333-80d8-2fbada39f76e",
+        "be9592a8-0703-48d7-ab82-41533382d835",
+        "323afffe-b67c-4419-97f7-3c10fd82e7ee",
+        "8cfed568-ad73-47fa-b470-ba81a3634125",
+        "ba90394e-c8e1-4781-96fc-800ccb21088e",
+        "ab55d357-6124-4dc6-bc4e-28476e392b86",
+        "6866680a-4533-448f-afd7-29c26aded281",
+        "bd9730be-275f-4b4d-8a64-7feafed19799",
+        "444f2bfe-497d-43d9-bfca-7510b203c595",
+        "da5055a6-f7c0-42be-9af6-7650043aa6f5",
+        "743db5b7-23ec-40c8-9549-0d083879c1c4",
+        "bc20b4cf-2978-4aaf-ac12-c7d4931ddcf6",
+        "721b2e42-fbf3-4006-a932-7be83dd9c30b",
+        "1261e44b-d8dd-45a3-8f30-26991c7429fa",
+        "2bf4ead8-fbac-45a7-83e2-7313bef3099a",
+        "b53eda81-9200-49ae-9611-1de232293bf4",
+        "35c505e6-1c8d-42f1-b2db-1f6a4caa06ae",
+        "5f42ec77-27ed-4af8-8478-3c0633852eed",
+        "54c9ea96-e343-4a79-b15f-70551d70ee4a",
+        "236ccc13-b145-4e07-8064-50899f673d1d",
+        "a894c7e9-8cbf-48d6-a4e8-98ba469abc81",
+        "b9affb9b-d358-4d07-9f1b-d02788e07e34",
+        "5827d720-3542-4bc7-bdcb-b40fdf3ea3e1",
+        "d24009ff-8170-487b-8b4b-2814f5e65e2d",
+        "45b10ce9-fa7f-49c8-ad47-fcde9b75fb21",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "2a0abd37-287a-4920-b72d-8a48f7dddcc9",
+        "cea05c8d-09b6-435a-8ecc-1b9e9300ec4e"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "belowreviewstars": "<p>Shipping is FREE on all UK mainland orders!<\/p>",
+        "eurobelowreviewstars": "<p>Shipping is FREE on all European orders and there are NO DUTIES payable on EU deliveries!<\/p>",
+        "media_position": "left",
+        "gallery_layout": "thumbnail",
+        "media_size": "small",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 72,
+        "mobile_padding_top": 28,
+        "mobile_padding_bottom": 28
+      }
+    },
+    "166154898157b5b548": {
+      "type": "icon-auto-scroll",
+      "blocks": {
+        "42d4dfa6-f477-42d1-b9ea-96f41a01f591": {
+          "type": "text",
+          "settings": {
+            "text": "<p>heat regulating<\/p>"
+          }
+        },
+        "281732f5-e417-427c-8ff5-180a502cc899": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>responsibly-sourced<\/strong><\/p>"
+          }
+        },
+        "a84b346c-bcdb-4ea1-8682-8ffb77e19c15": {
+          "type": "text",
+          "settings": {
+            "text": "<p>anti-Microbial<\/p>"
+          }
+        },
+        "de1bcc8e-3f88-430b-bc61-6310a38bbaad": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Recycled Materials<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "42d4dfa6-f477-42d1-b9ea-96f41a01f591",
+        "281732f5-e417-427c-8ff5-180a502cc899",
+        "a84b346c-bcdb-4ea1-8682-8ffb77e19c15",
+        "de1bcc8e-3f88-430b-bc61-6310a38bbaad"
+      ],
+      "settings": {
+        "background": "#e9e8e6",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 24,
+        "mobile_padding_bottom": 24
+      }
+    },
+    "166189363269a1b3b9": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1661463480dbb916d2": {
+      "type": "rich-text",
+      "blocks": {
+        "1661463480988ae426-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>The Best Sweat Busting Fabric<\/p>",
+            "heading_size": "hxl"
+          }
+        },
+        "1661463480988ae426-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The fresh feelin’ antimicrobial properties in JustWears help prevent body odour. And while traditional cotton traps sweat and moisture, our MicroModal Air is 50% more absorbent than cotton and drys quickly - so you won’t feel sweaty or sticky down there anymore.<\/p>"
+          }
+        },
+        "1661463480988ae426-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_11489_3x_deeea36a-576b-42b0-be69-5630c6f669d4.png",
+            "mobile_image": "shopify:\/\/shop_images\/Group_14336_3x_4c5590aa-7797-40e8-a0e6-aafaf518e887.png"
+          }
+        }
+      },
+      "block_order": [
+        "1661463480988ae426-0",
+        "1661463480988ae426-1",
+        "1661463480988ae426-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "back_color": "#f4f6fc"
+      }
+    },
+    "1661905545625db82d": {
+      "type": "product-best-package",
+      "blocks": {
+        "70321ced-ae67-49d5-a885-aa07306a6fa3": {
+          "type": "header",
+          "settings": {
+            "package1_image": "shopify:\/\/shop_images\/JustWears_Logo_3x_7b837e27-815f-4112-8f6b-ec137c94d29c.png",
+            "package1_text": "",
+            "package2_text": "Hanes",
+            "package3_text": "Jockey",
+            "package4_text": "Bombas"
+          }
+        },
+        "64c56b55-cea1-4d72-86dd-98b79acf4d22": {
+          "type": "content",
+          "settings": {
+            "heading": "Anti-microbial",
+            "description": "<p>Did we mention that these natural super fibres are anti-bacterial, helping to prevent body odour?<\/p>",
+            "package1": true,
+            "package2": false,
+            "package3": false,
+            "package4": false
+          }
+        },
+        "f4963429-9ce3-4c28-845f-cff1a4042da1": {
+          "type": "content",
+          "settings": {
+            "heading": "Recycled materials",
+            "description": "<p>A seamless design means no discomfort or area of weakness in the fabric<\/p>",
+            "package1": true,
+            "package2": false,
+            "package3": true,
+            "package4": false
+          }
+        },
+        "4927ae68-9579-4d18-98c3-356619370e05": {
+          "type": "content",
+          "settings": {
+            "heading": "Ultra-breathable",
+            "description": "<p>MicroModal Air is 50% more absorbent and breathable than cotton, drying quicker and keeping you pleasantly cool all day long.<\/p>",
+            "package1": true,
+            "package2": false,
+            "package3": false,
+            "package4": false
+          }
+        },
+        "adc5641a-c284-46da-8ad5-d8d3dbca2445": {
+          "type": "content",
+          "settings": {
+            "heading": "5x softer than cotton",
+            "description": "<p>Can you imagine what something softer than silk feels like?<\/p>",
+            "package1": true,
+            "package2": false,
+            "package3": false,
+            "package4": false
+          }
+        },
+        "1458c1eb-35a4-4b85-a88e-16c5e81a0f8f": {
+          "type": "content",
+          "settings": {
+            "heading": "Helps your sperm count",
+            "description": "<p>By reducing the overall temperature of your bits, this design supports sperm count.<\/p>",
+            "package1": true,
+            "package2": false,
+            "package3": false,
+            "package4": false
+          }
+        }
+      },
+      "block_order": [
+        "70321ced-ae67-49d5-a885-aa07306a6fa3",
+        "64c56b55-cea1-4d72-86dd-98b79acf4d22",
+        "f4963429-9ce3-4c28-845f-cff1a4042da1",
+        "4927ae68-9579-4d18-98c3-356619370e05",
+        "adc5641a-c284-46da-8ad5-d8d3dbca2445",
+        "1458c1eb-35a4-4b85-a88e-16c5e81a0f8f"
+      ],
+      "settings": {
+        "heading": "Every “Package” Deserves the Best!",
+        "description": "<p>Our boxer briefs treat your crown jewels like royalty. We offer two designs to give you ultimate comfort and to eliminate sweat down under.<\/p>",
+        "bottom_text": "<p>*Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.<\/p>",
+        "padding_top": 72,
+        "padding_bottom": 100,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "back_color": "#fafafa"
+      }
+    },
+    "166146390008250c65": {
+      "type": "video-slider",
+      "blocks": {
+        "6cc9036b-f159-46db-8c83-beaf2b02dc7a": {
+          "type": "header",
+          "settings": {
+            "heading": "Absolutely love these and would highly recommend",
+            "description": "<p>“My partner loves them so comfortable has 5 now and will be buying more”<\/p>",
+            "label": "",
+            "link": ""
+          }
+        },
+        "5f15405e-caad-4451-8c1b-6422e9c3744c": {
+          "type": "video",
+          "settings": {
+            "video_url": "",
+            "mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a479db4c2cda439481728b080e8151f3.mov",
+            "image": "shopify:\/\/shop_images\/Group_11046_3x_0161ef8a-dac8-4db8-aceb-19d8c8299dca.png",
+            "name": "Dan",
+            "caption": "JW superfan!"
+          }
+        },
+        "f99294eb-8e2c-4fc1-8fab-5dba45c2fb8c": {
+          "type": "video",
+          "settings": {
+            "video_url": "",
+            "mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/07da357f1679421986a05e104ba8ae5b.mov",
+            "image": "shopify:\/\/shop_images\/Group_11047_3x_d24dbf9f-0125-45f1-86fd-9d1b69c4ac6b.png",
+            "name": "Eddie",
+            "caption": "New shopper"
+          }
+        },
+        "85b7f53f-0d8f-4287-bf0d-9d4bc9b2bbca": {
+          "type": "video",
+          "settings": {
+            "video_url": "",
+            "mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cf7c5ff3808b471c9cffc51ffd8f4c95.mp4",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-05_at_3.01.31_PM.jpg",
+            "name": "Stef",
+            "caption": "Gifting godess"
+          }
+        },
+        "9015c846-d9c3-4bf1-9e19-3e38da170185": {
+          "type": "video",
+          "settings": {
+            "video_url": "",
+            "mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/68bd45584bf245e8a6cf5a8d1de53cdc.mp4",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-05_at_3.03.05_PM.jpg",
+            "name": "Jacquie",
+            "caption": "Top gifter!"
+          }
+        },
+        "01795682-0684-4acd-af1e-e7f9d63b9a1c": {
+          "type": "video",
+          "settings": {
+            "video_url": "",
+            "mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/02e3e882bb244541bed6c74424c9c3ef.mp4",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-05_at_3.08.21_PM.jpg",
+            "name": "Mark Hanretty",
+            "caption": "Ice skating legend"
+          }
+        }
+      },
+      "block_order": [
+        "6cc9036b-f159-46db-8c83-beaf2b02dc7a",
+        "5f15405e-caad-4451-8c1b-6422e9c3744c",
+        "f99294eb-8e2c-4fc1-8fab-5dba45c2fb8c",
+        "85b7f53f-0d8f-4287-bf0d-9d4bc9b2bbca",
+        "9015c846-d9c3-4bf1-9e19-3e38da170185",
+        "01795682-0684-4acd-af1e-e7f9d63b9a1c"
+      ],
+      "settings": {
+        "stars": "<svg data-name=\"Group 7570\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"240.363\" height=\"42.271\" viewbox=\"0 0 240.363 42.271\">\n    <path d=\"M-10.525 37.224a1.4 1.4 0 0 1 1.412 0l10.746 6.207A1.478 1.478 0 0 0 3.775 41.8L1.461 29.175a1.577 1.577 0 0 1 .439-1.407l8.955-8.789a1.551 1.551 0 0 0-.818-2.638l-12.176-1.6a1.469 1.469 0 0 1-1.142-.87L-8.495 2.236a1.435 1.435 0 0 0-2.648 0l-5.211 11.639a1.469 1.469 0 0 1-1.142.87l-12.176 1.6a1.551 1.551 0 0 0-.818 2.638l8.955 8.789a1.577 1.577 0 0 1 .436 1.407L-23.412 41.8a1.478 1.478 0 0 0 2.142 1.631z\" transform=\"translate(30.954 -1.355)\" style=\"fill:#00f\"><\/path>\n    <path data-name=\"Star\" d=\"M-10.525 37.224a1.4 1.4 0 0 1 1.412 0l10.746 6.207A1.478 1.478 0 0 0 3.775 41.8L1.461 29.175a1.577 1.577 0 0 1 .439-1.407l8.955-8.789a1.551 1.551 0 0 0-.818-2.638l-12.176-1.6a1.469 1.469 0 0 1-1.142-.87L-8.495 2.236a1.435 1.435 0 0 0-2.648 0l-5.211 11.639a1.469 1.469 0 0 1-1.142.87l-12.176 1.6a1.551 1.551 0 0 0-.818 2.638l8.955 8.789a1.577 1.577 0 0 1 .436 1.407L-23.412 41.8a1.478 1.478 0 0 0 2.142 1.631z\" transform=\"translate(80.672 -1.355)\" style=\"fill:#00f\"><\/path>\n    <path data-name=\"Star\" d=\"M-10.525 37.224a1.4 1.4 0 0 1 1.412 0l10.746 6.207A1.478 1.478 0 0 0 3.775 41.8L1.461 29.175a1.577 1.577 0 0 1 .439-1.407l8.955-8.789a1.551 1.551 0 0 0-.818-2.638l-12.176-1.6a1.469 1.469 0 0 1-1.142-.87L-8.495 2.236a1.435 1.435 0 0 0-2.648 0l-5.211 11.639a1.469 1.469 0 0 1-1.142.87l-12.176 1.6a1.551 1.551 0 0 0-.818 2.638l8.955 8.789a1.577 1.577 0 0 1 .436 1.407L-23.412 41.8a1.478 1.478 0 0 0 2.142 1.631z\" transform=\"translate(130.387 -1.355)\" style=\"fill:#00f\"><\/path>\n    <path data-name=\"Star\" d=\"M-10.525 37.224a1.4 1.4 0 0 1 1.412 0l10.746 6.207A1.478 1.478 0 0 0 3.775 41.8L1.461 29.175a1.577 1.577 0 0 1 .439-1.407l8.955-8.789a1.551 1.551 0 0 0-.818-2.638l-12.176-1.6a1.469 1.469 0 0 1-1.142-.87L-8.495 2.236a1.435 1.435 0 0 0-2.648 0l-5.211 11.639a1.469 1.469 0 0 1-1.142.87l-12.176 1.6a1.551 1.551 0 0 0-.818 2.638l8.955 8.789a1.577 1.577 0 0 1 .436 1.407L-23.412 41.8a1.478 1.478 0 0 0 2.142 1.631z\" transform=\"translate(180.105 -1.355)\" style=\"fill:#00f\"><\/path>\n    <path data-name=\"Star\" d=\"M-10.525 37.224a1.4 1.4 0 0 1 1.412 0l10.746 6.207A1.478 1.478 0 0 0 3.775 41.8L1.461 29.175a1.577 1.577 0 0 1 .439-1.407l8.955-8.789a1.551 1.551 0 0 0-.818-2.638l-12.176-1.6a1.469 1.469 0 0 1-1.142-.87L-8.495 2.236a1.435 1.435 0 0 0-2.648 0l-5.211 11.639a1.469 1.469 0 0 1-1.142.87l-12.176 1.6a1.551 1.551 0 0 0-.818 2.638l8.955 8.789a1.577 1.577 0 0 1 .436 1.407L-23.412 41.8a1.478 1.478 0 0 0 2.142 1.631z\" transform=\"translate(229.046 -1.355)\" style=\"fill:#00f\"><\/path>\n<\/svg>",
+        "text": "Over 70,000 customers have already joined the comfort crusade",
+        "background": "#ffffff",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36
+      }
+    },
+    "166189356264e12031": {
+      "type": "apps",
+      "blocks": {
+        "e55fa569-f233-487d-82fd-87274b7b137a": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "e55fa569-f233-487d-82fd-87274b7b137a"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "7f2a7f3e-0cdb-429c-bf28-32b78cdeec64": {
+          "type": "sub_heading",
+          "settings": {
+            "subheading": "Fits like a second skin"
+          }
+        },
+        "image-with-text-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Say bye to chafing",
+            "heading_size": "h1"
+          }
+        },
+        "image-with-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We made the inseam slightly longer to guarantee you a perfectly snug fit and no more riding up. Our stitching technique reduces skin irritation and we removed the commercial tag on the waistband as well. Bye annoying itching!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "7f2a7f3e-0cdb-429c-bf28-32b78cdeec64",
+        "image-with-text-0",
+        "image-with-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_3182_3x_476a07c5-be86-4637-a526-c6a127f70e72.png",
+        "reverse": false,
+        "padding_top": 88,
+        "padding_bottom": 44,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "back_color": "#ffffff"
+      }
+    },
+    "16614633772914321c": {
+      "type": "image-with-text",
+      "blocks": {
+        "8573d3f8-c5eb-498f-92a6-bd0f32315c69": {
+          "type": "sub_heading",
+          "settings": {
+            "subheading": "5x softer than cotton"
+          }
+        },
+        "16614633777032f44c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unbelievably soft",
+            "heading_size": "h1"
+          }
+        },
+        "16614633777032f44c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Can you imagine what something softer than silk feels like? Here’s what our customer Paul said: “The material is so soft you basically don’t know they are there.” We could not have said it better, Paul!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "8573d3f8-c5eb-498f-92a6-bd0f32315c69",
+        "16614633777032f44c-0",
+        "16614633777032f44c-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_3183_3x_00d77a8d-f44c-4b24-b917-5700c96c48e3.png",
+        "reverse": true,
+        "padding_top": 44,
+        "padding_bottom": 100,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "back_color": "#ffffff"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You might also like",
+        "description": "",
+        "collection": "",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-2",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "padding_top": 92,
+        "padding_bottom": 92,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36
+      }
+    },
+    "2ef98e65-770e-4617-8dba-04b74d5585e3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166154898157b5b548",
+    "166189363269a1b3b9",
+    "1661463480dbb916d2",
+    "1661905545625db82d",
+    "166146390008250c65",
+    "166189356264e12031",
+    "image-with-text",
+    "16614633772914321c",
+    "product-recommendations",
+    "2ef98e65-770e-4617-8dba-04b74d5585e3"
+  ]
+}

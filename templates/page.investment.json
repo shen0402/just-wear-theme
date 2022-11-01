@@ -1,0 +1,230 @@
+{
+  "sections": {
+    "166199906425c2eca5": {
+      "type": "image-banner",
+      "blocks": {
+        "d3f276c7-ca35-48c5-8cfb-148282764d8b": {
+          "type": "richtext",
+          "settings": {
+            "rte": "<p><strong>Equity for Ballers<\/strong><br\/>Your chance to invest in JustWears!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d3f276c7-ca35-48c5-8cfb-148282764d8b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/header_d3030123-5ceb-4bbe-909e-56994a7b0809.jpg",
+        "video_url": "",
+        "mp4": "",
+        "image_overlay_opacity": 0,
+        "image_height": 350,
+        "mobile_image_height": 200,
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1662068944c1767aca": {
+      "type": "timeline",
+      "blocks": {
+        "6c579283-5bac-47c9-aa71-f76f30fd13ca": {
+          "type": "time",
+          "settings": {
+            "description": "<p>The idea of making the only underwear your balls deserve quickly became the <strong>most backed apparel project in the UK<\/strong> on the crowdfunding platform Kickstarter in just 30 days in 2017.<\/p>",
+            "reverse": false
+          }
+        },
+        "69cfe50f-ba7a-401f-8016-c256b46055cb": {
+          "type": "time",
+          "settings": {
+            "description": "<p><strong>Since then, we’ve shipped over<\/strong> 280,000 pairs of JustWears to more than 70,000 men in +70 countries.<\/p>",
+            "reverse": true
+          }
+        },
+        "99234e07-3f81-4bd8-be72-cb5cf09350f1": {
+          "type": "time",
+          "settings": {
+            "description": "<p><strong>What never changed is our consistency in creating ridiculously comfortable and hi-performance basic wear with<\/strong> renewable fabrics and ergonomic designs, together with our sustainable ethos.<\/p>",
+            "reverse": false
+          }
+        },
+        "48813c49-9d71-4720-83c4-bdd41e59293a": {
+          "type": "time",
+          "settings": {
+            "description": "<p>2020 We appeared on <strong>Dragons’ Den <\/strong>and turned down investment offers from <strong>Tej Lalvani.<\/strong><\/p>",
+            "reverse": true
+          }
+        },
+        "2bda2704-8886-404f-aef3-d1fab9abeee2": {
+          "type": "time",
+          "settings": {
+            "description": "<p>2021 We launched JustWears <strong>in Europe<\/strong> and welcomed our latest customers from Germany, Spain, France and beyond...<\/p>",
+            "reverse": false
+          }
+        },
+        "7f6b3602-a7df-481d-b121-c379cd6bde39": {
+          "type": "time",
+          "settings": {
+            "description": "<p>2022 We started our partnership with <strong>John Lewis <\/strong>and turned our production process <strong>Carbon Neutral.<\/strong><\/p>",
+            "reverse": true
+          }
+        },
+        "014556de-9b89-444d-bb98-ff445f9280e0": {
+          "type": "time",
+          "settings": {
+            "description": "<p>2023 Check back here for more <strong>exciting news soon!<\/strong><\/p>",
+            "reverse": false
+          }
+        }
+      },
+      "block_order": [
+        "6c579283-5bac-47c9-aa71-f76f30fd13ca",
+        "69cfe50f-ba7a-401f-8016-c256b46055cb",
+        "99234e07-3f81-4bd8-be72-cb5cf09350f1",
+        "48813c49-9d71-4720-83c4-bdd41e59293a",
+        "2bda2704-8886-404f-aef3-d1fab9abeee2",
+        "7f6b3602-a7df-481d-b121-c379cd6bde39",
+        "014556de-9b89-444d-bb98-ff445f9280e0"
+      ],
+      "settings": {
+        "top_heading": "5 years ago, we set out on a mission to reinvent men’s basics.",
+        "bottom_heading": "We’re incredibly excited to invite you to join us for this journey.",
+        "image": "shopify:\/\/shop_images\/JustWears_Logo_3x_7b837e27-815f-4112-8f6b-ec137c94d29c.png",
+        "background": "#f4f6fc",
+        "padding_top": 84,
+        "padding_bottom": 100,
+        "mobile_padding_top": 48,
+        "mobile_padding_bottom": 48
+      }
+    },
+    "1661999288f0574b45": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/investment-desktop_8ab0daab-d582-4e63-9828-f2e49bbbfb45.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/investment-mobile.jpg",
+        "video_url": "",
+        "mp4": "",
+        "image_overlay_opacity": 0,
+        "image_height": 800,
+        "mobile_image_height": 400,
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1661999444be1bd5b7": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/our-growth2_01894cad-490c-4cc3-9918-2c721936b376.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/our-growth-mobile_5e7b5b6f-e113-402a-b742-0d16f23e898e.jpg",
+        "video_url": "",
+        "mp4": "",
+        "image_overlay_opacity": 0,
+        "image_height": 600,
+        "mobile_image_height": 300,
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1661999662b5fb3e92": {
+      "type": "rich-text",
+      "blocks": {
+        "16619996618fd43e71-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_506_3x_d02d53a0-69e2-40e4-9d7a-f1669119b949.png"
+          }
+        },
+        "16619996618fd43e71-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our customer base is growing fast and are just as passionate about JustWears as we are.<\/p><p><strong>Now we want to give everyone the chance to share in our success and impact.<\/strong><\/p><p>If you wish to register your interest in becoming a shareholder of JustWears, drop us a line below and we will be in touch with more info.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16619996618fd43e71-2",
+        "16619996618fd43e71-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "padding_top": 84,
+        "padding_bottom": 84,
+        "mobile_padding_top": 44,
+        "mobile_padding_bottom": 44,
+        "back_color": "#ffffff"
+      }
+    },
+    "166199953996ae37eb": {
+      "type": "rich-text",
+      "blocks": {
+        "16619995392c18763b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>We’d love to hear from you!<\/p>",
+            "heading_size": "hxl"
+          }
+        },
+        "16619995392c18763b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please get in touch if you have any questions...<\/p>"
+          }
+        },
+        "16619995392c18763b-3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get in touch",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16619995392c18763b-0",
+        "16619995392c18763b-1",
+        "16619995392c18763b-3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 100,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 60,
+        "back_color": "#dff4ec"
+      }
+    }
+  },
+  "order": [
+    "166199906425c2eca5",
+    "1662068944c1767aca",
+    "1661999288f0574b45",
+    "1661999444be1bd5b7",
+    "1661999662b5fb3e92",
+    "166199953996ae37eb"
+  ]
+}

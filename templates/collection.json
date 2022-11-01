@@ -1,0 +1,198 @@
+{
+  "sections": {
+    "0306e049-1410-46a4-8fc1-e0a7203fb5ae": {
+      "type": "page-tab",
+      "blocks": {
+        "template--14339026976845__0306e049-1410-46a4-8fc1-e0a7203fb5ae-16669875268a741cb9-0": {
+          "type": "tab",
+          "settings": {
+            "label": "Shop all",
+            "link": "\/collections\/all"
+          }
+        },
+        "281432dc-6841-48c5-8cf4-bd6cc3a0e2f0": {
+          "type": "tab",
+          "settings": {
+            "label": "Bundles",
+            "link": "shopify:\/\/collections\/bundles"
+          }
+        },
+        "154d46b0-ecdc-4d53-9fc0-78665e000fab": {
+          "type": "tab",
+          "settings": {
+            "label": "Accessories",
+            "link": "shopify:\/\/collections\/frontpage"
+          }
+        }
+      },
+      "block_order": [
+        "template--14339026976845__0306e049-1410-46a4-8fc1-e0a7203fb5ae-16669875268a741cb9-0",
+        "281432dc-6841-48c5-8cf4-bd6cc3a0e2f0",
+        "154d46b0-ecdc-4d53-9fc0-78665e000fab"
+      ],
+      "settings": {
+        "back_color": "#f4f4f4"
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "hide": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "9291546d-50d3-4907-a6f7-4d351c1aab14": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Try us for yourself",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "bundles",
+        "products_to_show": 12,
+        "columns_desktop": 3,
+        "full_width": false,
+        "enable_border": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "enalbe_show_now": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_top_m": 36,
+        "padding_bottom_m": 36
+      }
+    },
+    "f1754e23-5b79-4d32-a877-296031ac5f45": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Save up to 25% when you bundle",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 12,
+        "columns_desktop": 3,
+        "full_width": false,
+        "enable_border": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "enalbe_show_now": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_top_m": 36,
+        "padding_bottom_m": 36
+      }
+    },
+    "d798327c-5b77-4c91-8dd0-5a9e573c61a0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Holiday Collection",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "gifts",
+        "products_to_show": 2,
+        "columns_desktop": 2,
+        "full_width": false,
+        "enable_border": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "enalbe_show_now": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_top_m": 36,
+        "padding_bottom_m": 36
+      }
+    },
+    "3ad19f43-bc12-4652-80c2-17ce986bf0f8": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Accessories",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "gifts",
+        "products_to_show": 2,
+        "columns_desktop": 2,
+        "full_width": false,
+        "enable_border": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "enalbe_show_now": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_top_m": 36,
+        "padding_bottom_m": 36
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "enable_filtering": false,
+        "filter_type": "vertical",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "0306e049-1410-46a4-8fc1-e0a7203fb5ae",
+    "banner",
+    "9291546d-50d3-4907-a6f7-4d351c1aab14",
+    "f1754e23-5b79-4d32-a877-296031ac5f45",
+    "d798327c-5b77-4c91-8dd0-5a9e573c61a0",
+    "3ad19f43-bc12-4652-80c2-17ce986bf0f8",
+    "product-grid"
+  ]
+}

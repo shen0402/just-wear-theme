@@ -1,0 +1,215 @@
+.customer h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d1d1d;
+    margin: 0;
+}
+
+.customer h1:focus-visible {
+    outline: unset;
+    outline-offset: unset;
+    box-shadow: none;
+}
+
+.customer form {
+    margin: 2px auto 0;
+    max-width: 45rem;
+}
+
+.custom-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 36rem;
+    margin: 1.5rem auto 0;
+}
+
+.custom-field:first-of-type {
+    margin-top: 0;
+}
+
+.custom-field label, .custom-field input {
+    font-size: 1.6rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d2d2d;
+    width: 100%;
+}
+
+.custom-field input {
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #ccd6e0;
+}
+
+.custom-field input:hover, .custom-field input:focus-visible {
+    border-color: #00ebc3;
+}
+
+.login a[href="#recover"] {
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    margin: 2rem auto 0;
+}
+
+.login a[href="#recover"]:hover {
+    color: #00f;
+}
+
+.customer .button {
+    margin: 0;
+    font-size: 1.9rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f3f3f3;
+    border-radius: 25px;
+    padding: 0.8rem 5rem;
+    border: 2px solid #00f;
+    margin: auto;
+    text-decoration: none;
+}
+
+.login__button {
+    margin-top: 1rem;
+}
+
+.login__description {
+    margin-top: 4.8rem;
+    font-size: 1.9rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    text-align: center;
+    color: #353640;
+}
+
+.login__create-account {
+    margin: 3.4rem auto 0;
+    text-align: center;
+}
+
+.recover_customer_password {
+    max-width: 36rem;
+    margin: auto;
+}
+
+.recover_customer_password .custom-field {
+    margin-top: 3rem;
+}
+
+.recover_customer_password p {
+    font-size: 1.6rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d2d2d;
+    margin-top: 1rem;
+}
+
+.recover_customer_password .button {
+    margin-top: 7.3rem;
+}
+
+.recover_customer_password a {
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00f;
+    margin-top: 2.6rem;
+}
+
+.customer.register, .customer.reset-password {
+    max-width: 36rem;
+    margin: auto;
+}
+
+.customer.register form {
+    margin-top: 2.4rem;
+}
+
+.customer.register form .button {
+    margin-top: 4.4rem;
+}
+
+.customer.reset-password p {
+    font-size: 1.6rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2d2d2d;
+    margin: 5px auto 0;
+    max-width: 35rem;
+}
+
+.customer.reset-password form {
+    margin-top: 2.7rem;
+}
+
+.reset-password__buttons {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.reset-password__buttons .button {
+    width: 20rem;
+    padding: 0.8rem 1rem;
+}
+
+.reset-password__buttons .button--cancel {
+    background-color: #575757;
+    border-color: #575757;
+    color: #fff;
+}
+
+.reset-password__buttons .button--cancel:hover {
+    background-color: #ccd6e0;
+    border-color: #ccd6e0;
+    color: #000;
+}
+
+@media (max-width: 749px) {
+    .customer h1 {
+        font-size: 3.4rem;
+        line-height: 1.18;
+    }
+
+    .reset-password__buttons {
+        flex-direction: column;
+    }
+}

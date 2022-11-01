@@ -1,0 +1,150 @@
+.rich-text .rich-text__wrapper {
+    width: 100%;
+}
+.rich-text .rich-text__wrapper .rich-text__blocks {
+    max-width: 100%;
+}
+.rich-text .rich-text__wrapper .rich-text__blocks .rich-text__heading {
+    max-width: 85rem;
+    margin: auto;
+}
+@media (max-width: 749px) {
+    .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__heading {
+        max-width: 33rem;
+   }
+}
+.rich-text .rich-text__wrapper .rich-text__blocks .rich-text__heading * {
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d1d1d;
+    display: block;
+}
+.rich-text .rich-text__wrapper .rich-text__blocks .rich-text__heading.hxl * {
+    font-size: 4.5rem;
+    line-height: 1.07;
+}
+@media (max-width: 749px) {
+    .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__heading.hxl * {
+        font-size: 2.8rem;
+        line-height: 1.21;
+   }
+   .page--investment .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__heading.hxl * {
+        font-size: 3.4rem;
+    }
+}
+.rich-text .rich-text__wrapper .rich-text__blocks .rich-text__heading.h0 * {
+    font-size: 3.4rem;
+    line-height: 1.18;
+}
+@media (max-width: 749px) {
+    .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__heading.h0 * {
+        font-size: 2.8rem;
+        line-height: 1.21;
+   }
+}
+.rich-text .rich-text__wrapper .rich-text__blocks .rich-text__heading.h1 * {
+    font-size: 2.8rem;
+    line-height: 1.21;
+}
+.rich-text .rich-text__wrapper .rich-text__blocks .rich-text__heading.h2 * {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.rich-text .rich-text__wrapper .rich-text__blocks .rich-text__image {
+    margin-top: 5.2rem;
+}
+.rich-text .rich-text__wrapper .rich-text__blocks .rich-text__image img {
+    width: 100%;
+}
+@media (max-width: 749px) {
+    .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__image {
+        margin-top: 2rem;
+   }
+    .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__image.mobile__blank {
+        overflow-x: auto;
+   }
+    .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__image.mobile__blank img {
+        width: auto;
+   }
+}
+.rich-text .rich-text__wrapper .rich-text__blocks .rich-text__text {
+    max-width: 88rem;
+    margin: auto;
+    margin-top: 0.7rem;
+}
+
+.page--rewards .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__text {
+    max-width: 83rem;
+}
+@media (max-width: 749px) {
+    .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__text {
+        margin-top: 1.5rem;
+   }
+}
+.rich-text .rich-text__wrapper .rich-text__blocks .rich-text__text * {
+    font-size: 1.9rem;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2d2d2d;
+}
+@media (max-width: 749px) {
+    .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__text * {
+        font-size: 1.6rem;
+        line-height: 1.5;
+   }
+
+   .page--investment .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__text * {
+    font-size: 1.9rem;
+   }
+}
+.rich-text .rich-text__wrapper .rich-text__blocks .rich-text__buttons {
+    margin-top: 5.2rem;
+}
+.page--investment .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__buttons {
+    margin-top: 3rem;
+}
+@media (max-width: 749px) {
+    .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__buttons,.page--investment .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__buttons {
+        margin-top: 3.6rem;
+   }
+}
+.rich-text .rich-text__wrapper .rich-text__blocks .rich-text__buttons .button {
+    line-height: 1.21;
+    padding: 15px 48px;
+}
+@media (max-width: 749px) {
+    .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__buttons .button {
+        font-size: 1.4rem;
+        line-height: 1.15;
+   }
+}
+
+/* Invest Page */
+
+.page--investment .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__image {
+    max-width: 366px;
+    margin: auto;
+    margin-bottom: 45px;
+}
+
+.page--investment .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__text {
+    max-width: 70rem;
+}
+
+@media (max-width: 749px) {
+    .page--investment .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__image {
+        max-width: 249px;
+        margin-bottom: 30px;
+    }
+    .page--investment .rich-text .rich-text__wrapper .rich-text__blocks .rich-text__image img {
+        width: 100%;
+        height: auto !important;
+    }
+}

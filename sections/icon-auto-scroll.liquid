@@ -1,0 +1,132 @@
+<link rel="stylesheet" href="{{ 'custom-icon-auto-scroll.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'custom-icon-auto-scroll.css' | asset_url | stylesheet_tag }}</noscript>
+{%- style -%}
+  .section--{{ section.id }} {
+    background: {{ section.settings.background }};
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  .section--{{ section.id }} .icon-auto-scroll-list-inner {
+    width: calc(250px * {{ section.blocks.size | times: 2 }});
+  }
+
+  @media screen and (min-width: 749px) {
+    .section--{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+
+    .section--{{ section.id }} .icon-auto-scroll-list-inner {
+        width: calc(500px * {{ section.blocks.size | times: 2 }});
+    }
+  }
+
+  @keyframes translateinfinite {
+    100% { transform:translateX(calc(-500px * {{ section.blocks.size }}));}
+  }
+
+  @keyframes translateinfinitemobile {
+    100% { transform:translateX(calc(-250px * {{ section.blocks.size }}));}
+  }
+{%- endstyle -%}
+{% if section.blocks.size > 0 %}
+    <div class="section--{{ section.id }}">
+        <div class="icon-auto-scroll">
+            <div class="icon-auto-scroll-list">
+                <div class="icon-auto-scroll-list-inner">
+                    {% for block in section.blocks %}
+                        {% assign type = block.type %}
+                        {% assign item = block.settings %}
+                        <div class="icon-auto-scroll-item">
+                            {{ item.text }}
+                        </div>
+                    {% endfor %}
+                    {% for block in section.blocks %}
+                        {% assign type = block.type %}
+                        {% assign item = block.settings %}
+                        <div class="icon-auto-scroll-item">
+                            {{ item.text }}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}
+{% schema %}
+{
+    "name": "Icon auto scroll",
+    "class": "section",
+    "settings": [
+        {
+            "type": "color",
+            "id": "background",
+            "label": "Background",
+            "default": "#fff"
+        },
+        {
+            "type": "header",
+            "content": "t:sections.all.padding.section_padding_heading"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_top",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_bottom",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Top Padding",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Bottom Padding",
+            "default": 36
+        }
+    ],
+    "blocks": [
+        {
+            "type": "text",
+            "name": "Text",
+            "settings": [
+                {
+                    "type": "richtext",
+                    "id": "text",
+                    "label": "Text"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Icon auto scroll"
+        }
+    ]
+}
+{% endschema %}

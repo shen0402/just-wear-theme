@@ -1,0 +1,196 @@
+{{ 'custom-announcement-bar.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  .section--{{ section.id }} {
+    background-color: {{ section.settings.back_color }};
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  @media (min-width: 749px) {
+    .section--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  @media (max-width: 850px) {
+    .section--{{ section.id }} {
+      display: none;
+  }
+  }
+{%- endstyle -%}
+{% if section.blocks.size > 0 %}
+<div class="section--{{ section.id }}">
+  <div class="announcement-bar page-width">
+    {% for block in section.blocks %}
+      {% if block.type == 'info' %}
+        <div class="announcement-bar__info">
+          {% assign info = block.settings %}
+          {% if info.number != blank %}
+            <p class="announcement-bar__number">{{ info.number }}</p>
+          {% endif %}
+          {% if info.description != blank %}
+            <p class="announcement-bar__description">
+              {{ info.description }}
+            </p>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+    <ul class="announcement-bar__link-list">
+      {% for block in section.blocks %}
+        {% if block.type == 'link' %}
+          <li>
+            {% assign link = block.settings %}
+            <a class="announcement-bar__link-item" href="{{ link.link }}">
+              {{ link.label }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      {% if section.settings.currency_selector %}
+        <div class="announcement-bar__localization isolate">
+          <noscript>
+            {%- form 'localization', id: 'FooterCountryFormNoScript', class: 'localization-form' -%}
+              <div class="localization-form__select">
+                <h2 class="visually-hidden" id="FooterCountryLabelNoScript">{{ 'localization.country_label' | t }}</h2>
+                <select class="localization-selector link" name="country_code" aria-labelledby="FooterCountryLabelNoScript">
+                  {%- for country in localization.available_countries -%}
+                    <option value="{{ country.iso_code }}" {%- if country.iso_code == localization.country.iso_code %} selected{% endif %}>
+                      {{ country.name }} ({{ country.currency.iso_code }} {{ country.currency.symbol }})
+                    </option>
+                  {%- endfor -%}
+                </select>
+                {% render 'icon-caret' %}
+              </div>
+              <button class="button button--tertiary">{{ 'localization.update_country' | t }}</button>
+            {%- endform -%}
+          </noscript>
+          <localization-form>
+            {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
+              <div class="no-js-hidden">
+                <div class="disclosure">
+                  <button type="button" class="disclosure__button localization-form__select localization-selector link link--text caption-large" aria-expanded="false" aria-controls="FooterCountryList" aria-describedby="FooterCountryLabel">
+                    {{ localization.country.currency.symbol }} {{ localization.country.name }}
+                    {% render 'icon-caret' %}
+                  </button>
+                  <div class="disclosure__list-wrapper" hidden>
+                    <ul id="FooterCountryList" role="list" class="disclosure__list list-unstyled">
+                      {%- for country in localization.available_countries -%}
+                        <li class="disclosure__item" tabindex="-1">
+                          <a class="link link--text disclosure__link caption-large{% if country.iso_code == localization.country.iso_code %} disclosure__link--active{% endif %} focus-inset" href="#"{% if country.iso_code == localization.country.iso_code %} aria-current="true"{% endif %} data-value="{{ country.iso_code }}">
+                            {{ country.currency.symbol }} {{ country.name }}
+                          </a>
+                        </li>
+                      {%- endfor -%}
+                    </ul>
+                  </div>
+                </div>
+                <input type="hidden" name="country_code" value="{{ localization.country.iso_code }}">
+              </div>
+            {%- endform -%}
+          </localization-form>
+        </div>
+      {% endif %}
+    </ul>
+  </div>
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "t:sections.announcement-bar.name",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "currency_selector",
+      "label": "Enable country/region selector",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "back_color",
+      "label": "Background Color",
+      "default": "#171717"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+    },
+    {
+        "type": "range",
+        "id": "mobile_padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "Mobile Top Padding",
+        "default": 36
+    },
+    {
+        "type": "range",
+        "id": "mobile_padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "Mobile Bottom Padding",
+        "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "info",
+      "name": "Info",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "number",
+          "label": "Number",
+          "default": "36,567,743"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description",
+          "default": "Gallons of water saved"
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "name": "Link",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

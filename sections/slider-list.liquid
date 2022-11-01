@@ -1,0 +1,147 @@
+{{ 'custom-slider-list.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  .section--{{ section.id }} {
+    background-color: {{ section.settings.back_color }};
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  @media screen and (min-width: 990px) {
+    .section--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section--{{ section.id }}">
+    <div class="slider-list">
+        {% if section.settings.heading != blank %}
+            <div class="slider-list__heading">
+                <h2 class="title">
+                    {{ section.settings.heading }}
+                </h2>
+            </div>
+        {% endif %}
+        {% if section.settings.description != blank %}
+            <div class="slider-list__description">
+                {{ section.settings.description }}
+            </div>
+        {% endif %}
+        {% if section.blocks.size > 0 %}
+        <div class="embla-slider no-buttons">
+            <div class="embla">
+                <div class="embla__viewport">
+                    <div class="slider-list-wrapper embla__container">
+                        {% for block in section.blocks %}
+                            {% assign image = block.settings.image %}
+                            <div class="slider-list-item embla__slide" data-embla-scroll="3" data-embla-medium-scroll="2" data-embla-small-scroll="1">
+                                <div class="slider-list__image" style="padding-bottom: {{ 1 | divided_by: image.aspect_ratio | times: 100 }}%">
+                                    <img
+                                    srcset="{%- if image.width >= 165 -%}{{ image | image_url: width: 165 }} 165w,{%- endif -%}
+                                    {%- if image.width >= 360 -%}{{ image | image_url: width: 360 }} 360w,{%- endif -%}
+                                    {%- if image.width >= 535 -%}{{ image | image_url: width: 535 }} 535w,{%- endif -%}
+                                    {%- if image.width >= 750 -%}{{ image | image_url: width: 750 }} 750w,{%- endif -%}
+                                    {%- if image.width >= 1070 -%}{{ image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                                    {%- if image.width >= 1500 -%}{{ image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                                    {{ image | image_url }} {{ image.width }}w"
+                                    src="{{ image | image_url: width: 1500 }}"
+                                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                                    alt="{{ image.alt | escape }}"
+                                    loading="lazy"
+                                    width="{{ image.width }}"
+                                    height="{{ image.height }}"
+                                    >
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    {% render 'embla-buttons' %}
+                </div>
+            </div>
+
+            {% render 'embla-dots' %}
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% schema %}
+{
+    "name": "Slider List",
+    "settings": [
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+        },
+        {
+            "type": "richtext",
+            "id": "description",
+            "label": "Description"
+        },
+        {
+            "type": "color",
+            "id": "back_color",
+            "label": "Background",
+            "default": "#FFFFFF"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_top",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_bottom",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Top Padding",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Bottom Padding",
+            "default": 36
+        }
+    ],
+    "blocks": [
+        {
+            "type": "image",
+            "name": "Image",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Slider List"
+        }
+    ]
+}
+{% endschema %}

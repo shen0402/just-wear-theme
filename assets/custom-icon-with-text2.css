@@ -1,0 +1,105 @@
+.icon-with-text2 .icon-with-text2__heading .title {
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d1d1d;
+    max-width: 92.3rem;
+    margin: 0 auto;
+}
+@media (max-width: 989px) {
+    .icon-with-text2 .icon-with-text2__heading .title {
+        font-size: 3.4rem;
+        line-height: 1.18;
+   }
+}
+.icon-with-text2 .icon-with-text2__description {
+    margin: 1.5rem auto 0;
+    max-width: 70rem;
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2d2d2d;
+}
+@media (max-width: 749px) {
+    .icon-with-text2 .icon-with-text2__description {
+        margin-top: 2.7rem;
+        font-size: 1.6rem;
+   }
+}
+.icon-with-text2 .icon-with-text2__icons-list {
+    margin-top: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10rem;
+}
+@media (max-width: 749px) {
+    .icon-with-text2 .icon-with-text2__icons-list {
+        gap: 2.6rem;
+        margin-top: 2.9rem;
+   }
+}
+.icon-with-text2 .icon-with-text2__icons-list .icon-with-text2__item {
+    max-width: 20rem;
+    width: 100%;
+}
+@media (max-width: 749px) {
+    .icon-with-text2 .icon-with-text2__icons-list .icon-with-text2__item {
+        max-width: 11rem;
+   }
+}
+.icon-with-text2 .icon-with-text2__icons-list .icon-with-text2__item .icon-with-text2__icon {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.icon-with-text2 .icon-with-text2__icons-list .icon-with-text2__item .icon-with-text2__icon * {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+}
+.icon-with-text2 .icon-with-text2__icons-list .icon-with-text2__item .icon-with-text2__caption {
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    margin: 1.5rem 0 0;
+}
+@media (max-width: 749px) {
+    .icon-with-text2 .icon-with-text2__icons-list .icon-with-text2__item .icon-with-text2__caption {
+        font-size: 1.9rem;
+        line-height: 1.26;
+   }
+}
+.icon-with-text2 .icon-with-text2__button {
+    margin-top: 7rem;
+    text-align: center;
+}
+@media (max-width: 749px) {
+    .icon-with-text2 .icon-with-text2__button {
+        margin-top: 5rem;
+   }
+}
+.icon-with-text2 .icon-with-text2__button .button {
+    font-size: 1.9rem;
+    line-height: 1.53;
+    padding: 0.8rem 2.7rem;
+}

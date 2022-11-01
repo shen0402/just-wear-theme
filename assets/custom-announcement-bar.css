@@ -1,0 +1,131 @@
+#shopify-section-announcement-bar {
+    z-index: 6;
+}
+
+.announcement-bar {
+    max-width: 100%;
+    max-height: 42px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media (min-width: 1200px) {
+    .announcement-bar {
+        padding: 0 100px;
+   }
+}
+.announcement-bar .announcement-bar__info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.announcement-bar .announcement-bar__info .announcement-bar__number {
+    font-size: 19px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: 0.57px;
+    text-align: left;
+    color: #00ebc3;
+    margin: 0;
+}
+.announcement-bar .announcement-bar__info .announcement-bar__description {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.81;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin: 0;
+    margin-left: 1rem;
+}
+.announcement-bar .announcement-bar__link-list {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 0;
+    margin: 0;
+}
+.announcement-bar .announcement-bar__link-list li {
+    margin-left: 3.2rem;
+}
+.announcement-bar .announcement-bar__link-list li:first-of-type {
+    margin-left: 0;
+}
+.announcement-bar .announcement-bar__link-list li .announcement-bar__link-item {
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: #f3f3f3;
+    text-decoration: none;
+    padding: 8px 0;
+    display: block;
+    transition: 0.3s;
+}
+.announcement-bar .announcement-bar__link-list li .announcement-bar__link-item:hover {
+    color: #00ebc3;
+}
+.announcement-bar .announcement-bar__link-list .announcement-bar__localization {
+    margin-left: 3.4rem;
+}
+.announcement-bar .announcement-bar__link-list .announcement-bar__localization .localization-form {
+    margin: 0;
+    padding: 0;
+}
+.announcement-bar .announcement-bar__link-list .announcement-bar__localization .localization-form .disclosure .localization-form__select {
+    margin: 0;
+    background-color: #00fbca;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    padding: 8px 52.4px 7px 20.6px;
+}
+
+.announcement-bar .announcement-bar__link-list .announcement-bar__localization .localization-form .disclosure .localization-form__select::before, .announcement-bar .announcement-bar__link-list .announcement-bar__localization .localization-form .disclosure .localization-form__select::after {
+    display: none;
+}
+.announcement-bar .announcement-bar__link-list .announcement-bar__localization .localization-form .disclosure .localization-form__select:hover {
+    background-color: white;
+}
+.announcement-bar .announcement-bar__link-list .announcement-bar__localization .localization-form .disclosure .localization-form__select svg {
+    width: 19px;
+    height: 11px;
+    top: 15px;
+}
+.announcement-bar .announcement-bar__link-list .announcement-bar__localization .localization-form .disclosure .disclosure__list-wrapper {
+    bottom: unset;
+    top: 100%;
+    transform: translateY(1rem);
+    margin-left: 0;
+    width: 100%;
+    z-index: ;
+}
+.announcement-bar .announcement-bar__link-list .announcement-bar__localization .localization-form .disclosure .disclosure__list-wrapper .disclosure__item {
+    margin-left: 0;
+}
+.announcement-bar .announcement-bar__link-list .announcement-bar__localization .localization-form .disclosure .disclosure__list-wrapper .disclosure__item .link--text {
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+.announcement-bar .announcement-bar__link-list .announcement-bar__localization .localization-form .disclosure .disclosure__list-wrapper .disclosure__item .link--text:hover, .announcement-bar .announcement-bar__link-list .announcement-bar__localization .localization-form .disclosure .disclosure__list-wrapper .disclosure__item .link--text.disclosure__link--active {
+    color: #00f;
+}

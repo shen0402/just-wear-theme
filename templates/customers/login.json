@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-login",
+      "settings": {
+        "padding_top": 76,
+        "padding_bottom": 92,
+        "text": "<p>Sign up to our Pouch Points Loyalty Scheme today and take advantage of cash savings and many more perks with every order! <\/p>"
+      }
+    },
+    "166127865058b6c153": {
+      "type": "icon-auto-scroll",
+      "blocks": {
+        "c642b6a5-7f36-4a6c-ac67-850b163b9aa8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>heat regulating<\/p>"
+          }
+        },
+        "30504a8b-de6f-455c-a6d2-be5b927e0024": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>responsibly-sourced<\/strong><\/p>"
+          }
+        },
+        "c2b9e2de-9b85-4049-88a2-b444abd9fc07": {
+          "type": "text",
+          "settings": {
+            "text": "<p>anti-microbial<\/p>"
+          }
+        },
+        "62ed71e0-82cc-40cc-9813-0f20e8a1a20a": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>recycled materials<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "c642b6a5-7f36-4a6c-ac67-850b163b9aa8",
+        "30504a8b-de6f-455c-a6d2-be5b927e0024",
+        "c2b9e2de-9b85-4049-88a2-b444abd9fc07",
+        "62ed71e0-82cc-40cc-9813-0f20e8a1a20a"
+      ],
+      "settings": {
+        "background": "#e9e8e6",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 24,
+        "mobile_padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166127865058b6c153"
+  ]
+}

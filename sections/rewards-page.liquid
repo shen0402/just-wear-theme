@@ -1,0 +1,248 @@
+{{ 'custom-rewards.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top_mb }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 990px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  {% unless section.settings.tiers_image == blank %}
+    .section-{{ section.id }}-padding {
+        padding-bottom: 0;
+    }
+
+    .section-{{ section.id }}-padding .custom-rewards__tiers {
+        padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+    }
+
+    @media screen and (min-width: 990px) {
+        .section-{{ section.id }}-padding .custom-rewards__tiers {
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+    }
+  {% endunless %}
+{%- endstyle -%}
+
+<script src="{{ 'custom-rewards.js' | asset_url }}" defer="defer"></script>
+
+<div class="rewards-page section-{{ section.id }}-padding {% if customer %}rewards__customer{% endif %}{% if section.settings.tiers_image != blank %} custom-tiers{% endif %}">
+    {%- if customer -%}
+        <div class="reward__account">
+            <div data-lion-account></div>
+            <h4>Hi!</h4>
+            <h4>You have <span id="reward_points"></span> points</h4>
+            <h4>Tier: <span id="reward_tier"></span></h4>
+        </div> 
+        <div class="reward__buttons">
+            <a class="reward__button" href="#" data-target="rewards__refer">
+                Refer Friends
+            </a>
+            <a class="reward__button" href="#" data-target="lion-earn">
+                Earn Points
+            </a>
+            <a class="reward__button" href="#" data-target="lion-redeem">
+                Rewards
+            </a>
+            <a class="reward__button" href="#" data-target="custom-rewards__tiers">
+                Tiers
+            </a>
+            <a class="reward__button" href="#" data-target="lion-account-history">
+                History
+            </a>
+        </div>
+        <div class="reward__header rewards__refer">
+            {%- for block in section.blocks -%}
+               {%- if block.type == 'refer_friends' -%}
+                    <div class="rewards__refer-container">
+                        <h2 class="rewards__refer-heading">
+                            {{ block.settings.heading }}
+                        </h2>
+                        <div class="rewards__refer-desc1 small-hide">
+                            {{ block.settings.desc1 }}
+                        </div>
+                        <div class="rewards__refer-desc1 large-up-hide medium-hide">
+                            {{ block.settings.desc1_mb }}
+                        </div>
+                        <div class="rewards__refer-desc2">
+                            {{ block.settings.desc2 }}
+                            <div class="rewards__refer-button">
+                                <a class="reward__button" href="#" data-lion-refer>
+                                    {{ block.settings.btn_label }}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+               {%- endif -%}
+            {%- endfor -%}
+        </div>
+    {%- else -%}
+        <div class="rewards__header rewards__multicolumn">
+            {%- for block in section.blocks -%}
+                {% if block.type == 'multicoulumn' %}
+                    <div class="rewards__multicolumn-item">
+                        <span class="rewards__multicolumn-number">
+                            0{{ forloop.index }}
+                        </span>
+                        <h2 class="rewards__multicolumn-heading">
+                            {{ block.settings.heading }}
+                        </h2>
+                        <div class="rewards__multicolumn-desc">
+                            {{ block.settings.text }}
+                        </div>
+                    </div>
+                {% endif %}
+            {%- endfor -%}
+        </div>
+    {%- endif -%}
+    
+    {{ page.content }}
+
+    {% if section.settings.tiers_image != blank %}
+        <div class="custom-rewards__tiers">
+            <div class="container">
+                <h2>Tiers</h2>
+                {% if section.settings.tiers_text != blank %}
+                    <div class="custom-rewards__text">
+                        {{ section.settings.tiers_text }}
+                    </div>
+                {% endif %}
+                <div class="custom-rewards__image small-hide">
+                    {{ section.settings.tiers_image | img_url: '1024x' | img_tag }}
+                </div>
+                {% assign mobile_image = section.settings.tiers_image_mb | default: section.settings.tiers_image %}
+                <div class="custom-rewards__image large-up-hide medium-hide">
+                    {{ mobile_image | img_url: '750x' | img_tag }}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+</div>
+
+{% schema %}
+  {
+    "name": "t:sections.main-page.name",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Tiers"
+        },
+        {
+            "type": "richtext",
+            "id": "tiers_text",
+            "label": "Text"
+        },
+        {
+            "type": "image_picker",
+            "id": "tiers_image",
+            "label": "Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "tiers_image_mb",
+            "label": "Mobile Image"
+        },
+        {
+            "type": "header",
+            "content": "t:sections.all.padding.section_padding_heading"
+        }, {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_top",
+            "default": 36
+        }, {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_bottom",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "padding_top_mb",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile padding top",
+            "default": 36
+        }, {
+            "type": "range",
+            "id": "padding_bottom_mb",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile padding bottom",
+            "default": 36
+        }
+    ],
+    "blocks": [
+        {
+            "type": "multicoulumn",
+            "name": "Multi Colulmn",
+            "limit": 3,
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "heading",
+                    "label": "Heading"
+                },
+                {
+                    "type": "richtext",
+                    "id": "text",
+                    "label": "Text"
+                }
+            ]
+        },
+        {
+            "type": "refer_friends",
+            "name": "Refer",
+            "limit": 1,
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "heading",
+                    "label": "Heading",
+                    "default": "Refer Friends"
+                },
+                {
+                    "type": "richtext",
+                    "id": "desc1",
+                    "label": "Description 1"
+                },
+                {
+                    "type": "richtext",
+                    "id": "desc1_mb",
+                    "label": "Mobile Description 1"
+                },
+                {
+                    "type": "richtext",
+                    "id": "desc2",
+                    "label": "Description 2"
+                },
+                {
+                    "type": "text",
+                    "id": "btn_label",
+                    "label": "Button Label"
+                }
+            ]
+        }
+    ]
+  }
+{% endschema %}

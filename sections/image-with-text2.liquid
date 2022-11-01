@@ -1,0 +1,172 @@
+<link rel="stylesheet" href="{{ 'custom-image-with-text2.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'custom-image-with-text2.css' | asset_url | stylesheet_tag }}</noscript>
+{%- style -%}
+  .section--{{ section.id }} {
+    background: {{ section.settings.background }};
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  @media screen and (min-width: 990px) {
+    .section--{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+{% if section.blocks.size > 0 %}
+    <div class="image-with-text2 section--{{ section.id }}">
+        <div class="page-width">
+            <div class="image-with-text2-list">
+                {% for block in section.blocks %}
+                    {% assign item = block.settings %}
+                    <div class="image-with-text2-item {% if item.reverse %}reverse{% endif %}">
+                        <div class="image-with-text2__image animation-mode" data-duration="first">
+                            <div style="padding-bottom: {{ 1 | divided_by: item.image.aspect_ratio | times: 100 }}%">
+                                <img
+                                srcset="{%- if item.image.width >= 165 -%}{{ item.image | image_url: width: 165 }} 165w,{%- endif -%}
+                                {%- if item.image.width >= 360 -%}{{ item.image | image_url: width: 360 }} 360w,{%- endif -%}
+                                {%- if item.image.width >= 535 -%}{{ item.image | image_url: width: 535 }} 535w,{%- endif -%}
+                                {%- if item.image.width >= 750 -%}{{ item.image | image_url: width: 750 }} 750w,{%- endif -%}
+                                {%- if item.image.width >= 1070 -%}{{ item.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                                {%- if item.image.width >= 1500 -%}{{ item.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                                {{ item.image | image_url }} {{ item.image.width }}w"
+                                src="{{ item.image | image_url: width: 1500 }}"
+                                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                                alt="{{ item.image.alt | escape }}"
+                                loading="lazy"
+                                width="{{ item.image.width }}"
+                                height="{{ item.image.height }}"
+                                >
+                            </div>
+                        </div>
+                        <div class="image-with-text2__text animation-mode" data-duration="second">
+                            {% if item.heading != blank %}
+                                <div class="image-with-text2__heading {{ item.heading_size }}">
+                                    {{ item.heading }}
+                                </div>
+                            {% endif %}
+                            {% if item.description != blank %}
+                                <div class="image-with-text2__description">
+                                    {{ item.description }}
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endif %}
+{% schema %}
+{
+    "name": "Image with text2",
+    "class": "section",
+    "settings": [
+        {
+            "type": "color",
+            "id": "background",
+            "label": "Background",
+            "default": "#fff"
+        },
+        {
+            "type": "header",
+            "content": "t:sections.all.padding.section_padding_heading"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_top",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_bottom",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Top Padding",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Bottom Padding",
+            "default": 36
+        }
+    ],
+    "blocks": [
+        {
+            "type": "image-with-text",
+            "name": "Image with text",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "richtext",
+                    "id": "heading",
+                    "label": "Heading"
+                },
+                {
+                    "type": "select",
+                    "id": "heading_size",
+                    "options": [
+                      {
+                        "value": "h2",
+                        "label": "t:sections.all.heading_size.options__1.label"
+                      },
+                      {
+                        "value": "h1",
+                        "label": "t:sections.all.heading_size.options__2.label"
+                      },
+                      {
+                        "value": "h0",
+                        "label": "t:sections.all.heading_size.options__3.label"
+                      }
+                    ],
+                    "default": "h1",
+                    "label": "t:sections.all.heading_size.label"
+                },
+                {
+                    "type": "richtext",
+                    "id": "description",
+                    "label": "Description"
+                },
+                {
+                    "type": "checkbox",
+                    "id": "reverse",
+                    "label": "Reverse",
+                    "default": false
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Image with text2"
+        }
+    ]
+}
+{% endschema %}

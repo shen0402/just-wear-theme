@@ -1,0 +1,339 @@
+#shopify-section-header {
+    z-index: 5;
+}
+
+#shopify-section-header .header-wrapper {
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.16);
+}
+#shopify-section-header .header-wrapper .header {
+    max-width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+@media (max-width: 1200px) {
+    #shopify-section-header .header-wrapper .header {
+        padding-left: 50px;
+        padding-right: 50px;
+        display: flex;
+   }
+    #shopify-section-header .header-wrapper .header header-drawer {
+        margin-left: auto;
+        margin-right: 2.5rem;
+   }
+}
+@media (max-width: 749px) {
+    #shopify-section-header .header-wrapper .header {
+        padding: 8px 20px;
+   }
+    #shopify-section-header .header-wrapper .header .header__heading, #shopify-section-header .header-wrapper .header .header__heading-link {
+        padding: 0;
+        width: 6.5rem;
+   }
+}
+#shopify-section-header .header-wrapper .header .header__inline-menu {
+    margin-left: -2rem;
+    margin-top: 0;
+}
+#shopify-section-header .header-wrapper .header .header__inline-menu .list-menu .header__menu-item {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    transition: 0.3s;
+    text-decoration: none;
+}
+#shopify-section-header .header-wrapper .header .header__inline-menu .list-menu .header__menu-item .header__active-menu-item {
+    text-decoration: underline;
+    color: #00f;
+}
+#shopify-section-header .header-wrapper .header .header__inline-menu .list-menu .header__menu-item svg {
+    width: 2rem;
+    height: auto;
+    right: 0rem;
+    top: 1.8rem;
+    transition: 0.3s;
+}
+#shopify-section-header .header-wrapper .header .header__inline-menu .list-menu .header__menu-item:hover {
+    color: #00f;
+    text-decoration: underline;
+}
+#shopify-section-header .header-wrapper .header .header__inline-menu .list-menu .header__menu-item .header__active-menu-item + svg * {
+    fill: #00f;
+}
+#shopify-section-header .header-wrapper .header .header__inline-menu .list-menu .header__menu-item:hover span {
+    text-decoration: none;
+}
+#shopify-section-header .header-wrapper .header .header__inline-menu .list-menu .header__menu-item:hover svg {
+    transform: rotate(180deg);
+}
+#shopify-section-header .header-wrapper .header .header__inline-menu .list-menu .mega-menu .header__menu-item {
+    padding-right: 3rem;
+}
+#shopify-section-header .header-wrapper .header .header__inline-menu .list-menu .mega-menu .mega-menu__content {
+    padding: 0;
+    background: #fff;
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.16);
+}
+#shopify-section-header .header-wrapper .header .header__inline-menu .list-menu .mega-menu .mega-menu__content .mega-menu__list {
+    max-width: 100%;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+#shopify-section-header .header-wrapper .header .header__inline-menu .list-menu .mega-menu .mega-menu__content .mega-menu__list .mega-menu__link {
+    font-size: 19px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d2d2d;
+    padding: 25px 20px 23px;
+    border-bottom: 5px solid transparent;
+}
+#shopify-section-header .header-wrapper .header .header__inline-menu .list-menu .mega-menu .mega-menu__content .mega-menu__list .mega-menu__link:hover, #shopify-section-header .header-wrapper .header .header__inline-menu .list-menu .mega-menu .mega-menu__content .mega-menu__list .mega-menu__link.mega-menu__link--active {
+    border-bottom: 5px solid #00f;
+    color: #00f;
+    text-decoration: none;
+}
+#shopify-section-header .header-wrapper .header .header__inline-menu .list-menu .mega-menu .mega-menu__content .mega-menu__list .mega-menu__link:hover span, #shopify-section-header .header-wrapper .header .header__inline-menu .list-menu .mega-menu .mega-menu__content .mega-menu__list .mega-menu__link.mega-menu__link--active span {
+    text-decoration: none;
+}
+#shopify-section-header .header-wrapper .header .header__icons .header__inline-menu {
+    margin-left: 0;
+    margin-right: 4rem;
+}
+#shopify-section-header .header-wrapper .header .header__icons .header__inline-menu .list-menu--inline {
+    justify-content: flex-end;
+}
+#shopify-section-header .header-wrapper .header .header__icons .header__icon {
+    margin-top: 0.75rem;
+    color: #000;
+}
+@media (max-width: 1200px) {
+    #shopify-section-header .header-wrapper .header .header__icons .header__icon {
+        margin-top: 0;
+        margin-right: 2rem;
+   }
+}
+#shopify-section-header .header-wrapper .header .header__icons .header__icon svg {
+    transition: 0.3s;
+    width: 100%;
+    width: 3.3rem;
+    height: 3.3rem;
+}
+#shopify-section-header .header-wrapper .header .header__icons .header__icon--account svg {
+    height: 3rem;
+}
+#shopify-section-header .header-wrapper .header .header__icons .header__icon:hover svg {
+    stroke: #00f;
+    transform: scale(1.1);
+}
+#shopify-section-header .header-wrapper .header .header__icons .header__icon:hover svg path {
+    fill: #00f;
+}
+
+#shopify-section-header .header-wrapper .header .header__icons .header__icon .icon-cart-empty {
+    display: none;
+}
+
+#shopify-section-header .header-wrapper .header .header__icons .header__icon.empty__cart .icon-cart-empty {
+    display: block;
+}
+
+#shopify-section-header .header-wrapper .header .header__icons .header__icon.empty__cart .icon-cart {
+    display: none;
+}
+
+#shopify-section-header .header-wrapper .header .header__icon, #shopify-section-header .header-wrapper .header .header__icon .icon {
+    width: 3.3rem;
+    height: 3.3rem;
+    
+}
+#shopify-section-header .header-wrapper .header .header__icon {
+    margin-right: 3rem;
+}
+#shopify-section-header .header-wrapper .header .header__icon:last-of-type {
+    margin-right: 0;
+}
+#shopify-section-header .header-wrapper .header .header__icon.icon-hamburger, #shopify-section-header .header-wrapper .header .header__icon .icon.icon-hamburger {
+    width: 3rem;
+    height: 3rem;
+}
+@media (max-width: 749px) {
+    #shopify-section-header .header-wrapper .header header-drawer .menu-drawer {
+        width: 100vw;
+        border: none;
+        box-shadow: inset 0px 15px 8px -10px #ccc;
+   }
+}
+#shopify-section-header .header-wrapper .header header-drawer .menu-drawer hr {
+    width: 100%;
+    box-shadow: 0 5px 9px #000 29;
+    margin: 0;
+    z-index: 5;
+    position: absolute;
+    top: -11px;
+    left: 0;
+    height: 10px;
+    background: transparent;
+}
+#shopify-section-header .header-wrapper .header header-drawer .menu-drawer .menu-drawer__inner-container .menu-drawer__navigation-container .menu-drawer__navigation {
+    padding: 0 20px;
+}
+#shopify-section-header .header-wrapper .header header-drawer .menu-drawer .menu-drawer__inner-container .menu-drawer__navigation-container .menu-drawer__navigation .menu-drawer__menu .menu-drawer__menu-item--submenu-list__link {
+    font-size: 19px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: 0.19px;
+    text-align: left;
+    color: #000;
+    padding: 18px 0 18px;
+    border-bottom: solid 1px #ccd6e0;
+    text-decoration: none;
+    display: block;
+}
+#shopify-section-header .header-wrapper .header header-drawer .menu-drawer .menu-drawer__inner-container .menu-drawer__navigation-container .menu-drawer__navigation .menu-drawer__menu .menu-drawer__menu-item--submenu-list__link.active-link {
+    color: #00f;
+}
+#shopify-section-header .header-wrapper .header header-drawer .menu-drawer .menu-drawer__inner-container .menu-drawer__navigation-container .menu-drawer__navigation .menu-drawer__menu .menu-drawer__menu-item--submenu .menu-drawer__menu-item--submenu-title {
+    font-size: 19px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: 0.19px;
+    text-align: left;
+    color: #000;
+    padding: 18px 0 18px;
+    border-bottom: solid 1px #ccd6e0;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding-right: 1rem;
+    transition: 0.3s;
+}
+#shopify-section-header .header-wrapper .header header-drawer .menu-drawer .menu-drawer__inner-container .menu-drawer__navigation-container .menu-drawer__navigation .menu-drawer__menu .menu-drawer__menu-item--submenu .menu-drawer__menu-item--submenu-title:focus-visible {
+    box-shadow: none;
+    outline: unset;
+    outline-offset: unset;
+}
+#shopify-section-header .header-wrapper .header header-drawer .menu-drawer .menu-drawer__inner-container .menu-drawer__navigation-container .menu-drawer__navigation .menu-drawer__menu .menu-drawer__menu-item--submenu .menu-drawer__menu-item--submenu-title svg {
+    width: 2rem;
+    height: 1rem;
+    transition: 0.3s;
+    margin-top: 1rem;
+}
+#shopify-section-header .header-wrapper .header header-drawer .menu-drawer .menu-drawer__inner-container .menu-drawer__navigation-container .menu-drawer__navigation .menu-drawer__menu .menu-drawer__menu-item--submenu .menu-drawer__menu-item--submenu-list {
+    padding-left: 2rem;
+    list-style: none;
+    border-bottom: solid 1px #ccd6e0;
+    display: none;
+    transition: 0.3s;
+}
+#shopify-section-header .header-wrapper .header header-drawer .menu-drawer .menu-drawer__inner-container .menu-drawer__navigation-container .menu-drawer__navigation .menu-drawer__menu .menu-drawer__menu-item--submenu .menu-drawer__menu-item--submenu-list .menu-drawer__menu-item--submenu-list__link {
+    border-bottom: 0;
+    padding-top: 2rem;
+    padding-bottom: 0;
+}
+#shopify-section-header .header-wrapper .header header-drawer .menu-drawer .menu-drawer__inner-container .menu-drawer__navigation-container .menu-drawer__navigation .menu-drawer__menu .menu-drawer__menu-item--submenu .menu-drawer__menu-item--submenu-list .menu-drawer__menu-item--submenu-list__link:last-of-type {
+    padding-bottom: 2rem;
+}
+#shopify-section-header .header-wrapper .header header-drawer .menu-drawer .menu-drawer__inner-container .menu-drawer__navigation-container .menu-drawer__navigation .menu-drawer__menu .menu-drawer__menu-item--submenu.active .menu-drawer__menu-item--submenu-list {
+    display: block;
+}
+#shopify-section-header .header-wrapper .header header-drawer .menu-drawer .menu-drawer__inner-container .menu-drawer__navigation-container .menu-drawer__navigation .menu-drawer__menu .menu-drawer__menu-item--submenu.active .menu-drawer__menu-item--submenu-title {
+    border-bottom: none;
+    color: #00f;
+}
+#shopify-section-header .header-wrapper .header header-drawer .menu-drawer .menu-drawer__inner-container .menu-drawer__navigation-container .menu-drawer__navigation .menu-drawer__menu .menu-drawer__menu-item--submenu.active .menu-drawer__menu-item--submenu-title svg {
+    transform: rotate(180deg);
+}
+#shopify-section-header .header-wrapper.color-background-1 .header__menu-item {
+    color: #000;
+}
+
+.menu-drawer__localization form {
+    padding: 2.5rem 20px !important;
+    width: 100%;
+}
+
+.menu-drawer__localization form .localization-form__select {
+    margin: 0 auto !important;
+    font-size: 19px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    background-color: #00fbca;
+    border: none;
+    height: 5.5rem;
+}
+
+.menu-drawer__localization form .localization-form__select svg {
+    width: 3rem;
+    height: 1.6rem;
+    top: 50%;
+    transform: translateY(-40%);
+}
+
+.menu-drawer__localization form .localization-form__select::before, .menu-drawer__localization form .localization-form__select::after {
+    display: none;
+}
+
+.menu-drawer__localization form .disclosure__list-wrapper {
+    margin-left: 0;
+    width: 100%;
+}
+
+.menu-drawer__localization form .disclosure.active .disclosure__list-wrapper {
+    display: block;
+}
+
+.menu-drawer__localization form .disclosure__list-wrapper .disclosure__list {
+    max-width: 100%;
+    width: 100%;
+}
+
+.menu-drawer__localization form .disclosure__list-wrapper .disclosure__list .link--text {
+    font-size: 19px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.menu-drawer__localization form .disclosure__list-wrapper .disclosure__list .link--text.disclosure__link--active {
+    color: #00f;
+}
+
+.menu-drawer__utility-links {
+    background-color: white !important;
+}
+
+.cart-count-bubble {
+    bottom: unset;
+    top: -0.3rem;
+    left: 1.2rem;
+    background-color: #00f;
+}
+
+.menu-drawer__inner-container .localization-form:only-child {
+    width: 100%;
+}

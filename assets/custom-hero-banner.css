@@ -1,0 +1,153 @@
+.hero-banner {
+    position: relative;
+}
+.hero-banner .hero-banner__back {
+    display: flex;
+    width: 100%;
+}
+.hero-banner .hero-banner__back .hero-banner__image {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.hero-banner .hero-banner__back .hero-banner__image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+}
+.hero-banner .hero-banner__back.split__banner .hero-banner__color {
+    width: 45%;
+    display: block;
+}
+.hero-banner .hero-banner__back.split__banner .hero-banner__image {
+    width: 65%;
+}
+@media (max-width: 749px) {
+    .hero-banner .hero-banner__back.split__banner .hero-banner__color {
+        display: none;
+   }
+    .hero-banner .hero-banner__back.split__banner .hero-banner__image {
+        width: 100%;
+   }
+}
+.hero-banner .hero-banner__content {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+@media (min-width: 990px) {
+    .hero-banner .hero-banner__content {
+        padding-left: 100px;
+        padding-right: 100px;
+   }
+}
+@media (max-width: 749px) {
+    .hero-banner .hero-banner__content {
+        position: relative;
+        top: unset;
+        transform: unset;
+        padding: 2rem 2rem 3rem;
+   }
+}
+.hero-banner .hero-banner__content .hero-banner__content-inner {
+    width: 45%;
+    padding-right: 100px;
+}
+@media (max-width: 749px) {
+    .hero-banner .hero-banner__content .hero-banner__content-inner {
+        width: 100%;
+        padding: 0;
+   }
+}
+.hero-banner .hero-banner__content .hero-banner__content-inner .hero-banner__heading .title {
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d2d2d;
+    margin: 0;
+}
+@media (max-width: 989px) {
+    .hero-banner .hero-banner__content .hero-banner__content-inner .hero-banner__heading .title {
+        font-size: 40px;
+        line-height: 1;
+        text-align: center;
+   }
+}
+@media (max-width: 749px) {
+    .hero-banner .hero-banner__content .hero-banner__content-inner .hero-banner__heading .title {
+        color: #000;
+   }
+}
+.hero-banner .hero-banner__content .hero-banner__content-inner .hero-banner__description {
+    margin-top: 3rem;
+    font-size: 1.9rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+@media (max-width: 989px) {
+    .hero-banner .hero-banner__content .hero-banner__content-inner .hero-banner__description {
+        margin-top: 1rem;
+        text-align: center;
+   }
+}
+.hero-banner .hero-banner__content .hero-banner__content-inner .hero-banner__button {
+    margin-top: 2rem;
+}
+.hero-banner .hero-banner__content .hero-banner__content-inner .hero-banner__button:first-of-type {
+    margin-top: 3rem;
+}
+@media (max-width: 749px) {
+    .hero-banner .hero-banner__content .hero-banner__content-inner .hero-banner__button {
+        display: flex;
+        justify-content: center;
+        padding: 0 2rem;
+   }
+    .hero-banner .hero-banner__content .hero-banner__content-inner .hero-banner__button .button {
+        width: 100%;
+   }
+}
+@media (min-width: 990px) {
+    .hero-banner .hero-banner__content.center .hero-banner__content-inner {
+        margin: auto;
+   }
+    .hero-banner .hero-banner__content.center .hero-banner__content-inner .hero-banner__heading .title {
+        text-align: center;
+   }
+    .hero-banner .hero-banner__content.center .hero-banner__content-inner .hero-banner__description {
+        text-align: center;
+   }
+    .hero-banner .hero-banner__content.center .hero-banner__content-inner .hero-banner__button {
+        display: flex;
+        justify-content: center;
+   }
+    .hero-banner .hero-banner__content.right .hero-banner__content-inner {
+        margin-left: auto;
+   }
+    .hero-banner .hero-banner__content.right .hero-banner__content-inner .hero-banner__heading .title {
+        text-align: right;
+   }
+    .hero-banner .hero-banner__content.right .hero-banner__content-inner .hero-banner__description {
+        text-align: right;
+   }
+    .hero-banner .hero-banner__content.right .hero-banner__content-inner .hero-banner__button {
+        display: flex;
+        justify-content: flex-end;
+   }
+}

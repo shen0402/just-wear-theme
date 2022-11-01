@@ -1,0 +1,68 @@
+{{ 'custom-tab.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  .section--{{ section.id }} {
+    background-color: {{ section.settings.back_color }};
+  }
+{%- endstyle -%}
+{% if section.blocks.size > 0 %}
+    <div class="tab section--{{ section.id }}">
+        <div class="page-width">
+            <div class="tab-list">
+                {% for block in section.blocks %}
+                    {% assign tab = block.settings %}
+                    {% if tab.label != blank and tab.link != blank %}
+                        <div class="tab-item">
+                            {% assign current_link = request.path | downcase %}
+                            <a href="{{ tab.link }}" class="tab__link {% if current_link == tab.link %}tab__link-active{% endif %}">
+                                {{ tab.label }}
+                            </a>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endif %}
+
+{% schema %}
+{
+    "name": "Tab",
+    "class": "section",
+    "settings": [
+        {
+            "type": "color",
+            "id": "back_color",
+            "label": "Background",
+            "default": "#FFFFFF"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "tab",
+            "name": "Tab",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "label",
+                    "label": "Label"
+                },
+                {
+                    "type": "url",
+                    "id": "link",
+                    "label": "Link"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Tab",
+            "blocks": [
+                {
+                    "type": "tab"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

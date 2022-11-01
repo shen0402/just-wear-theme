@@ -1,0 +1,233 @@
+{
+  "sections": {
+    "16600738736b6d5970": {
+      "type": "image-banner",
+      "blocks": {
+        "0a51a41e-a878-423b-905a-5da5ce962d1c": {
+          "type": "richtext",
+          "settings": {
+            "rte": "<p>At JustWears, we’re nuts about <strong>making incredibly comfortable men’s underwear.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0a51a41e-a878-423b-905a-5da5ce962d1c"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_11573_3x_18e1a3b1-72cb-4756-b00e-1c4d280e6907.png",
+        "mobile_image": "shopify:\/\/shop_images\/Group_11573_3x_ae829bf1-56dc-482e-97b1-0e54b7331abc.png",
+        "video_url": "",
+        "mp4": "",
+        "image_overlay_opacity": 0,
+        "image_height": 400,
+        "mobile_image_height": 450,
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "166007631562336302": {
+      "type": "image-with-text2",
+      "blocks": {
+        "6e0ed0e5-ee1f-4144-ba16-259465cf1ac5": {
+          "type": "image-with-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mission_first_image_3x_c0b9b6fa-4725-499c-ab08-4586fdd66de3.png",
+            "heading": "<p><strong>It all started in a Bangkok hostel.<\/strong><\/p>",
+            "heading_size": "h0",
+            "description": "<p>Alex and I (Yang) grew up on opposite sides of the world. One in China, the other in the States.<br\/><br\/>One fateful night, we stumbled upon each other in a youth hostel in Thailand while on vacation. It’s amazing how chance meetings can sometimes change the course of your life!<br\/><br\/>After years of long distance, we finally decided to meet in the middle and make the UK our home.<\/p>",
+            "reverse": false
+          }
+        },
+        "0f35d37c-cbd0-48e9-ada2-41609be71cf7": {
+          "type": "image-with-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NELKBOYS1949_3x_0d318252-2224-49d3-ba0b-9232a0980e1a.png",
+            "heading": "<p>“Do you have sweaty balls?”<\/p><p>“Are your undies uncomfortable?”<\/p>",
+            "heading_size": "h1",
+            "description": "<p>While working in finance, Alex regularly complained about his underwear not fitting properly. When we couldn’t find a solution in the market, I decided to do something ballsy about it!<br\/><br\/>I traveled around the globe for his globes. I tested thousands of fabrics and beta tested +40 prototypes before finding one that everyone seemed to love!<\/p>",
+            "reverse": true
+          }
+        },
+        "2771ba36-634c-4f9a-995d-135d61b79b21": {
+          "type": "image-with-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HUPPY2352_3x_fc2cb93e-fe1f-4f01-84cb-09d8ecaf9b85.png",
+            "heading": "<p>What began as an idea quickly took off on Kickstarter!<\/p>",
+            "heading_size": "h1",
+            "description": "<p>Within the first 30 days of our Kickstarter launch, we had thousands of people pre-ordering JustWears. JustWears quickly climbed the charts to become the most backed apparel project in the UK!<br\/><br\/>We were overwhelmed and overjoyed by the amount of support we received from those early supporters!<\/p>",
+            "reverse": false
+          }
+        }
+      },
+      "block_order": [
+        "6e0ed0e5-ee1f-4144-ba16-259465cf1ac5",
+        "0f35d37c-cbd0-48e9-ada2-41609be71cf7",
+        "2771ba36-634c-4f9a-995d-135d61b79b21"
+      ],
+      "settings": {
+        "background": "#ffffff",
+        "padding_top": 60,
+        "padding_bottom": 32,
+        "mobile_padding_top": 68,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "166007959490fc6ea9": {
+      "type": "icon-auto-scroll",
+      "blocks": {
+        "6a00ad71-9054-45f0-baff-cbae83de14f2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>heat-regulating<\/p>"
+          }
+        },
+        "1b4c90fc-5d6b-4155-a18f-5bf32d7ce4ba": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>responsibily-sourced<\/strong><\/p>"
+          }
+        },
+        "6f1d91b9-c067-45b0-9df0-6108b1aa13e5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ANTI-MICROBIAL<\/p>"
+          }
+        },
+        "d703685b-d0af-49fa-a5ce-39b7c1191391": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>recycled materials<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "6a00ad71-9054-45f0-baff-cbae83de14f2",
+        "1b4c90fc-5d6b-4155-a18f-5bf32d7ce4ba",
+        "6f1d91b9-c067-45b0-9df0-6108b1aa13e5",
+        "d703685b-d0af-49fa-a5ce-39b7c1191391"
+      ],
+      "settings": {
+        "background": "#e9e8e6",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "166016871985eb83d2": {
+      "type": "image-with-text3",
+      "blocks": {
+        "705460a3-f311-4832-a3e3-ba832c72eac8": {
+          "type": "image-with-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2021_JustWears_Brand_Guidelines_Email-11_3x_a422df78-0f0c-4772-8a23-c719528549e1.png",
+            "text": "<p><strong>On the ball.<\/strong><\/p><p>We make one thing; incredible underwear, and we do it better than anyone else.<\/p><p><\/p><p><strong>Hang loose.<\/strong><\/p><p>We aim to never take ourselves too seriously and have fun with every interaction.<\/p><p><\/p><p><strong>Keeping it fresh.<\/strong><\/p><p>We never stop learning and improving. We’re not scared to listen to our customers and change things when we think we can do better.<\/p><p><\/p><p><strong>Be humble, but have balls.<\/strong><\/p><p>We’ll always be up to take on some big bold challenge (we hope we’ll inspire others to do so as well), but no matter how well we do, we will always stay grounded.<\/p><p><\/p><p><strong>Always Being Cool — ABC!<\/strong><\/p><p>It’s that simple. That’s why you will always be able to talk to someone at JustWears about your undies and get a personal insight into the processes and decisions we make.<\/p>"
+          }
+        },
+        "28d0d66a-058b-40f6-87d8-b2cb0c328123": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "heading": "Always Being Cool — ABC!",
+            "description": "<p>It’s that simple. That’s why you will always be able to talk to someone at JustWears about your undies and get a personal insight into the processes and decisions we make.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "705460a3-f311-4832-a3e3-ba832c72eac8",
+        "28d0d66a-058b-40f6-87d8-b2cb0c328123"
+      ],
+      "settings": {
+        "back_image": "shopify:\/\/shop_images\/Group_14341_3x_c916d87d-ffaa-4c17-b12e-e4cf8758ed5b.jpg",
+        "back_image_mobile": "shopify:\/\/shop_images\/Group_14342_3x_7903fcf2-38a2-4ca9-ac33-e8ae5859fb86.jpg",
+        "heading": "Our Values",
+        "back_color": "#dff5ee",
+        "padding_top": 40,
+        "padding_bottom": 32,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 100
+      }
+    },
+    "1660137984dbb566bd": {
+      "type": "video",
+      "settings": {
+        "heading": "We went on BBC2’s Dragons’ Den!",
+        "heading_size": "h0",
+        "text": "<p>We were convinced to make the dragons believe JustWears was the most comfortable underwear your balls deserve. While Touker Suleyman assured us with confidence by saying “you two together will make it”, we couldn’t be more happier to hear that Peter Jones is wearing JustWears now.<\/p>",
+        "cover_image": "shopify:\/\/shop_images\/Rectangle_3128_3x_b5c69910-8b4b-40c9-983e-b8fd7d44435e.png",
+        "video_url": "https:\/\/vimeo.com\/764560150",
+        "description": "",
+        "full_width": false,
+        "btn_label": "Join Our Team",
+        "btn_link": "shopify:\/\/pages\/join-us",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "mobile_padding_top": 48,
+        "mobile_padding_bottom": 56
+      }
+    },
+    "16601400727477267c": {
+      "type": "collection-list",
+      "blocks": {
+        "166014007254c12ee4-0": {
+          "type": "featured_collection",
+          "settings": {
+            "link": "shopify:\/\/products\/boxer-briefs",
+            "title": "Boxer Briefs",
+            "image": "shopify:\/\/shop_images\/boxers-website2_1803f8a2-30b3-405d-8a26-a0e289e4ec10.jpg",
+            "description": "<p>Our boxer briefs treat your crown jewels like royalty. There are two ergonomic designs to give ultimate comfort and to eliminate sweat down under.<\/p>"
+          }
+        },
+        "166014007254c12ee4-2": {
+          "type": "featured_collection",
+          "settings": {
+            "link": "shopify:\/\/products\/trunks",
+            "title": "Trunks",
+            "image": "shopify:\/\/shop_images\/trunks-webstie2.jpg",
+            "description": "<p>Our latest trunks are made from exclusive and sustainable MicroModal Air fibres. They're a best fit for men who like ultra comfort with shorter legs.<\/p>"
+          }
+        },
+        "166014007254c12ee4-1": {
+          "type": "featured_collection",
+          "settings": {
+            "link": "shopify:\/\/products\/briefs",
+            "title": "Briefs",
+            "image": "shopify:\/\/shop_images\/briefs-website2.jpg",
+            "description": "<p>Streamlined for free motion. These briefs are a best fit for those who want complete freedom and boast ventilated back panels with an absorbent pouch lining.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "166014007254c12ee4-0",
+        "166014007254c12ee4-2",
+        "166014007254c12ee4-1"
+      ],
+      "settings": {
+        "title": "Time For A Comfort Upgrade",
+        "heading_size": "h0",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 100,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "16600738736b6d5970",
+    "166007631562336302",
+    "166007959490fc6ea9",
+    "166016871985eb83d2",
+    "1660137984dbb566bd",
+    "16601400727477267c"
+  ]
+}

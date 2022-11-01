@@ -1,0 +1,328 @@
+{
+  "sections": {
+    "16644756131cc1f257": {
+      "type": "rich-text",
+      "blocks": {
+        "16644756138c5c66d9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Welcome to our Pouch Points Loyalty Scheme<\/p>",
+            "heading_size": "hxl"
+          }
+        },
+        "16644756138c5c66d9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This programme gives our most loyal customers (that’s you!) cash savings and many more perks. Check them out below.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16644756138c5c66d9-0",
+        "16644756138c5c66d9-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 64,
+        "mobile_padding_top": 32,
+        "mobile_padding_bottom": 24,
+        "back_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "rewards-page",
+      "blocks": {
+        "b3df32bf-d623-401d-9348-bfa433195ec6": {
+          "type": "multicoulumn",
+          "settings": {
+            "heading": "Join the Club!",
+            "text": "<p>Login <a href=\"\/account\/login\" title=\"Login\">here<\/a> or register by creating an account <a href=\"\/account\/register\" title=\"Register\">here<\/a>.  🤠<\/p>"
+          }
+        },
+        "c5f4ff16-b2bf-48ea-a3bf-01ff95441f30": {
+          "type": "multicoulumn",
+          "settings": {
+            "heading": "Earn Points",
+            "text": "<p>Get points for referring and way more perks below. 💪<\/p>"
+          }
+        },
+        "ab7943e2-98c0-485d-8398-16a7cde8fd70": {
+          "type": "multicoulumn",
+          "settings": {
+            "heading": "Turn Points Into Cash",
+            "text": "<p>…and get your sweat free bliss with awesome savings! 🙌<\/p>"
+          }
+        },
+        "50cc352f-55d9-49e9-a689-d16ffad6c1bd": {
+          "type": "refer_friends",
+          "settings": {
+            "heading": "Refer Friends",
+            "desc1": "<p>We’ll let you in on a little secret - the easiest way to get to the most points is to simply refer friends.<\/p><p><\/p><p><strong>20% off for your lucky mates 1000 points for you when they purchase<\/strong><\/p><p><\/p><p>We know it can be ballsy to talk about underwear so we pre-composed this for you:<\/p>",
+            "desc1_mb": "<p>We’ll let you in on a little secret - the easiest way to get to the most points is to simply refer friends.<\/p><p><\/p><p><strong>20% off for your lucky mates<\/strong><\/p><p><strong>1000 points for you when they purchase<\/strong><\/p><p><\/p><p>We know it can be ballsy to talk about underwear so we pre-composed this for you:<\/p>",
+            "desc2": "<p>I’ve found this awesome new underwear brand and got you a 20% discount with this referral link: <\/p><p><\/p><p><a href=\"https:\/\/prz.io\/dEz9adDF2\" title=\"https:\/\/prz.io\/dEz9adDF2\">https:\/\/prz.io\/dEz9adDF2<\/a><\/p><p><\/p><p>You have a 30-day guarantee too in case you need to exchange something!<\/p>",
+            "btn_label": "Refer Now!"
+          }
+        }
+      },
+      "block_order": [
+        "b3df32bf-d623-401d-9348-bfa433195ec6",
+        "c5f4ff16-b2bf-48ea-a3bf-01ff95441f30",
+        "ab7943e2-98c0-485d-8398-16a7cde8fd70",
+        "50cc352f-55d9-49e9-a689-d16ffad6c1bd"
+      ],
+      "settings": {
+        "tiers_text": "<p>Our membership tiers give our most regular customers even more savings. Check them out below. All *members* start in the Ball Room and we look forward to seeing you in the Throne Room and hopefully collecting the Crown Jewels shortly after!<\/p>",
+        "tiers_image": "shopify:\/\/shop_images\/rw.png",
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "padding_top_mb": 0,
+        "padding_bottom_mb": 20
+      }
+    },
+    "1664809947954a6233": {
+      "type": "image-banner",
+      "blocks": {
+        "9250e471-8f1c-44c8-b242-0e30bcf3e9e2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rewards-icon_d0edceff-e243-461a-adb2-d353e514eb68.png"
+          }
+        },
+        "1664809947f56e649e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "What are you waiting for?",
+            "heading_size": "h1"
+          }
+        },
+        "1664809947f56e649e-1": {
+          "type": "text",
+          "settings": {
+            "text": "Join our loyalty program today and see those rewards stack up!",
+            "text_style": "body"
+          }
+        },
+        "1664809947f56e649e-4": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Sign up now",
+            "button_link_1": "\/account\/register",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "9250e471-8f1c-44c8-b242-0e30bcf3e9e2",
+        "1664809947f56e649e-0",
+        "1664809947f56e649e-1",
+        "1664809947f56e649e-4"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/rewards.jpg",
+        "video_url": "",
+        "mp4": "",
+        "image_overlay_opacity": 0,
+        "image_height": 700,
+        "mobile_image_height": 450,
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1664810139420ff8d6": {
+      "type": "faq",
+      "blocks": {
+        "2252b165-10de-43fc-ac06-42685a89175c": {
+          "type": "question",
+          "settings": {
+            "question": "How can I stay up to date with all things JustWears?"
+          }
+        },
+        "1d254680-9f6a-4735-905c-cd7b15b005a5": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p>To stay up to date with all things JustWears, join our mailing list by dropping your deets in the box at the bottom of our <a href=\"https:\/\/just-wears.com\/\" title=\"Homepage\">homepage<\/a>. We'll also make sure you're the first to know about our newest products, exclusive events and much much more...! <\/p>"
+          }
+        },
+        "6211495e-b90b-4bc2-aa9e-75e6be3fb901": {
+          "type": "question",
+          "settings": {
+            "question": "Do you have a rewards and referrals program?"
+          }
+        },
+        "f7259010-48a6-4822-8309-ef30c1ff1084": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p>Our rewards program allows 'Pouch Points' (see what we've done there?!) to be collected by our most loyal customers (that’s you!) which can then be redeemed for cash savings and many more perks!<\/p><p>You can earn Pouch Points in a variety of ways, including:<\/p><p>- Pants for Pouch Points: For every £1 you spend, we'll give you 5 Pouch Points! 💸<\/p><p>- Refer Friends: At least 1000 Pouch Points for you, and your friends get 20% off as well! Win-win! 👨‍❤️‍👨<\/p><p>- Happy Birthday! At least 500 Pouch Points on your birthday! 🎂<\/p><p>- Leave a Review: 250 Pouch Points are coming your way! 🤑<\/p><p>- Add a Photo to Your Review: 250 Pouch Points are en route! 🤑 <\/p><p>- Sign up for a Pouch Points Account: 150 Pouch Points! Sweet! 😎<\/p><p>To sign up and find out how to redeem your Pouch Points, just click <a href=\"https:\/\/just-wears.com\/account\/register\" title=\"Sign Up Today!\">here<\/a>. <\/p><p>Please note that you have to sign up for a Pouch Points account before you can start earning rewards.<\/p>"
+          }
+        },
+        "6b5da1b1-5cc9-4977-9c8e-64ba4b212b08": {
+          "type": "question",
+          "settings": {
+            "question": "How do I view my points balance or loyalty tier?"
+          }
+        },
+        "b4329139-ee66-403b-a609-a3b46dc6170b": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p>To view your points balance or loyalty tier, please log into your account <a href=\"https:\/\/just-wears.com\/account\/login\" title=\"https:\/\/just-wears.com\/account\/login \">here<\/a>. Once logged in, you should be automatically redirected to our main loyalty webpage which shows your current points balance and loyalty tier <a href=\"https:\/\/just-wears.com\/pages\/pouch-points\" title=\"https:\/\/just-wears.com\/pages\/pouch-points\">here<\/a>.<\/p>"
+          }
+        },
+        "fe922034-0d3d-4ed5-b1a5-b963004da5ea": {
+          "type": "question",
+          "settings": {
+            "question": "What are your loyalty tiers all about?!"
+          }
+        },
+        "a2ec1da1-ae77-49f0-8f6b-627a180d1434": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p>Our membership tiers are designed to give our most regular customers even more savings. All *members* start in the Ball Room tier and those customers that spend £150 with us in any 12 month period will then be upgraded to the Throne Room tier. Customers in the Throne Room benefit from additional points on their birthdays as well as additional points for referring friends. Customers in the Throne Room that spend another £150 in any 12 month period will then be upgraded to the Crown Jewels tier, where there are even more (yes, even more!) benefits and perks!<\/p>"
+          }
+        },
+        "08e641bb-b4c4-41fc-8877-9530d4e7d716": {
+          "type": "question",
+          "settings": {
+            "question": "How do I redeem my points?"
+          }
+        },
+        "6f21eebf-0500-4ceb-acb0-bc725bc8c8b3": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p>To redeem points, please log into your account <a href=\"https:\/\/just-wears.com\/account\/login\" title=\"https:\/\/just-wears.com\/account\/login \">here<\/a>. Once logged in, you should be automatically redirected to our main loyalty webpage which shows the rewards that you currently have available <a href=\"https:\/\/just-wears.com\/pages\/pouch-points\" title=\"https:\/\/just-wears.com\/pages\/pouch-points\">here<\/a>.<\/p><p>If you have enough points, click ‘get reward’ under the percentage discount you’d like off of your next order. Then click ‘redeem’ and your discount will appear. Please copy and paste this into the discount code box at checkout.<\/p><p>You can also redeem points with our points slider at checkout. If you’re logged into your account, for desktop users a slider will appear at checkout and give you £1 off of your order per 100 points used. For mobile users, select ‘Show order summary’ on the checkout screen for a drop-down menu (rather than a slider) with these discounts available.<\/p>"
+          }
+        },
+        "b58b3826-4fef-47b6-843a-6ed57b709032": {
+          "type": "question",
+          "settings": {
+            "question": "How do I refer friends?"
+          }
+        },
+        "36947c52-5898-4ee8-9a4a-edb0851538ad": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p>By referring friends, your lucky mates get 20% off and you get at least 1000 pouch points when they purchase. How awesome is that!<\/p><p>To refer friends, please log into your account <a href=\"https:\/\/just-wears.com\/account\/login\" title=\"https:\/\/just-wears.com\/account\/login \">here<\/a>. Once logged in, you should be automatically redirected to our main loyalty webpage which has a specific Refer Friends section <a href=\"https:\/\/just-wears.com\/pages\/pouch-points\" title=\"https:\/\/just-wears.com\/pages\/pouch-points\">here<\/a>.<\/p><p>Just click the ‘Refer Now!’ button to forward your bespoke referral link to friends by a variety of methods including Email, WhatsApp, Facebook, Twitter and Carrier Pigeon (ok, we made that last option up). Alternatively, just copy and paste our pre-composed onsite text if that’s easier. <\/p><p>Please note, your mates must use your bespoke referral link in order for these rewards to be applied. <\/p>"
+          }
+        },
+        "f42eaa72-5162-42b8-ab42-f02ab9ae7375": {
+          "type": "question",
+          "settings": {
+            "question": "What do the 'approved', 'pending' and 'cancelled' statuses mean?"
+          }
+        },
+        "55fa0a3c-29d5-4e5d-9f5d-659da73ea1e8": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p>‘Approved’ points are those that can be redeemed immediately, whilst ‘Pending’ points need to be verified before they can be redeemed (this typically applies to purchases and referrals). Pending points are generally approved within 48 hours. If points are showing as ‘cancelled’, this could be because a friend has cancelled their order, and so these referral points unfortunately won’t be added to your account. <\/p>"
+          }
+        },
+        "e2b6cfe4-96ba-4b57-b456-1911893ec4ca": {
+          "type": "question",
+          "settings": {
+            "question": "How long do my points last?"
+          }
+        },
+        "f3d665d1-d87e-4a23-8bde-bf9abc2dce36": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p>Points expire after 12 months. But don’t worry! If you spend or earn any points within those 12 months, your points will automatically renew for another year. Hurrah! <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "2252b165-10de-43fc-ac06-42685a89175c",
+        "1d254680-9f6a-4735-905c-cd7b15b005a5",
+        "6211495e-b90b-4bc2-aa9e-75e6be3fb901",
+        "f7259010-48a6-4822-8309-ef30c1ff1084",
+        "6b5da1b1-5cc9-4977-9c8e-64ba4b212b08",
+        "b4329139-ee66-403b-a609-a3b46dc6170b",
+        "fe922034-0d3d-4ed5-b1a5-b963004da5ea",
+        "a2ec1da1-ae77-49f0-8f6b-627a180d1434",
+        "08e641bb-b4c4-41fc-8877-9530d4e7d716",
+        "6f21eebf-0500-4ceb-acb0-bc725bc8c8b3",
+        "b58b3826-4fef-47b6-843a-6ed57b709032",
+        "36947c52-5898-4ee8-9a4a-edb0851538ad",
+        "f42eaa72-5162-42b8-ab42-f02ab9ae7375",
+        "55fa0a3c-29d5-4e5d-9f5d-659da73ea1e8",
+        "e2b6cfe4-96ba-4b57-b456-1911893ec4ca",
+        "f3d665d1-d87e-4a23-8bde-bf9abc2dce36"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "btn_label": "View Our Full FAQs Page",
+        "btn_link": "shopify:\/\/pages\/faq",
+        "back_color": "#ffffff",
+        "padding_top": 100,
+        "padding_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36
+      }
+    },
+    "166481014284b26f3c": {
+      "type": "collection-list",
+      "blocks": {
+        "16648101424b9e4b2a-0": {
+          "type": "featured_collection",
+          "settings": {
+            "link": "shopify:\/\/products\/boxer-briefs",
+            "title": "Boxer Briefs",
+            "image": "shopify:\/\/shop_images\/boxers-website2_1803f8a2-30b3-405d-8a26-a0e289e4ec10.jpg",
+            "description": "<p>Our boxer briefs treat your crown jewels like royalty. There are two ergonomic designs to give ultimate comfort and to eliminate sweat down under.<\/p>"
+          }
+        },
+        "16648101424b9e4b2a-2": {
+          "type": "featured_collection",
+          "settings": {
+            "link": "shopify:\/\/products\/trunks",
+            "title": "Trunks",
+            "image": "shopify:\/\/shop_images\/trunks-webstie2.jpg",
+            "description": "<p>Our latest trunks are made from exclusive and sustainable MicroModal Air fibres. They're a best fit for men who like ultra comfort with shorter legs.<\/p>"
+          }
+        },
+        "16648101424b9e4b2a-1": {
+          "type": "featured_collection",
+          "settings": {
+            "link": "shopify:\/\/products\/briefs",
+            "title": "Briefs",
+            "image": "shopify:\/\/shop_images\/briefs-website2.jpg",
+            "description": "<p>Streamlined for free motion. These briefs are a best fit for those who want complete freedom and boast ventilated back panels with an absorbent pouch lining.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16648101424b9e4b2a-0",
+        "16648101424b9e4b2a-2",
+        "16648101424b9e4b2a-1"
+      ],
+      "settings": {
+        "title": "Time For A Comfort Upgrade",
+        "heading_size": "h0",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "16644756131cc1f257",
+    "main",
+    "1664809947954a6233",
+    "1664810139420ff8d6",
+    "166481014284b26f3c"
+  ]
+}

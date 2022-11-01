@@ -1,0 +1,474 @@
+{
+  "sections": {
+    "1660750827b9ccd36d": {
+      "type": "hero-banner",
+      "blocks": {
+        "166075082720947eb5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Made of wood, for your wood"
+          }
+        },
+        "166075082720947eb5-1": {
+          "type": "description",
+          "settings": {
+            "description": "<p>Comfortable pants made out of sustainably sourced beech tree fibre.<\/p>"
+          }
+        },
+        "166075082720947eb5-2": {
+          "type": "button",
+          "settings": {
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"40\" height=\"35\" viewbox=\"0 0 80.532 63.116\">\n  <g id=\"boxers-briefs\" transform=\"translate(1.835 1.835)\">\n    <path id=\"Path_61169\" data-name=\"Path 61169\" d=\"M40.475,53.383l-.941,13.253a75.808,75.808,0,0,1-14.4,1.514A83.317,83.317,0,0,1,10.31,66.636L14.348,8.83H83.261l3.912,57.679a61.8,61.8,0,0,1-14.386,1.768,65.534,65.534,0,0,1-14.644-1.768l-.757-13.126H40.475Z\" transform=\"translate(-10.31 -8.83)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" stroke-width=\"3.67\"><\/path>\n    <line id=\"Line_574\" data-name=\"Line 574\" x2=\"69.917\" transform=\"translate(3.556 6.931)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" stroke-width=\"3.67\"><\/line>\n    <line id=\"Line_575\" data-name=\"Line 575\" y2=\"37.358\" transform=\"translate(38.495 7.195)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" stroke-width=\"3.67\"><\/line>\n    <path id=\"Path_61170\" data-name=\"Path 61170\" d=\"M240.43,80.372S247.5,74.817,247.5,61.44a71.431,71.431,0,0,0-2.271-18.68\" transform=\"translate(-193.352 -35.819)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" stroke-width=\"3.67\"><\/path>\n    <path id=\"Path_61171\" data-name=\"Path 61171\" d=\"M132.748,80.372s-7.068-5.554-7.068-18.932a71.431,71.431,0,0,1,2.271-18.68\" transform=\"translate(-102.078 -35.819)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" stroke-width=\"3.67\"><\/path>\n  <\/g>\n<\/svg>",
+            "label": "Boxer Briefs",
+            "link": "shopify:\/\/products\/boxer-briefs"
+          }
+        },
+        "166075082720947eb5-3": {
+          "type": "button",
+          "settings": {
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"40\" height=\"35\" viewbox=\"0 0 83.731 59.446\">\n  <path id=\"briefs\" d=\"M87.874,4.55H6a.928.928,0,0,0-.928.928V28.8a.927.927,0,0,0,.874.926l.737.043a31.507,31.507,0,0,1,15.345,5.084h0a33.086,33.086,0,0,1,6.35,5.413A34.166,34.166,0,0,1,34.6,49.992a35.211,35.211,0,0,1,2.739,11.874l.035.647a.928.928,0,0,0,.8.869l.642.087c1.615.217,3.3.368,5,.449.992.052,2.043.078,3.115.078s2.121-.026,3.115-.076c1.705-.08,3.389-.229,5-.449l.642-.087a.928.928,0,0,0,.8-.869l.035-.647a35.16,35.16,0,0,1,2.737-11.874A34.14,34.14,0,0,1,65.5,40.27a32.824,32.824,0,0,1,6.35-5.41l0,0a31.488,31.488,0,0,1,15.343-5.082l.737-.043a.927.927,0,0,0,.874-.926V5.478A.928.928,0,0,0,87.874,4.55ZM8.494,15.1H23.946c-.017.078-.031.158-.047.236-.026.125-.05.25-.076.375-.054.279-.111.562-.165.848-.024.128-.05.255-.073.383-.064.342-.128.692-.191,1.044-.012.066-.024.128-.035.194-.076.42-.149.85-.224,1.282l-.057.333c-.054.328-.111.659-.165.994-.024.142-.047.286-.068.43-.052.326-.1.654-.156.987-.021.132-.04.267-.061.4q-.106.691-.208,1.4c0,.007,0,.017,0,.024l-.007.054c-.045.312-.09.631-.135.949l-.035.257c-.035.253-.071.508-.106.767-.012.08-.021.158-.033.239-.045.328-.087.659-.132.994l-.021.17c-.038.281-.073.564-.109.853-.012.1-.026.2-.038.3-.035.283-.071.567-.106.855-.007.066-.017.13-.024.2-.038.3-.073.612-.111.921a35.1,35.1,0,0,0-13.069-4.1V15.1Zm76.884-3.422H8.494V7.972H85.38v3.708ZM24.791,32.468c.014-.128.028-.255.045-.383.028-.253.059-.508.087-.758.017-.146.035-.29.052-.435.028-.231.054-.46.083-.69.019-.151.038-.3.054-.453.026-.215.052-.427.08-.638.019-.158.04-.319.059-.475l.078-.6c.021-.158.04-.316.061-.472.026-.2.054-.4.08-.6.019-.149.04-.3.059-.444.028-.215.059-.427.087-.64.017-.125.035-.253.052-.378.047-.333.094-.664.142-.989,0-.007,0-.014,0-.024l.007-.057v0q.1-.7.205-1.384c.024-.149.045-.3.068-.444.047-.307.094-.612.144-.912.028-.172.054-.342.083-.512q.067-.411.135-.815c.028-.172.059-.345.087-.517.045-.264.092-.529.137-.789.028-.163.057-.326.085-.484.05-.281.1-.557.153-.831.024-.132.05-.267.073-.4q.22-1.158.446-2.241H45.22V60.544c-.42-.012-.836-.028-1.237-.047-1.129-.052-2.248-.137-3.337-.255a38.572,38.572,0,0,0-2.9-11.588,37.592,37.592,0,0,0-6.846-10.7,36.5,36.5,0,0,0-6.128-5.377A.947.947,0,0,0,24.791,32.468ZM48.649,60.544V15.1H66.431c.073.347.144.7.215,1.056v0c.078.385.154.782.229,1.181.026.144.054.29.08.435.05.262.1.524.146.793.031.175.061.352.094.527.045.248.087.5.132.751.031.184.064.371.094.557.043.257.087.52.13.782.031.184.061.368.09.555.047.293.094.59.139.888.024.158.05.316.073.477q.106.694.21,1.405a.018.018,0,0,0,0,.009c.085.6.17,1.2.253,1.807.009.073.019.144.031.217q.117.875.231,1.764c.014.1.026.205.04.307q.11.878.22,1.766c.012.1.026.208.038.312.071.6.142,1.209.21,1.821l.007.064a36.305,36.305,0,0,0-6.128,5.38,37.5,37.5,0,0,0-6.846,10.7,38.431,38.431,0,0,0-2.9,11.588c-1.093.118-2.21.2-3.334.255C49.483,60.518,49.07,60.532,48.649,60.544ZM85.378,26.486a35.144,35.144,0,0,0-13.066,4.1c-.009-.083-.019-.163-.031-.243-.047-.4-.1-.8-.146-1.2-.014-.123-.031-.246-.045-.368q-.092-.74-.187-1.469l-.028-.21c-.057-.425-.113-.845-.17-1.266-.017-.125-.035-.253-.052-.378q-.1-.719-.2-1.429t-.21-1.4c-.021-.146-.045-.29-.066-.435-.05-.319-.1-.633-.149-.945-.026-.161-.052-.319-.078-.477-.052-.312-.1-.621-.153-.928-.024-.135-.045-.269-.068-.4q-.106-.631-.217-1.245l-.057-.316c-.057-.309-.113-.616-.17-.919-.028-.149-.057-.3-.085-.442-.05-.262-.1-.522-.151-.777-.028-.144-.057-.288-.085-.43-.014-.068-.026-.137-.04-.205H85.376V26.486Z\" transform=\"translate(-5.07 -4.55)\"><\/path>\n<\/svg>",
+            "label": "Briefs",
+            "link": "shopify:\/\/products\/briefs"
+          }
+        },
+        "166075082720947eb5-4": {
+          "type": "button",
+          "settings": {
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"40\" height=\"35\" viewbox=\"0 0 96.291 63.116\">\n  <g id=\"trunks\" transform=\"translate(1.835 1.835)\">\n    <path id=\"Path_61172\" data-name=\"Path 61172\" d=\"M47.222,64.757l-1.134,4.391A160.323,160.323,0,0,1,27.82,70.365,100.36,100.36,0,0,1,9.96,68.54l4.866-57.47h83.04l4.715,57.316a74.476,74.476,0,0,1-17.334,2.13A128.994,128.994,0,0,1,66.686,69l-.914-4.239H47.222Z\" transform=\"translate(-9.96 -11.07)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" stroke-width=\"3.67\"><\/path>\n    <line id=\"Line_576\" data-name=\"Line 576\" x2=\"84.254\" transform=\"translate(4.283 8.35)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" stroke-width=\"3.67\"><\/line>\n    <line id=\"Line_577\" data-name=\"Line 577\" y2=\"45.018\" transform=\"translate(46.386 8.669)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" stroke-width=\"3.67\"><\/line>\n    <path id=\"Path_61173\" data-name=\"Path 61173\" d=\"M253.13,92.941s6.383-6.691,6.383-22.813A57.106,57.106,0,0,0,255.2,47.65\" transform=\"translate(-197.315 -39.254)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" stroke-width=\"3.67\"><\/path>\n    <path id=\"Path_61174\" data-name=\"Path 61174\" d=\"M151.993,92.941s-6.383-6.691-6.383-22.813a57.106,57.106,0,0,1,4.311-22.478\" transform=\"translate(-114.474 -39.254)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" stroke-width=\"3.67\"><\/path>\n  <\/g>\n<\/svg>",
+            "label": "Trunks",
+            "link": "shopify:\/\/products\/trunks"
+          }
+        }
+      },
+      "block_order": [
+        "166075082720947eb5-0",
+        "166075082720947eb5-1",
+        "166075082720947eb5-2",
+        "166075082720947eb5-3",
+        "166075082720947eb5-4"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3.0-Hero-2-Desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/3.0-Hero-2-Desktop.jpg",
+        "image_height": 550,
+        "mobile_image_height": 350,
+        "is_split": false,
+        "back_color": "#ebebeb",
+        "content_layout": "left"
+      }
+    },
+    "1660757336f5076a7a": {
+      "type": "icon-with-text2",
+      "blocks": {
+        "166075733651500d2e-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "",
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/56262015d48a4f14b2b71e8240538499.mp4",
+            "caption": "JW Pro"
+          }
+        },
+        "166075733651500d2e-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "",
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/436b24af1b46408eb30b69d493af6946.mp4",
+            "caption": "JW Active"
+          }
+        },
+        "166075733651500d2e-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "",
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/74218651117241318faec508fcf92fde.mp4",
+            "caption": "Others"
+          }
+        }
+      },
+      "block_order": [
+        "166075733651500d2e-0",
+        "166075733651500d2e-1",
+        "166075733651500d2e-2"
+      ],
+      "settings": {
+        "heading": "What you wear below the belt matters!",
+        "description": "",
+        "btn_label": "Meet your new favourites",
+        "btn_link": "shopify:\/\/products\/boxer-briefs",
+        "background": "#ffffff",
+        "padding_top": 60,
+        "padding_bottom": 44,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "16607488871284b813": {
+      "type": "image-with-text",
+      "blocks": {
+        "16607488879ae59e09-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The pouch is a palace for your phallus®",
+            "heading_size": "h0"
+          }
+        },
+        "16607488879ae59e09-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We invented a unique ergonomic pouch to treat your crown jewels like royalty!<br\/><br\/>The upper pouch functions as quick-draw access while the lower pouch is made of high-performance mesh fabric to wick away sweat and create more air flow down under.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16607488879ae59e09-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Visit the palace",
+            "button_link": "shopify:\/\/products\/boxer-briefs"
+          }
+        }
+      },
+      "block_order": [
+        "16607488879ae59e09-0",
+        "16607488879ae59e09-1",
+        "16607488879ae59e09-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banana-pants_464b94e8-e993-422a-b04e-531587d630e4.jpg",
+        "reverse": true,
+        "padding_top": 32,
+        "padding_bottom": 0,
+        "mobile_padding_top": 48,
+        "mobile_padding_bottom": 20,
+        "back_color": "#ffffff"
+      }
+    },
+    "166074889811e71b35": {
+      "type": "image-with-text",
+      "blocks": {
+        "1660748898b39eb820-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Made from wood for your wood",
+            "heading_size": "h0"
+          }
+        },
+        "1660748898b39eb820-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our fabric is made from soft cellulosic fibre sourced from sustainable Austrian beech trees. Our products are made in a non-toxic and renewable manufacturing process for your peace of mind.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1660748898b39eb820-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Tell cotton to jog on",
+            "button_link": "shopify:\/\/products\/boxer-briefs"
+          }
+        }
+      },
+      "block_order": [
+        "1660748898b39eb820-0",
+        "1660748898b39eb820-1",
+        "1660748898b39eb820-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Tree-underwear_b189fb27-f1f9-41f9-b67a-86e1c579a308.jpg",
+        "reverse": false,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "mobile_padding_top": 28,
+        "mobile_padding_bottom": 20,
+        "back_color": "#ffffff"
+      }
+    },
+    "1661365483c6d411f6": {
+      "type": "collection-list",
+      "blocks": {
+        "16613654838889017e-0": {
+          "type": "featured_collection",
+          "settings": {
+            "link": "shopify:\/\/products\/boxer-briefs",
+            "title": "Boxer Briefs",
+            "image": "shopify:\/\/shop_images\/boxers-website2_1803f8a2-30b3-405d-8a26-a0e289e4ec10.jpg",
+            "description": "<p>Our boxer briefs treat your crown jewels like royalty. There are two ergonomic designs to give ultimate comfort and to eliminate sweat down under.<\/p>"
+          }
+        },
+        "16613654838889017e-2": {
+          "type": "featured_collection",
+          "settings": {
+            "link": "shopify:\/\/products\/trunks",
+            "title": "Trunks",
+            "image": "shopify:\/\/shop_images\/trunks-webstie2.jpg",
+            "description": "<p>Our latest trunks are made from exclusive and sustainable MicroModal Air fibres. They're a best fit for men who like ultra comfort with shorter legs.<\/p>"
+          }
+        },
+        "16613654838889017e-1": {
+          "type": "featured_collection",
+          "settings": {
+            "link": "shopify:\/\/products\/briefs",
+            "title": "Briefs",
+            "image": "shopify:\/\/shop_images\/briefs-website2.jpg",
+            "description": "<p>Streamlined for free motion. These briefs are a best fit for those who want complete freedom and boast ventilated back panels with an absorbent pouch lining.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16613654838889017e-0",
+        "16613654838889017e-2",
+        "16613654838889017e-1"
+      ],
+      "settings": {
+        "title": "Time For A Comfort Upgrade",
+        "heading_size": "h0",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "1660759324bb584b57": {
+      "type": "image-with-text",
+      "blocks": {
+        "1660759324cbff27b2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Best Sweat  Busting Fabric",
+            "heading_size": "h0"
+          }
+        },
+        "27bf320e-9bd9-4ce4-9610-3cc0a30573f0": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "<svg version=\"1.2\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 213 213\" width=\"213\" height=\"213\">\n\t<title><\/title>\n\t<defs>\n\t\t<image width=\"124\" height=\"124\" id=\"Anti-Microbial\" href=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAB8CAMAAACcwCSMAAAAAXNSR0IB2cksfwAAAEhQTFRFR3BMAAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/scYrcAAAABh0Uk5TAAMJERgrOklkcoBVj6rB2Ov1\/c234Z0gVW3gugAAC21JREFUeJy1G9eirChsUFCwUiz\/\/6ebgJ0yOHtuHnbvHJWQXgifz3sgRUlZVXPRIAjeVoyWBflhpbeIacW7fhilUvoAJUfTd7ym\/3ADpGB8khu62Qx9vwD0g5m3rchBsH\/DgbJuBsCs5qkTG6MdFAVdq1Z006gQf\/f3DKBiRIJNUxXRdwomBuTA3Kx\/iLmslxnW7EUC846f97DLeWnLxFv06zoHkHoCeoxY874oVm6AR0MbfZ1Oss5DXda9AqKTlHj4LaemyDds0HOVtQ7rpVYLy2bTjp518N0UwrFOgDtHJWkjtezh1ff6SxhQLztP9ZDuHKaT2ig95SvHA4oKBGba+76R7jqDFCR7FOUPVB\/oQfXUjfg1j27CJq169j\/9xbooPZySZ3l0F+2sZ\/7\/XRVpRy35JrlMugshQdp\/4iarHlhvsVtd+75muWjd079AfVmsnLLopr2W4o1XSUPBgY1rJt100OoPxH0CaZUejZYZfo1Oemz\/OCrWEG1kJt05buAVwKJ6\/h5oy16PEbX4fUco71FP31S4WLSK8Jx17EfcFONYLXWfVuKiAZcQoVDo5Tfa0a+1oHVSd8k4AS+IGIbmR+To19BfEa6USLxXzQnW\/Ih8PXxL0elECgNGllCK35CvF98CymxiekOaZH7zE\/L15lPZGF2jVknH9gvyh08lURSrSa8OyLFO8B\/EP6JeLOn0GGR8o8J\/t1CwFrwuFEidqB859NrEHGIgloAKhChkUseYTlZXimwgB76ebwJ1Q9h8y1CO3Grl6xVo4hS2MpeFSzMtUBB3iy3J5qUuTurCLjH8BFzo4FlUrSIRb+21rVeOZQrWYN02WBmB\/kYsJEg3fjEr\/vgT6UGdAq8WArLvvn7wpGwXCfUgxVBpwhKP5g6ke4oJbSCkbSBQIDGk4Qyf8FmbcKCM0Q2wgnI93w0q4aRlE\/F5yBMoyMIGgh9GPWmjx9uatZoDqzCTTD\/gsQpj2GNJEAgd76QvIYljPpVMu6qYTqXzc5D6dMFGZ+2\/TJJByAJQOPj2+bUeq26W1WjjrQHhN5pXnMvMunm+870uKaaLhgHhT9ODNUa3biGOXRaUsXu3B3f4QJRRj4FtycNIaj16BgPx1VoReiS7FGFikEphu+uyNFlu8susx0pzUtvp3lM3dESY+7RatvibNjO23yT41rE5ZUTu8susQ0GddgUvhhvXyfbY+iHYY0ccQcoIRikT2DE4GQXy685vaWbfoVW7qTN59W5tU4Mfp6OyBHPnAFCB+fY6Be9yVpHAmtNlZNbfsN68ewhxdbbABi0nDkiRunLUwvHhatCQgp\/aWp5mSrP7TBBKHL\/IoK8ZbbtgzFROj2o9U4vtnv3wq6B73bh\/ZNahFmerjSV4lfeYQsqqMdqt2OjpY+Xa3xaFUNAcP\/bcrsyU9+eKFAztqesE2I3rEEfVKaEd+LZx92\/LpBd048pGW50Slro7ULexzQ4q9fQDq5QHtxxymtvb22CxLgyUqfMeMWVlXbr9terhwUkx6kPoFnlub+8AYX0LCNSvoIBWRFeOlt8e8k9hzkiEyLN7mge4NUsTCMqV04MNea3MI6Ogs7qy\/TXdgEGiKEGbfNsEyi\/ImXwml5sJbsiNeaNrDtYZtQZW9qMKyNyy3ckc\/neXDIST\/vjB8XChfYf6gy60Rp6OgXzA7WjXB6HvWVY1qxNbq97TvRtSezHZc19OphBPrTMB0q+1cznpUwnAxiKZXBp5j3SBmfvb3nwABHXH3npW\/UE7ho9DB0DXtHrN9A8aeofesQ\/wzLk2dMHuIQfe8hJPsigk62f2AkyQJpTIfQUI6dt\/PNi2xPZ8h9RA4TgtywQ5xXCI2NoYlEx9KH0nXCQaQJapIQeHWmRTyuLMd0pMZRDmc0nQGjRCUDm5iJqt5Y2HUAUlAqz16mHkbHPezSXW05o3glen5u2xpOBGuTPOEWvZtrJSgMw2WP59R06N0yL2jLeXPsSlHivrbjLzfrirTLMiV\/xa2Ecekjm4EfvnYgh4fgdYj13UnBR0ZXUrut5IkE23fOkyC5R5pM+zO1AR6zvQYD1G8HSd4ZniFwMEK14idm6zN6tqLNI0YMlzg7IF4wiawAHWztsIaY3NEQgkM1PgebIORaBcbs2LMBDr4YK+\/YMxz5EMKudTuGacl2DXItHeQt9OQlENYU8SMYI9Sc\/J1wiB+j3SY\/rsacQ6BxsiGCpdNVCZZyGaey4IGXe0hw3xvIJENZTJIFDjylRCH4Tb\/nlODC1E3NwqiVUJxGy\/PrafdjrUK8muxwDIFChBHdjUjJDlUgBccTdKH0+q1+ehO4rg\/j979upcjb9poZTRW3ZO5yNND\/W4CsbK26+D2jLqIBdb\/ZJ6j9m39RqlOjAo556L4xQgpOdrL9V5VMxuv6IOcivLVxWwNaFQ29i8bRwjFKIM1aHgLpQ886pFQ3w5nOazENyBSld1XGL2+WxWXenOHuy3hFurCdGN5sLro3yCBEy0et7F8Gg8HAAFonul8b07aVzGAObmGA8q0BEa1DWQ67QcigUF99RfSs\/OdTae6y97LK1CfN8AUiT3ccHKWF3S4tTS4Yjwlzy1TARDw974OEqDIBB+BO1oPUaqpT9Hcop6WS4DOiACSG0eCRaa4EbvpTfkL1xsSQGJ+9Sk0bduXmw2V\/owJd8xto828A2wQljzZ0yeUCtpx+duor\/mR2APiawDxD6tGT1NGhxFgzS4IOVa1Vfyqkt332sj3oCAkU9fY+i6mCGUpvPA0uAZLoUKJAypZA\/l9oVusDfwLQGTDqWITF0DKbbFEik2wxmv9Ml7BUYRyDowrnnOnTQ3n0tar+VzAaxD91mXOPK5CrVwy1l7PH2W+5g4xNa152MQ45YU7ZbtgXPSw41egD\/jLPiSCOlbPQZlaiwvsLBOSvo50+lGT6Djk1BAEebrWY\/hwFICe7EGOOO3DyFK+McaHi8cnLkDqecv5z0B4MpzX+uzwfOxkTrgY6+xhFSQ2aQqbh\/2HPQC4MsD54BQTXtu7lGPgYtNq90DAJFHeBVAY3VjeGzJzZhcN9NBDZTfacRO+eNPNJLPsqcWBuoxnNGTXWYHBqTrzZ4IFT4OeB5Thesx1is91DmSB33xRhEq6Z\/DOYDQfans1kgsKbEb1X\/nPXzvGQf8LVq9QWV3aHy8DgXvqLRs1iT6AgzT+\/5xVPN4CBqyuZp4HQr8Gfmk9LzEJ2IJWwKaiXVI6oBUbIbgz5gc0OIrRWsg1vThUXayNhIeetZcy2Ame0C5WKSJ+htU2DKHtqB5yiz8MbhCaLvMwSHvavw21FliGEmcj4E32IOv5S0Okzf1WhYWKOM9nnqOPOAsoyMOF8oGbaLTJ6gz5hAHIYwv2P7DCxXDNA1mxh\/j0oZCzJRqklx2mDwXfGoR49N8TPBI04XVcB2zhj\/B3l5GL0xOISzxtq5AAcKDK98mIByg0OXr45qij7Q3HFSZdGNP0yZOb2InSSIn2BTLwL3FEjwtb95gTyEnQubo2lmP0QUSxhe3URLIaacCDseHSz1WNkqbfMETEeMrqKLqvicgjzoUBBUdTQp8HBmJE5kz+o8eF4HIrab\/NfVM8EpF1oy+X4fi6JXq0qEzhdpeRGly0p5Qb8\/ufMzn\/Q1KAd4q72pCpKdJaoPHSa8vgZGSj+AoA\/ElAPG+wwoEKNO8ulNC7N2xMffmWCXjsQQ1FnKDKvMOHimqBev5fGkVbUo4dvIU4\/Z39tMK7\/OpQfw6Cx\/aHKoehurnKOYNyrqzMzZT8q33AImD6DFuz0NnDy4vQiCkpKzmHcZ1NU\/i9QWzHCjWdhn3u5nT0gnBAUS3TPv9zLlv1394QbWseGdx6SsoBbvpREV\/udn2CgjkiVXLm6WfEPqlcVdF\/zFafx+hifN8+A8u8bC3Xm0MJAAAAABJRU5ErkJggg==\"><\/image>\n\t<\/defs>\n\t<style>\n\t<\/style>\n\t<use id=\"Anti-Microbial\" href=\"#Anti-Microbial\" x=\"44\" y=\"45\"><\/use>\n<\/svg>",
+            "heading": "Anti-Microbial",
+            "description": "<p>Did we mention that these natural super fibres are anti-bacterial, helping to prevent body odour?<\/p>"
+          }
+        },
+        "7bceecb6-7407-4f17-874e-622a80429710": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "<svg version=\"1.2\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 213 213\" width=\"213\" height=\"213\">\n\t<title><\/title>\n\t<defs>\n\t\t<image width=\"144\" height=\"124\" id=\"Seamless\" href=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAAB8CAMAAACxHslzAAAAAXNSR0IB2cksfwAAAEVQTFRFR3BMAAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/1KtlIwAAABd0Uk5TAAEFDBUfKDM\/TmBygZOltNDc5u\/4\/sIGH35fAAALZUlEQVR4nO1cx4LjIAwNuOAGmGL+\/1NXEtixHdeUPY0OuzOZBD\/UkUQejzeJMZ7lRSmqumm7TkrZdW3T1KIs8owz9u6yb4LJy7rtlO6Ndd4PT\/LeWdNr1bV1mf8fUIznotXGx8fD8\/ugtZJISunQI8L4R6vbKue\/RcXLutPG4dN6LTsUUA4Cik9lKMQsLwXIUOreAixndNeU2Y\/QsKIJDvfuQlftyYON\/zJkpCVW9W3xfT5lcXnXq7Yq+KWPAMOKqlU9bMKh9L4JJwfeeNhqd1spSOV6lF5oi++AYXktzTDY0Ik3lYEl9lpVf8HyclKcHtB8shbPSuST69vPJMdhmbgzVImPlmKPrFbgLczbjAYq5KcrLAnZBB5Dlm\/tjRedHXz4kMdrIg1wsrxmqDNiOco8NF\/3IGAjGtl+0+SyGnjbN8eyovCK8RUCLFIlILJCaM0OXQNjWRMAUnOD9VwoN5hDvwHupW4lBi9jrXMYwDz8B5E1QGRrG3HoPYumB2dZXZUbb0F51B4cYEtZy2D9GN8BiI3kxsAKL7sgIYrt8iqXoErdNWuptPe63kbPC4iuPXhtCq+QZTQgqBJSIKRizI5SaD2MraxS3of6XEV5A9DbbThjdKXM4kAm7DHPUUK7bea8sfCkEyaxAnBvCZflVRfA\/XvYdC3OIwDGexBtF2NrkPWGuTJQVa\/F4VrCDH5DsqzoMEB6I+9EV\/DtGFvHj248OWv9YA\/EljVm6F+0hxcNhUbdVe\/EM0axFcQHOYhYr82qMNhdsfEOXOGLvEuMH5BklYBmC0\/0RSVqNnigHVBZgb7HW7VmE+jI4OU2orxzXq3+lFUSXIBR9fJ1OG4kewJPZAzZ++SEyPQAHn9ZCuP9SwqSSefllpPMpPcr5vEarAoc9tqgMhkxjEeN6Iicm7kma418kT1FDUhBVrsDu9aviHLpXbvAnlX48bARP0pDqXL0yeiIyA9FL9Ql9w229fIQiDW1srjFOZcYA\/tX6zdnyrtmviVWaXBIqtoSb2EGDNkFHjdSmsRYOnmAYYFWlcpvAELigpKIxTZ5bdc8An127fz3Al17qLatqjQOdVTt5TVchGEPEIAukUt6sVXg0UKzeesW+pO34I80aPL2EwvjRN5C\/G02rSoHHpjO7QFCwLBdO98PxAffzRarrJezv8IG9x5GBBwSIFOI2N3rQ4k9QRQHgPCJwGE7kxtrvaufWwpzEWKmaLujzAw5hLjAYPVaqsQe4PYJILCtHuX2\/F0N\/ZhgcDnYcoJa0gYPXXIZAT3QPFamgOzRuPAZoJiBzJgElqLTL5VzzQQUtMduCGJBiUOwFeA8WNvzGcQe+vQ5IHRz3quJFZXzSWhqgvbINZzBxMlCE4ce5E4HMzJewJkpxAewC4AgykmIkUnojAMO+lFMyJjQw3zDe1Q8AYF99BAe8dkz9jwucegRNWkKrsI53BoDYEkN6rVK7NCMQ8gL4KrOUXsGPVnyFQ7R+1BlkwsCXQ7w9MImBnFMPnZc4ZLmHALKkDXSkXE933MNEOn2mMCDrGDdyhv6JDjHUQHOqFwCAteDwU3PHfdVDj1icI0P5v0A1tUMATeGvvIlwu3QikOPAo8pw9JXXAdE3oPyMFDrjj3aQfHIn92Tz5pWHALb97pFjX7q3w0OxeCKPAIlkgkQq1+Ts31acAjyOoQCSu29fPr3O4DAnMwQigdLgEBkFbjJ66ftGYfQNXpFuXIByKb84BaH4O2UgHAdAdmi7Idw4+MTh1hkTzauCnnS6IjuASKXIyF6ECDfqcGcuucZTbGMfP+kywwOWhgL8PebHEIl9g4yVAIEFuKbOwecxCFiz9KRZvCSpYPUXUCo0UAREPjKWwUk4lDSnvWxpg4x+twG9BB2BGTA4m9V7ZBDWYcZ1sY+ckWnu9uAIK67Ppl9e90nEgGH2jl74DSBlPJ9PP+aVtwDxHIFBjH5IThib5yMdgmsAXL4TpRVHU+LSmtswaRDogBr85Ao3QEEEdq3T8eYgZ89K+DNKJ7L3LIzNW9R0es3AMUcJmNPT43O210OHUWfzqt0dka+tE1DbTw8JI5NNHMZUKEcFUFmgEDHT8uKMxLpuDp2pp5ldTom0iG2u+rZCsiaHenjAhDpor9T+j8p7V90bJAzornSY0dAY0ZdYJOlb+8Xtd+m1LqQKQ0bAU1nIA4nLSy+bB7ofwCnwtKTk1MZC7Lp6KlnfjqWpwKVp35JLCuphLWo9GVhjGWzSIYFPGCTDd0P+ZSJTlss8i1LT8KNscwscmkmJDV6sYH4dUaxLK+mCipfqH6mUywL\/Tq7pyKwoyKwbD5r3S0I5CSpq+1C91IoZhAvktkLSiDnfwOTBgsI5HJByxuR84868OCecgDT03qu717KsY9Ykh79EGSwW8WpqfI9OBOUbGtxX4QgorJuOhWMS82GerPZgNWdoCfHWFnw3dsrApuVGcuZttddU5XrCusm8awUgKSf2jRWt\/vNSeBPn888tcC8aueYiP2fKm4ydi\/GAjAGMQjvc4KQBuE\/FT7Ht0f2Hg2DYJiAc908dORYxtjpAcUxClSDqhk7PWnXWANeEL041YtNICTHLb34cF1sxDKntrRtBQyUohrToBCAE3Pq+xATgA6r5\/leaX\/JnjHtXQKCg4LESvt5y5gRMORZhpQvCF\/B5BH7ENc660KPslkBwiMtOGkr7\/VYPnNSXEg7FWRfAD2r9\/9pGIlXmkrWCcAGIMayGntR1Bj7NZoCBQK7nx60AQgJIl9PgznfGB3ZpTh4sexd7AB64PwBBmMIf\/U1H3iTeIyvMfeYV7l2ASGbwD9jHAsQXb\/KKfT8GI6sata56REgpLyWsSNucKzq81lAcGFFTQEWosiW3ZwBIt42cWYA3T\/NAr6Zi3AcNFRxKRox2HIX54Di26hDnuLSGF0zHr3fMUXvWYi0K4wl6qU\/eRsQOtw46gFhzKUYNXVXx8kGctBE5LynIQcVYuyDragO86qjB10E9EihgsUJz5TazA\/PeIiFMJbIrOY\/AUu0jFOGXge0gMaxJ92MWUYcj\/H+2ROe5mQCMRHTp2uK9xag2cdJPHEGRVRYCIkEUqzSINFNy\/wQ0GKpuYKzFOdv2+MXAX2H\/gCd0R+gM\/oDdEZ\/gM7oD9AZ\/QE6oz9AZ\/QH6Iw+AnSSDr51evsEkNBHs9msudx7+xIgdvgpxnu\/U9P9ISB98KnM\/G9A45DPDhXO3ZmU+AYgMdgDLakG85916JEb3+z+kT27lP8N0EMO\/e4zecBJqf8MqLTD3gALa95Toc8AcfmcXV2RcO8x6MPQUfY7Q1mlPrTAnwFiwg7hVTLY97LVxvt\/Dogm2ezqCivHCUJ3aTrzB4B4hXcaZjcGs3jLxb57ae9TQKzyji6hqK6pG2we0l1YM+x7qGuA7owOrT6vSrqmM6SKnsVGvDwMc0eU0WRD44fw3sxA3oO3ZqyoO+zkaZU635U7iiq7xDg2zsBf4A0Fu3W16ZRqF6dG6Bb5814Q4byPp5R0FQB\/LvU7Nz2zxm5GLJwct3cvo6Y7rNMcO930lHcEl9GNvm2+lnSn8NZi0ixuwzDGarSQcLFDBuJWw\/6dR4ajx4O+2CmNF199vx5BzOM1Ilmf3qbnZROvDe2\/kTqpTrenX0bAY3vIbTWHGEe1wktph9d\/YT\/Y29OH\/XSGPMTGjz5aiyET8F1ybzFWpN4atv9FMe8IULu+jl0d16O6ncmDCxqwSWtly7UK7OXES5jH+8cOWWyxYcdHp4lAHAjUwTg3XZw8AZPWSqHEu3GtOIiBX89B3RnsoRYX+iCZwIEK4\/yq5YPfZNHcuevO8MIkDWfsrXX9Rmj8ugzcDRLuLk1O3O9zxtmMdrYWfT3HpSmMNaz4Lxv7KR9\/Acvyut42\/QM+8dtTQTXiQwAAAABJRU5ErkJggg==\"><\/image>\n\t<\/defs>\n\t<style>\n\t<\/style>\n\t<use id=\"Seamless\" href=\"#Seamless\" x=\"35\" y=\"45\"><\/use>\n<\/svg>",
+            "heading": "Seamless",
+            "description": "<p>We made the inseam slightly longer to guarantee you a perfectly snug fit and no more riding up.<\/p>"
+          }
+        },
+        "110e4e78-8c37-4307-8bcb-446407c84cb6": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "<svg version=\"1.2\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 213 213\" width=\"213\" height=\"213\">\n\t<title><\/title>\n\t<defs>\n\t\t<image width=\"179\" height=\"157\" id=\"Recycled-materials-Background\" href=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAALMAAACdCAMAAADIbLmHAAAAAXNSR0IB2cksfwAAAEVQTFRFR3BMAAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/1KtlIwAAABd0Uk5TAAMJGSY2DkaLsMnl8NijfP76vVVtX5dKeYFiAAAMg0lEQVR4nO2dC5erqg6AC4goDwVF\/\/9PvYla6wMUp7Z7zl2TddbaZ2ac9muAJISEeTxuEkIZyzjnGcvpXa\/5WWGiKKVSWmtlZFXzX49NstpY65xWCrGdtbppc\/KvsQ6E8EpZZyovYF7g\/GjrRlsna\/avyaJCPQJ2+fPrQb1Zoaw14peqmjfOlW2++37mjVXFr1S1UFb7sDpZ6Wy5\/zABybloW86+NCqtcs1rBlCWZQvNUq9cmZ29BOsqg8vWaVl8w9qAlssnJBiPBoyGWUAT+Lk8mR5cAq+SUhpt9ekHfFsIBz1OSKwtNZg4pdaMwrjqcHq0yppCMEpoLrT+\/PTPG9tMQKgt13gBTnD1CBHaHY04N7bMprnFnUma\/e8ILZziw\/\/lYO5UH\/Z9XmsRfYm8tHKeD942H1+FrZto8sq5Kou8H2JF1eefn3p8sL6ZcA\/T2Ar\/JXlvdR0f1Uy5iDGEl3AvTK4OBuQmgSUz6IgUTncHg0q8MxF7wNVLzY\/CNZ9eghTUPJC22tVH85Aw6brwjzo3TxsCLxN56j7hWg3ay4zrj10BKWwZ\/klh++enFcpVn\/YoM0gdHflZuFPhUS+tH1+M1dp+fGbg8hneLzc2tsJez0obHHYibeNbIbpeouG5nXErTA0rkHTWnOqH1LYMfq4K3PYgTp1+8BsEpjOywkpMMKrChT8Y62BDZmTTd9+IWUnrJC6ZTKfENZk6eOp7+4JpuEVSjMCM4+dPfVzATD1wOrsmwULl0n3cxSVIbwv8p54cy7GAkWk\/DZQgM3P\/n2PujE94+Hcx0yzF4f4u5jT5Y\/6x\/DF\/R\/6YvyN\/zN+RP+bvyB\/zd+SP+Tvyx\/wd+T9ipsEDs1\/NTAoZSmT8G2aSM8Zy+lJimDmXQbh\/wEx4jXUOWOTgn1mjX86cFxpTl25IYj6H\/nczs9LpphY8y3in\/hvMTFrdDUkM8mDKPfObv5mZFNbM+cHFIcNtzDTDogIYxvvqariyr4O04pWvv4k5943SsFScVrK\/6XSCVPOR9pBGnt\/6Fua8k85qI4eqApeUrkyQbDq4RCHevhLkdzBTMEimEFjExDJeJqWFE6S1cn6hzCzOTm5gxjPn\/nWQUtjiFmZSj2faKFljFyeBNzB7rf0iq\/o8LHxXaPVULRXSLg6nb2DOlFsqNjc3nV9QmGQcZ1tXqYXNe9zATJerG+MDHTmsvSrwwharE7EycV0N9TYzX9eikD5y7nldeIH2E4xnIdZnam8z125VipKZO8sK8izL9pH828zl2kz4yFHtnfIuM10tOcLNcRHILfIu8\/rQGUx\/8\/Gar7eZl4fOtJWL8q\/PybvM7VwNRngFLvwb5+HvMztT1d7XvdRWf6Hg5PE+c96r54ZNl+LzcxnlXWZCWFv3ZVkVXaya8GdC8ucmgm2PiG+JnykISSo6IUx4354cVANuWzRDYbLFelvZd6ui6q\/uByl2DCCG9PFBobyQGGQ4NW4ilB5qqqv21pg\/VdjQ41CWsFqdiZTbU1E6QDSV55g7IoQy3vb4IZzpJmV\/kZk1uEzp2FLigp0NeduA9Sk9x43wMsDN2t4A9djC8T3mTFrTPicy6yCM38bZhJUwbyoeaSuony0cX2OGXfTS4UCcvQ0Ac29gk3bQeZQND2RfYybe6XapwMJtOgTyytllNpYwsHUbnTN4xvBvMWfarYoOhd5sG3lj1dxxBDa\/NAocldo4Vtoaa8yXmOvV25NWbXoauIH5PSmV4RIdjV2\/86ywku2XmL1dDDwgb8p3AVlOyNinBhaxbsEB0v1yJDg\/vsNMvbJqbAZhoneuWQ06xN1T\/gKfc7JjAdqZonyHGfuFhubIFLfNmyE\/1mDTjStWY541z0HIKuekz4\/jgB+uQVjUXQHLRA9pRdP0XpxWu9GuxBgCnNzgWV5CKjeaQSLAmJ23\/v2ImYp+jGCcUkapsctKlf7s3WjG264Tm0BtNoNDi1RC3991ZsI6GGUH0Ra2C7E8ZxnoHMIw8FLFaS9qgIircd9LOliZKZuGy8w5GiJVtdkUEowQuLKwL1VVlzdXmGZmI3tiy99V5iFUKcKRZN5hhHO1FVVMiSiIR5K0fJnZgu+s47Evaxu3bERMkFyOOXbsjUr8tFeYCVj+xTaV0Bz7wNdvhPZ1ldo9EdJOPSat1qm2\/wIzhTViugkHtoHYCK617jeP8cotU+hnzOWoZmbSjzTSmYnXcycVzcbtNphms0spklonLiYM\/9WQOyNF8sy4wExr7Sb1UTE3grOQD8QBOe+fHQVYh76NK+nUZGbvnul8DHRhodGD9g7sr00a6XxivZROTWQmnZ5iBNJKWIjiZLcPseY+jAzIdLpKmisHR4nMYO9HBpgii21dVLAlL6WNyduhx4QvjgLPJY0ZjOe4\/PLCpSXlaL06aooI6Uf9XmuhTWImzy5f7Jg9aD9dvUSTYAnAseJ0ptdaaJOYYeiGlUKL6AUBe8Gj07Nn2XhKwMylFtoU5vmwvDtpP13JQf\/sLGPTGRjp7V71UFKYn1EMP+5L3wqTp65tOkwU+tLBUQIzzMxnFJPq3kYRp9ZgghU63Qk+kpiFG0eucwmWYCmkPLO602lM6y6dHIUb2lbMhS1xRrCENbWRbpsr2srELPSlAZyM+kaWzHTq3K3t5asTsrOW+omZitgSDCop3KC5ZBaje2XSXb6GAFzGcf3J2YF+HQwAwi2uS+ZqLP0Q+uJsHn4p1hF++O6zTE3Ru28HdyQLZjYGuM9ZfU3OijlOGmxZ2PCAvwgYjgXzFHlRE+5HP5ETp\/x8n1yEe7AjxrILLa0FczcG5T8sJQGzdDQ6z\/qdbrdDGyTGzEI7hAXz1Ezd\/ezyku7Y8pLJ1Eaa3WPMeLnC7vkXMyx9dIL4z3Xicw\/XjqOch2delBkUvSvUWjCPo0d+WM3F1XGcxKZQpgjWUESZsZJ0q4sF8whLf5h5PonYCKgEJwcJX+gSZcb4a+s6F8zNwBxJLD3OrinI1IlVF26w0Hmw+jHOjLvkTSSxY6bN7jRvgioPTeApcy7Hez9EKI10wEz8dvuxY35kkZ12e2xPTpnBcoxFK4XeL5gDZly2bnVlz2o+H3qFE2Z+ugPBK4yGtwykro+YOV7xtdybruzGYdPNid3m+nR\/BRv0mDk8mhu9laWz1etXF8zFcWh2ouf2dAdCYEbHdmyHaxDT9xqPuHbMc+qBhY\/OT\/Ts3Xk037lYlH1g68wQsglj5wzRi5lVo6ciTfjXT\/TcJ2Ro8ypW4RZlzvvJp2SFcU4WeFKCzFjtgWW84w16uBZD736sZ7A6CdFgwEGcMHs3B0lDiYTTpgHUppJ4SO6kGY2dD+\/tjvWcaZeQuCAwOYsQdCx+7hZJC\/LIukrq521HWjWFyOspQxze2x3r2Y+\/ewrduWAaNcLcKru+5ovmmfCFsmXd8SEhDgYUfxHLvkO\/f8ScJ926hFLrkKaDzKR73cQ4f+\/xXIPT0d+UpWhd6EMf6RlrzhP3kHntdiBhZuIX912uXmIZEvnRu4KiA\/HioZ6L9FwLojRbc7pnJqx3rgqa\/BUzTI7hC24Cm4kjPbMre0jSGqvq9ezfMRMhXewuwxXz80yJ8IBbOdAzCe2ADiRrwNSuQrENM8l6Z03sLsN1uHyU9TrQ876y60QYnodWi4OPFTMZ\/Eeskm0X4h9kkuN63jSBJElW6mWVzIuZMFHhjw6OpTc5c3BUsS1\/XM+t\/kFzzXT0WNYC6xZGZvTHWF3tmsOr5rZbKaFiCf6onrm6lGB\/CSuGqi\/wxn0BrqYv5XjkG58VYeZH7SJ7q5ieWfPzbgQm6tLM3nj0x+fV1TtmVkZK9SN6ZlXsQyYJwRJo35fONT3644MqsFn222yY0kHosJ5pb9+8zHWM2a8cdQZSA1xamWqfwVkFdqTX5V1mLDgxe92F9Ixd2RfKTuLyLvNYhborR9vrmWCH4tHFu+nyPjNY\/H3wtdNzXqvbLse\/gXngAVUvgTZ6zgVemX9XM9AdzOCmGnCgywmy0jMR4HuV\/6ld3sktzKOXcsbP3fIvPdPh+nZdnrirK3IT8\/h3NBzuFIeyz5GZMO5LcLmnBTTX5C5mfCk\/7HOVrOqugIDWF83QBGP6m7vabmR+kJz7CotaAXT4DxVfi9v\/aMOdzIPQrC3Kxlgty95jNSO5van0duahKJeA3fjcH4W5n3mQk3zde\/Ih5h+eG6bJn55n+dPzKPQpeNMJTRWskEh7Eu3G\/MU99LxsnuKcbJJFW5P2INjn1xf3\/E0d774p99y8kbfdF+VqSPc\/QIrZG7Htpi4AAAAASUVORK5CYII=\"><\/image>\n\t<\/defs>\n\t<style>\n\t<\/style>\n\t<use id=\"Recycled-materials-Background\" href=\"#Recycled-materials-Background\" x=\"17\" y=\"28\"><\/use>\n<\/svg>",
+            "heading": "Recycled materials",
+            "description": "<p>A seamless design means no discomfort or area of weakness in the fabric.<\/p>"
+          }
+        },
+        "34caccd3-4c2a-477b-9fc4-b9ed830d4cff": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "<svg version=\"1.2\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 213 213\" width=\"213\" height=\"213\">\n\t<title><\/title>\n\t<defs>\n\t\t<image width=\"186\" height=\"133\" id=\"Ultra-breathable\" href=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAALoAAACFCAMAAADb\/BK7AAAAAXNSR0IB2cksfwAAAEhQTFRFR3BMAAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/AAD\/scYrcAAAABh0Uk5TAAMKHig7R1UTZpm+2O31+\/7ksoulyzF667oTegAADBlJREFUeJztXImyqjgQNYFsZAcC\/\/+n0wmgLAHxPtE7VfdM1dTjito03adXvN1eAsJFSShjjFJScvzam78FxEsqKqm0sS7CWu1V3QhScPRt2Y6AStEGH4WOAocgZQhqOg4V498WcAe4ELV2zuikZDATjAAYTGe4DdZZX9FfqHvOWmWcCY3oCrwWD66gIKJVNp5AfpXpI84C6Fs13Z5YCP67Ydp6kL7+RcIXIljnK1Y8MwYEzgBGpWv2O4THVIEVN2ddEHWtcbbuvm\/ziLTaqr58QRJMKu18U1wn1DkxevDN0xofgW6lBAuj31R8vPmmphnDRbyDYEq7PfPn4B76m4pn3uo+p\/KiCdoAtKp2jBoVrbWyu1a+XfBeW5m762WjwXFjLPXG6T3hsVBOfYdqcGtNlbnliCrQp+g4oGS1sV7kPwB1YDT9tUJmUdbwvTkrBysKD2UiKvPnRYDRvOzj\/45COp+920zburwlRx0Ys2iMEXve2hvbfNhmygDkln1B2RZk4RDzjRnOQJX1e\/6IQPbqo3oHnSuS0ySIGcpoCclRu\/vZck88LPRH9c7rHZ3fOm0YyBqcbsmjOiq923FVgDBmzxfeDw4WkA+FuHE1vuFqzXrpz3kgCMim\/1Rg7Y1m+Vd4MGJS\/RzU+oPIWVlN3ifdARDTe3cYdT46ZLXRceHNgXBgf+ojcbVUrt27v9SE4oaVXd8ULA+MPd6sfYN6IyCIRg7JAjEDVMK92ZzQuuboQ6nfpf73AQlr8uQSAaKDl7Zyo8LqWHTUW325yXTqgA5QMpgb3kiOWneYrCBc2wz1o6Isy+HPuByBt0fptPJ+Kh+PBmJ4fGpl5QFXDG66BZb2yNbTO832DKK89yF9X+91wpDLsekoKaRTw5GOcfzG5Xik4htxNamBbHhvDjSQI2Lt6gL4IcOki2tc2KidRgkH8mlGeVKqicR0lMyQjBeik6\/zMB4lLeJ2EkG66sidEMQeBNnA+qzOHPF6QhFss+nflF03Flq8GzEYzHTE76dFDN9RjEdD9jfqAxhkN5EaZdTRiZnVS1cWduu5azHhs\/eYazrlhvaO0PZw9V7pnqRKoHBwN1zZJaEANz7lPi7thXUHNU8pjCR3w8vOKN8GqS2AdtVl6S8Ox5aezmmc2tz3c0LxYC9Lw+h+yTAXYJOcg9JPmYI4TNL+BUAf7YlMgyhbLU9jJ0Uq1DP2\/ylAn2c+GWzWLjJLCKW7+drynZVrn5\/1E4CTnlIe7vUimer8CSdNYBc5Kiiven5WBLjqjIngfTlSL6gQtFy+wE9f5Gs4LheWItQ23G8Q3Kz1+3DXS58mTGo5YErB+O1A1Kmt8lD+mwp1j0G43hhw0WrrjJIyaBB\/3ngkJ23yNaB+JQKnfStDkG3Pys01AZOP7E71Kr\/nvXdG9h2PEybWeqfF\/e1cuQssBjLqOTljocbJqLNGS7FSFp+iF\/xjyahdsE4++tqoqK25ZxfP8vqfAeLKQ3uIxDZo3TBKWd8GHUdJdEEOY84A90rNrwpR5fyyr80b\/Yii\/UkefQmd1o8Az0CApktDxjRY7JV1Ws57L5Cp9ZjzchlIkfAuTG0zPA6wUWP95MjMhffX18zeSwHEtA1L1sCs9tbKGV1AtRlrnBnVDF26Op0CV41r7dv0Bl7fc4fuilxgdis7ZdvNF2DS+LnmqRk8YdYMLSpjU0eei1qAXUeeSR9U+ikD4Nq8v7yu7w4EdJevT8vKW9OmOgaDSYH7agPkNxoIZsHp5JBA+7aNBkMrPeSZzVSK4PD+oDT7TPEwzfVJ01gRN8aGnhLCKu98fCOmrXbjyIBa3Q\/XHmeukYCIniqkCygGCuPxTh5XM0Qap1j\/mFYA+WlSCAl+PI1vsHgYBU1d+EJN5L+OHm9Aoac4R\/Rh1s4F2MWs7xxHdV4l9sxxB2SLEPsfzQ7h5LvZsTR+VKPINXvm4JVZsDOESKt2Z6RljP3oHu+o3bIjaaqqGu6KaAek0IDYeDSENFINR1WyPdyML0bWGj+yeloiF8sEEEoUnR2BJGBvu5noxG4zpTYylUwnq4G2XMrooOAc4zkdBBshBh2MRyD69JF1fAmRA82vkyjmDnJOFEw5M5jufndnn\/dU6+ktS63zu9bJPW9M\/WZmdnN3VDarioG4I8YrOwQ2NblpTvR\/xEP0pHXh6vx5qANyd2vRXThO9bs7OV4g+sNgkq3TfCmGCbC3UWZhIEg4YMbmaO+kv7s+MW+v8R7a6G2NYymWKbE55AKmZqVcNFRQ7WqIn0rsygSVyfRpNOOm\/4jCLHldzEZXXKQqGpFgTU1RVPNsNoQERB3IAiC+7mwL8vbR5YUs7928\/piyFCESGZcujCsXtE59XARpy6hZqC\/UdGFomOmiIhVHIqfS3jy6q\/37q1Os7CRMb2P1QCFPbAiUdhBxdB9VbR5lZgn5vCgwxryDbGYsk2J2FvPilWhczPcEqrNth\/NAjxlcnLdxoJIaclbfgMxxdTHWOrNMGF60XtZ1AFXfN09wF31BLTYdUdma2XYGOh71\/QwzdVCf1ATlhYoTEZQSFRBxZskIMuMEE9hcy0UD1AlJZcfj7inmcevHzBrfizLyXZh19zE4XhstH\/Mi\/Y0LtV56IdoqD+l6vfRMhAoB\/Om0km1V1VDV2sXuGLDBk\/nAD0BmMxXU67gFMKgTYSqB+pYxJw1xeZFtlILHShA5rVmbRUELJOUuaN0tml\/AddaGRpCOsCZAht6vJBQ20SOW+VwNCiTR973YdHAuyHlBt8v5IW9S7ZnSs1hDLL8QlJ5ERof96a2QkGQ+HT68DrQaOKMyrnYrJSuxCfGosWP3hYeXBkRPdgl+CjGkzDMAQ3C+2fi+xaxhmq5CYH02l5ujiMn7+9GdbmXCbb+zEd9rH2Rx0SQMnxtq3FJbhc0PDjcbFl8hr2g53mICcK6pBpY+m5mjF3a7uitYPQIM8VSkK5dt6fO7Xai\/gBqHT65PzJwHARZaxtVuz2kJfN28WmSWJzZAwIcrn+CtPbXbRfRl62uFPjPXpHpDh5v5QBaoXW+AvW8zA+V2VjYCVAsxES3TdpJ+7iZbpdO0ypMUcd+HScqb9mH8sA+jsvswqRE77cNw9ZwfV85MEtug9vlF43ZTIJGH6MstJHFqCymJPqXqzbOmXRrbzu96MYzdT8zQO79ZcEpLXYPBrLa9Xt\/9ym5oLb+tWVVodODq\/tkyz7BJcx1Qb9VxWOfrBTXctFEisnXeJdgZd\/gXxJWYQ+0VKi\/BljLXr7+\/nl5B6J317xHldl0QpWt9Uur3z7bK\/h1QLh9yRec3htGn1PG4\/iH6ug2kO0p1tLqGtqLjkNiSHYleBPuJfWQIB0ct543BFMMUShy0teLQ9xNb4MfZ1MZNEUvtbXRg6zEvvn6ROiK2G3eJbrUFkc6O0ZofDETHltQn0AVb77nqKuVN87toCwe83ql1o+k6IKr3ZS8fC8uIl\/EBx9S5a3ajaRcObuL7wfx6IfCOWN6No+jKa2dVuhAgvx17KT4r+dB13NF7CQnXkClLo8Pw\/G+5m7CD8Z0rod4GJLTbk\/2+51hMT8rGR2DyqQ9c02cejpkhDit2nnTFvbbtzAYQCzuPYKVByGd1nkD1nsIgv3T6PvQqW+PyASfeunDBht1zUFBm9vHkG2bSWt82QvSN1E6vn38YUFRjm\/4LiCs5dV5rcVgQ++fwP5N9iPmGiLLm08+aPhBXFnfGoYjTvqpr0Hz+xyjiZCZ880ccMFGg1R2KiD9TkusD35J\/2uFh4C8CtOf84RB9C0xaY1V2hPpRYBLnjNV5DSISf\/GjefrbIJ8AFgHorznakLkDXKCNP1Xy1R+dmIMzaZyWT3\/0A5M4M9NtdgvsWwAm1xCHarH3e1MIc9KD3ED3Xwifx4jr9CCZDm1Py+UeAOYda2o1XttvMZUFoj2kH80yXsZQygAQT+v40xnOwh9\/qdwDQL9xKXyYqSakBXcfKkGL32ThO4g\/N9W3tYRwFWRd9awDA9p5NOJXAuG4IPZ\/kniG3Lrl\/wR\/on8Df6J\/A3+ifwN\/on8Df6J\/A3+ifwN\/on8Df6J\/A3+ifwN\/on8SaEQUffr3t2U6BVbLEcGa6Z\/yW0OjV4Bal8NVP1rzVpRMZPC9sdF\/rhutXHGrGD0AAAAASUVORK5CYII=\"><\/image>\n\t<\/defs>\n\t<style>\n\t<\/style>\n\t<use id=\"Ultra-breathable\" href=\"#Ultra-breathable\" x=\"27\" y=\"40\"><\/use>\n<\/svg>",
+            "heading": "Ultra-breathable",
+            "description": "<p>MicroModal Air is 50% more absorbent and breathable than cotton, drying quicker and keeping you pleasantly cool all day long.<\/p>"
+          }
+        },
+        "1887782c-e654-4f4d-820f-9991515937d0": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/products\/boxer-briefs"
+          }
+        }
+      },
+      "block_order": [
+        "1660759324cbff27b2-0",
+        "27bf320e-9bd9-4ce4-9610-3cc0a30573f0",
+        "7bceecb6-7407-4f17-874e-622a80429710",
+        "110e4e78-8c37-4307-8bcb-446407c84cb6",
+        "34caccd3-4c2a-477b-9fc4-b9ed830d4cff",
+        "1887782c-e654-4f4d-820f-9991515937d0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sweat-busting.jpg",
+        "reverse": true,
+        "padding_top": 20,
+        "padding_bottom": 60,
+        "mobile_padding_top": 28,
+        "mobile_padding_bottom": 32,
+        "back_color": "#ffffff"
+      }
+    },
+    "1660749272d066a232": {
+      "type": "icon-auto-scroll",
+      "blocks": {
+        "f1740153-d6a4-4609-8475-a0258da917e4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>heat regulating<\/p>"
+          }
+        },
+        "fe9bce90-bfe9-4bee-91e4-d523075ef94e": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>responsibly-sourced<\/strong><\/p>"
+          }
+        },
+        "860ded70-4c3e-41c9-a3bb-0ccee56bc7d1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>anti-microbial<\/p>"
+          }
+        },
+        "dbd5ae11-2e8c-49e8-82a8-5e48c3fef15d": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>recycled materials<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f1740153-d6a4-4609-8475-a0258da917e4",
+        "fe9bce90-bfe9-4bee-91e4-d523075ef94e",
+        "860ded70-4c3e-41c9-a3bb-0ccee56bc7d1",
+        "dbd5ae11-2e8c-49e8-82a8-5e48c3fef15d"
+      ],
+      "settings": {
+        "background": "#ededed",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 28,
+        "mobile_padding_bottom": 36
+      }
+    },
+    "16607633607a909cca": {
+      "type": "video-slider",
+      "blocks": {
+        "e515bab8-333c-4849-88f5-6429face93da": {
+          "type": "header",
+          "settings": {
+            "heading": "Absolutely love these and would highly recommend",
+            "description": "<p>“My partner loves them so comfortable has 5 now and will be buying more”<\/p>",
+            "label": "Read the Reviews",
+            "link": "shopify:\/\/pages\/reviews"
+          }
+        },
+        "4d19171f-ecbb-4666-869e-9a48d8dd2fb8": {
+          "type": "video",
+          "settings": {
+            "video_url": "",
+            "mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a479db4c2cda439481728b080e8151f3.mov",
+            "image": "shopify:\/\/shop_images\/Group_11046_3x_0161ef8a-dac8-4db8-aceb-19d8c8299dca.png",
+            "name": "Dan",
+            "caption": "JW superfan!"
+          }
+        },
+        "1fc77671-ea13-4931-8c69-07fc01c3df87": {
+          "type": "video",
+          "settings": {
+            "video_url": "",
+            "mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/07da357f1679421986a05e104ba8ae5b.mov",
+            "image": "shopify:\/\/shop_images\/Group_11047_3x_d24dbf9f-0125-45f1-86fd-9d1b69c4ac6b.png",
+            "name": "Eddie",
+            "caption": "New shopper"
+          }
+        },
+        "e979931d-4fac-48e1-9a29-c1b91d1d1904": {
+          "type": "video",
+          "settings": {
+            "video_url": "",
+            "mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cf7c5ff3808b471c9cffc51ffd8f4c95.mp4",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-05_at_3.01.31_PM.jpg",
+            "name": "Stef",
+            "caption": "Gifting godess"
+          }
+        },
+        "f9938f2a-e6aa-4d87-999a-d73019cdef5f": {
+          "type": "video",
+          "settings": {
+            "video_url": "",
+            "mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/68bd45584bf245e8a6cf5a8d1de53cdc.mp4",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-05_at_3.03.05_PM.jpg",
+            "name": "Jacquie",
+            "caption": "Top gifter!"
+          }
+        },
+        "fd16a63c-669d-4a69-9464-a47c45873e56": {
+          "type": "video",
+          "settings": {
+            "video_url": "",
+            "mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/02e3e882bb244541bed6c74424c9c3ef.mp4",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-05_at_3.08.21_PM.jpg",
+            "name": "Mark Hanretty",
+            "caption": "Ice skating legend"
+          }
+        }
+      },
+      "block_order": [
+        "e515bab8-333c-4849-88f5-6429face93da",
+        "4d19171f-ecbb-4666-869e-9a48d8dd2fb8",
+        "1fc77671-ea13-4931-8c69-07fc01c3df87",
+        "e979931d-4fac-48e1-9a29-c1b91d1d1904",
+        "f9938f2a-e6aa-4d87-999a-d73019cdef5f",
+        "fd16a63c-669d-4a69-9464-a47c45873e56"
+      ],
+      "settings": {
+        "stars": "<svg data-name=\"Group 7570\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"240.363\" height=\"42.271\" viewbox=\"0 0 240.363 42.271\">\n    <path d=\"M-10.525 37.224a1.4 1.4 0 0 1 1.412 0l10.746 6.207A1.478 1.478 0 0 0 3.775 41.8L1.461 29.175a1.577 1.577 0 0 1 .439-1.407l8.955-8.789a1.551 1.551 0 0 0-.818-2.638l-12.176-1.6a1.469 1.469 0 0 1-1.142-.87L-8.495 2.236a1.435 1.435 0 0 0-2.648 0l-5.211 11.639a1.469 1.469 0 0 1-1.142.87l-12.176 1.6a1.551 1.551 0 0 0-.818 2.638l8.955 8.789a1.577 1.577 0 0 1 .436 1.407L-23.412 41.8a1.478 1.478 0 0 0 2.142 1.631z\" transform=\"translate(30.954 -1.355)\" style=\"fill:#00f\"><\/path>\n    <path data-name=\"Star\" d=\"M-10.525 37.224a1.4 1.4 0 0 1 1.412 0l10.746 6.207A1.478 1.478 0 0 0 3.775 41.8L1.461 29.175a1.577 1.577 0 0 1 .439-1.407l8.955-8.789a1.551 1.551 0 0 0-.818-2.638l-12.176-1.6a1.469 1.469 0 0 1-1.142-.87L-8.495 2.236a1.435 1.435 0 0 0-2.648 0l-5.211 11.639a1.469 1.469 0 0 1-1.142.87l-12.176 1.6a1.551 1.551 0 0 0-.818 2.638l8.955 8.789a1.577 1.577 0 0 1 .436 1.407L-23.412 41.8a1.478 1.478 0 0 0 2.142 1.631z\" transform=\"translate(80.672 -1.355)\" style=\"fill:#00f\"><\/path>\n    <path data-name=\"Star\" d=\"M-10.525 37.224a1.4 1.4 0 0 1 1.412 0l10.746 6.207A1.478 1.478 0 0 0 3.775 41.8L1.461 29.175a1.577 1.577 0 0 1 .439-1.407l8.955-8.789a1.551 1.551 0 0 0-.818-2.638l-12.176-1.6a1.469 1.469 0 0 1-1.142-.87L-8.495 2.236a1.435 1.435 0 0 0-2.648 0l-5.211 11.639a1.469 1.469 0 0 1-1.142.87l-12.176 1.6a1.551 1.551 0 0 0-.818 2.638l8.955 8.789a1.577 1.577 0 0 1 .436 1.407L-23.412 41.8a1.478 1.478 0 0 0 2.142 1.631z\" transform=\"translate(130.387 -1.355)\" style=\"fill:#00f\"><\/path>\n    <path data-name=\"Star\" d=\"M-10.525 37.224a1.4 1.4 0 0 1 1.412 0l10.746 6.207A1.478 1.478 0 0 0 3.775 41.8L1.461 29.175a1.577 1.577 0 0 1 .439-1.407l8.955-8.789a1.551 1.551 0 0 0-.818-2.638l-12.176-1.6a1.469 1.469 0 0 1-1.142-.87L-8.495 2.236a1.435 1.435 0 0 0-2.648 0l-5.211 11.639a1.469 1.469 0 0 1-1.142.87l-12.176 1.6a1.551 1.551 0 0 0-.818 2.638l8.955 8.789a1.577 1.577 0 0 1 .436 1.407L-23.412 41.8a1.478 1.478 0 0 0 2.142 1.631z\" transform=\"translate(180.105 -1.355)\" style=\"fill:#00f\"><\/path>\n    <path data-name=\"Star\" d=\"M-10.525 37.224a1.4 1.4 0 0 1 1.412 0l10.746 6.207A1.478 1.478 0 0 0 3.775 41.8L1.461 29.175a1.577 1.577 0 0 1 .439-1.407l8.955-8.789a1.551 1.551 0 0 0-.818-2.638l-12.176-1.6a1.469 1.469 0 0 1-1.142-.87L-8.495 2.236a1.435 1.435 0 0 0-2.648 0l-5.211 11.639a1.469 1.469 0 0 1-1.142.87l-12.176 1.6a1.551 1.551 0 0 0-.818 2.638l8.955 8.789a1.577 1.577 0 0 1 .436 1.407L-23.412 41.8a1.478 1.478 0 0 0 2.142 1.631z\" transform=\"translate(229.046 -1.355)\" style=\"fill:#00f\"><\/path>\n<\/svg>",
+        "text": "Over 70,000 customers have already joined the comfort crusade",
+        "background": "#ffffff",
+        "padding_top": 60,
+        "padding_bottom": 100,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "1660768556a77ebfb9": {
+      "type": "collection-list",
+      "blocks": {
+        "1660768556b4b5890e-0": {
+          "type": "featured_collection",
+          "settings": {
+            "link": "shopify:\/\/collections\/bundles",
+            "title": "Bundle & Save",
+            "image": "shopify:\/\/shop_images\/bundle2_60dcfd43-fb50-4d6d-a0da-c6e09220142f.jpg",
+            "description": "<p>Save up to 25% on boxer briefs, briefs and trunks with our awesome bundles! <\/p>"
+          }
+        },
+        "1660768556b4b5890e-1": {
+          "type": "featured_collection",
+          "settings": {
+            "link": "shopify:\/\/collections\/gifts",
+            "title": "Gift Ideas",
+            "image": "shopify:\/\/shop_images\/holiday-packaging2_d61642ca-f494-43e0-b91d-313face0501f.jpg",
+            "description": "<p>Looking for a unique gift for that special someone? Check out our awesome gift ideas below!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1660768556b4b5890e-0",
+        "1660768556b4b5890e-1"
+      ],
+      "settings": {
+        "title": "Our newest gift Collection",
+        "heading_size": "h0",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "1660750827b9ccd36d",
+    "1660757336f5076a7a",
+    "16607488871284b813",
+    "166074889811e71b35",
+    "1661365483c6d411f6",
+    "1660759324bb584b57",
+    "1660749272d066a232",
+    "16607633607a909cca",
+    "1660768556a77ebfb9"
+  ]
+}

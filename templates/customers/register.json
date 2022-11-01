@@ -1,0 +1,57 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-register",
+      "settings": {
+        "padding_top": 56,
+        "padding_bottom": 100
+      }
+    },
+    "166128152026b5605c": {
+      "type": "icon-auto-scroll",
+      "blocks": {
+        "235745ff-3e31-4e3d-bc76-767f2284f39a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>heat regulating<\/p>"
+          }
+        },
+        "6d98de6a-736b-4731-a780-4f738646a8c1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>responsibly-sourced<\/strong><\/p>"
+          }
+        },
+        "9dd2c722-9da3-4fea-acc5-8525360baa75": {
+          "type": "text",
+          "settings": {
+            "text": "<p>anti-microbial<\/p>"
+          }
+        },
+        "6250d1c4-1d51-412b-957f-7fc096d5ead2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>recycled materials<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "235745ff-3e31-4e3d-bc76-767f2284f39a",
+        "6d98de6a-736b-4731-a780-4f738646a8c1",
+        "9dd2c722-9da3-4fea-acc5-8525360baa75",
+        "6250d1c4-1d51-412b-957f-7fc096d5ead2"
+      ],
+      "settings": {
+        "background": "#e9e8e6",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 24,
+        "mobile_padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166128152026b5605c"
+  ]
+}

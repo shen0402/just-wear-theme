@@ -1,0 +1,22 @@
+@media (max-width: 850px) {
+    .main-blog {
+        max-width: 60rem;
+   }
+}
+.main-blog .blog-articles {
+    gap: 6rem 9rem;
+}
+@media (max-width: 850px) {
+    .main-blog .blog-articles {
+        gap: 0;
+        grid-template-columns: 1fr;
+   }
+}
+@media (max-width: 850px) {
+    .main-blog .blog-articles .article {
+        margin-top: 4rem !important;
+   }
+    .main-blog .blog-articles .article:first-of-type {
+        margin-top: 0 !important;
+   }
+}

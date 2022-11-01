@@ -1,0 +1,158 @@
+{{ 'custom-faq-section.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  .section--{{ section.id }} {
+    background-color: {{ section.settings.back_color }};
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  @media screen and (min-width: 990px) {
+    .section--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  .page--rewards.logged-in .section--{{ section.id }} {
+    display: none;
+  }
+{%- endstyle -%}
+<script src="{{ 'custom-faq.js' | asset_url }}" defer="defer"></script>
+<div class="section--{{ section.id }}">
+    <div class="faq-section page-width">
+        {% if section.settings.heading != blank %}
+            <h2 class="faq__heading">{{ section.settings.heading }}</h2>
+        {% endif %}
+        {% if section.blocks.size > 0 %}
+            <div class="faq-wrapper">
+                {% for block in section.blocks %}
+                    {% assign faq = block.settings %}
+                    {% if block.type == 'question' %}
+                        {% unless forloop.last %}
+                            {% unless forloop.first %}
+                                    </div>
+                                </div>
+                            {% endunless %}
+                            <div class="faq-item">
+                                <input id="{{ faq.question | handleize }}" type="checkbox">
+                                <label class="faq__question" for="{{ faq.question | handleize }}">
+                                    {{ faq.question }}
+                                    {% render 'icon-caret' %}
+                                </label>
+                                <div class="faq__answer">
+                        {% endunless %}
+                    {% else %}
+                        <div class="faq__answer-item">
+                            {{ faq.answer }}
+                        </div>
+                        {% if forloop.last %}
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% endif %}
+        {% if section.settings.btn_label != blank and section.settings.btn_link != blank %}
+            <div class="faq__button">
+                <a href="{{ section.settings.btn_link }}">{{ section.settings.btn_label }}</a>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% schema %}
+{
+    "name": "FAQs",
+    "settings": [
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+        },
+        {
+            "type": "text",
+            "id": "btn_label",
+            "label": "Button Label"
+        },
+        {
+            "type": "url",
+            "id": "btn_link",
+            "label": "Button Link"
+        },
+        {
+            "type": "color",
+            "id": "back_color",
+            "label": "Background",
+            "default": "#FFFFFF"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_top",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_bottom",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Top Padding",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Bottom Padding",
+            "default": 36
+        }
+    ],
+    "blocks": [
+        {
+            "type": "question",
+            "name": "Question",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "question",
+                    "label": "Question"
+                }
+            ]
+        },
+        {
+            "type": "answer",
+            "name": "Answer",
+            "settings": [
+                {
+                    "type": "richtext",
+                    "id": "answer",
+                    "label": "Answer"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "FAQs"
+        }
+    ]
+}
+{% endschema %}

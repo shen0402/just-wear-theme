@@ -1,0 +1,186 @@
+<link rel="stylesheet" href="{{ 'custom-image-with-text3.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'custom-image-with-text3.css' | asset_url | stylesheet_tag }}</noscript>
+{%- style -%}
+  .section--{{ section.id }} {
+    background-color: {{ section.settings.back_color }};
+    background-image: url({{ section.settings.back_image_mobile | img_url: '750x' }});
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @media screen and (min-width: 990px) {
+    .section--{{ section.id }} {
+        background-image: url({{ section.settings.back_image | img_url: '2400x' }});
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+        background-size: contain;
+    }
+  }
+{%- endstyle -%}
+<div class="section--{{ section.id }}">
+    <div class="image-with-text3 page-width">
+        {% if section.settings.heading != blank %}
+            <div class="image-with-text3__heading">
+                <h2 class="title">
+                    {{ section.settings.heading }}
+                </h2>
+            </div>
+        {% endif %}
+        {% for block in section.blocks %}
+            {% assign item = block.settings %}
+            {% case block.type %}
+                {% when 'image-with-text' %}
+                    <div class="image-with-text3__iwt">
+                        <div class="image-with-text3__iwt-image animation-mode" data-duration="first">
+                            <div style="padding-bottom: {{ 1 | divided_by: item.image.aspect_ratio | times: 100 }}%">
+                                <img
+                                srcset="{%- if item.image.width >= 165 -%}{{ item.image | image_url: width: 165 }} 165w,{%- endif -%}
+                                {%- if item.image.width >= 360 -%}{{ item.image | image_url: width: 360 }} 360w,{%- endif -%}
+                                {%- if item.image.width >= 535 -%}{{ item.image | image_url: width: 535 }} 535w,{%- endif -%}
+                                {%- if item.image.width >= 750 -%}{{ item.image | image_url: width: 750 }} 750w,{%- endif -%}
+                                {%- if item.image.width >= 1070 -%}{{ item.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                                {%- if item.image.width >= 1500 -%}{{ item.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                                {{ item.image | image_url }} {{ item.image.width }}w"
+                                src="{{ item.image | image_url: width: 1500 }}"
+                                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                                alt="{{ item.image.alt | escape }}"
+                                loading="lazy"
+                                width="{{ item.image.width }}"
+                                height="{{ item.image.height }}"
+                                >
+                            </div>
+                        </div>
+                        <div class="image-with-text3__iwt-text animation-mode" data-duration="second">
+                            {{ item.text }}
+                        </div>
+                    </div>
+                {% when 'richtext' %}
+                    <div class="image-with-text3__richtext animation-mode">
+                        {% if item.heading != blank %}
+                            <div class="image-with-text3__richtext-heading">
+                                <h2 class="title">
+                                    {{ item.heading }}
+                                </h2>
+                            </div>
+                        {% endif %}
+                        {% if item.description != blank %}
+                            <div class="image-with-text3__richtext-description">
+                                {{ item.description }}
+                            </div>
+                        {% endif %}
+                    </div>
+            {% endcase %}
+        {% endfor %}
+    </div>
+</div>
+{% schema %}
+{
+    "name": "Image with text3",
+    "class": "section",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "back_image",
+            "label": "Background"
+        },
+        {
+            "type": "image_picker",
+            "id": "back_image_mobile",
+            "label": "Mobile Background"
+        },
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+        },
+        {
+            "type": "color",
+            "id": "back_color",
+            "label": "Background",
+            "default": "#FFFFFF"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_top",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_bottom",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Top Padding",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Bottom Padding",
+            "default": 36
+        }
+    ],
+    "blocks": [
+        {
+            "type": "image-with-text",
+            "name": "Image with text",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "richtext",
+                    "id": "text",
+                    "label": "Text"
+                }
+            ]
+        },
+        {
+            "type": "richtext",
+            "name": "Richtext",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "heading",
+                    "label": "Heading"
+                },
+                {
+                    "type": "richtext",
+                    "id": "description",
+                    "label": "Description"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Image with text3"
+        }
+    ]
+}
+{% endschema %}

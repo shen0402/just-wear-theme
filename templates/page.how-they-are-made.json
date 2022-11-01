@@ -1,0 +1,253 @@
+{
+  "sections": {
+    "166006372689fe623c": {
+      "type": "page-tab",
+      "blocks": {
+        "1660063726e3f3980a-0": {
+          "type": "tab",
+          "settings": {
+            "label": "Sustainability",
+            "link": "shopify:\/\/pages\/sustainability"
+          }
+        },
+        "a2ef759a-f484-405d-930e-6cf5a94960f8": {
+          "type": "tab",
+          "settings": {
+            "label": "Manufacturing",
+            "link": "shopify:\/\/pages\/how-they-are-made"
+          }
+        },
+        "b7d9e92d-bb3d-43d5-810a-b19bf2f5b12c": {
+          "type": "tab",
+          "settings": {
+            "label": "Giving Back",
+            "link": "shopify:\/\/pages\/how-we-give-back-1"
+          }
+        }
+      },
+      "block_order": [
+        "1660063726e3f3980a-0",
+        "a2ef759a-f484-405d-930e-6cf5a94960f8",
+        "b7d9e92d-bb3d-43d5-810a-b19bf2f5b12c"
+      ],
+      "settings": {
+        "back_color": "#f4f4f4"
+      }
+    },
+    "16600676170adf7feb": {
+      "type": "page",
+      "settings": {
+        "page": "how-they-are-made",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 44,
+        "padding_bottom": 8
+      }
+    },
+    "166006382103c19cb4": {
+      "type": "image-with-text",
+      "blocks": {
+        "16600638213e523b07-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "5x softer than cotton!",
+            "heading_size": "h1"
+          }
+        },
+        "16600638213e523b07-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We <strong>sampled over 1,000 fabrics <\/strong>before we found THE ONE - amazingly soft cellulosic fibre, MicroModal Air. It is natural, <strong>high-performance fabric that is sustainably sourced from Austria<\/strong>. More importantly, it feels amazing as it’s 5x softer than cotton!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16600638213e523b07-0",
+        "16600638213e523b07-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/5x-softer4.jpg",
+        "reverse": false,
+        "padding_top": 52,
+        "padding_bottom": 40,
+        "mobile_padding_top": 28,
+        "mobile_padding_bottom": 28,
+        "back_color": "#ffffff"
+      }
+    },
+    "1660063827055e4625": {
+      "type": "image-with-text",
+      "blocks": {
+        "1660063826f04c3aee-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We recycle the wasted products for better use.",
+            "heading_size": "h1"
+          }
+        },
+        "1660063826f04c3aee-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Made from sustainable Austrian Beech Trees, our fabric is made from fibers which are <strong>40% cellulose<\/strong> and produced in a eco-responsible process that significantly reduces emissions and water impact. This process uses <strong>20x less water than cotton!<\/strong><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1660063826f04c3aee-0",
+        "1660063826f04c3aee-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/wasted_cb3816a2-2f3f-4776-8d8a-334465710a3a.jpg",
+        "reverse": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "mobile_padding_top": 28,
+        "mobile_padding_bottom": 28,
+        "back_color": "#ffffff"
+      }
+    },
+    "166006383255a4a2a2": {
+      "type": "image-with-text",
+      "blocks": {
+        "16600638321c0e9c44-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We give back to the communities we work with!",
+            "heading_size": "h1"
+          }
+        },
+        "16600638321c0e9c44-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For every 100 pairs we sell per month, 1 full-time job is added back to the assembly line.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16600638321c0e9c44-0",
+        "16600638321c0e9c44-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/communities.jpg",
+        "reverse": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "mobile_padding_top": 28,
+        "mobile_padding_bottom": 28,
+        "back_color": "#ffffff"
+      }
+    },
+    "1660153870ca7fcf18": {
+      "type": "logo-slider",
+      "blocks": {
+        "e5d9767f-b83e-401b-b159-32c0d9ec21f6": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_454_3x_f0a56414-3c33-4c57-a7ca-7288c213550f.png",
+            "caption": "Trees"
+          }
+        },
+        "87e7c642-a577-45af-8887-33e6e738f6e6": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_455_3x_b83c6c74-6bbb-45b3-bc58-6dc7ca13e0a4.png",
+            "caption": "Wood"
+          }
+        },
+        "71f37617-c33e-40c5-9837-fe5d400a7e7f": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_456_3x_cc07b007-e24a-453b-bf42-0e457024eb59.png",
+            "caption": "Pulp"
+          }
+        },
+        "9fff647e-4ddd-4cc9-98fe-0000bc1450e7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_457_3x_3ce45b86-6c56-464e-b14e-2dc32dcc9701.png",
+            "caption": "Fiber"
+          }
+        },
+        "07db3dc6-7858-4d69-ad2e-a04bcef08cac": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_458_3x_d6fc36f6-192e-43da-8d40-32e54bb21876.png",
+            "caption": "Thread"
+          }
+        },
+        "8f5c5478-8f7a-4a28-af85-f67855d41027": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_459_3x_2fcffc87-11f8-4f0a-a1e3-335acd961df2.png",
+            "caption": "Thread"
+          }
+        }
+      },
+      "block_order": [
+        "e5d9767f-b83e-401b-b159-32c0d9ec21f6",
+        "87e7c642-a577-45af-8887-33e6e738f6e6",
+        "71f37617-c33e-40c5-9837-fe5d400a7e7f",
+        "9fff647e-4ddd-4cc9-98fe-0000bc1450e7",
+        "07db3dc6-7858-4d69-ad2e-a04bcef08cac",
+        "8f5c5478-8f7a-4a28-af85-f67855d41027"
+      ],
+      "settings": {
+        "heading": "A Clean, Closed-loop Production Process",
+        "description": "<p>Here’s a not-so-fun fact: Today, less than 1% of the materials used to make clothes get recycled each year. This means that thousands of tons of textiles end up in landfills. By reusing or recycling fashion, we can turn that around.<\/p>",
+        "back_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36
+      }
+    },
+    "1660064253199a5119": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banana_5c25cc67-13b0-486a-9e19-935bce0bc069.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banana-mobile.jpg",
+        "video_url": "",
+        "mp4": "",
+        "image_overlay_opacity": 0,
+        "image_height": 700,
+        "mobile_image_height": 400,
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16600641877c4a41b0": {
+      "type": "review",
+      "settings": {
+        "title": "Try us for yourself",
+        "btn_label": "Free yourself",
+        "btn_link": "\/products\/boxer-briefs",
+        "star": "shopify:\/\/shop_images\/Group_7570_3x_f5b1c7d6-470e-4f5c-97c5-a6d6c844d0b6.png",
+        "description": "<p>Over 5,000 five star reviews and counting!<\/p><p>It's time to join the comfort crusade...<\/p>",
+        "padding_top": 40,
+        "padding_bottom": 32,
+        "mobile_padding_top": 100,
+        "mobile_padding_bottom": 100,
+        "back_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "166006372689fe623c",
+    "16600676170adf7feb",
+    "166006382103c19cb4",
+    "1660063827055e4625",
+    "166006383255a4a2a2",
+    "1660153870ca7fcf18",
+    "1660064253199a5119",
+    "16600641877c4a41b0"
+  ]
+}

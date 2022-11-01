@@ -1,0 +1,267 @@
+{
+  "sections": {
+    "166005636416a9e8a4": {
+      "type": "page-tab",
+      "blocks": {
+        "16600563644c245f18-0": {
+          "type": "tab",
+          "settings": {
+            "label": "Sustainability",
+            "link": "shopify:\/\/pages\/sustainability"
+          }
+        },
+        "5d53a9ea-7590-4342-873a-d5eea219dd56": {
+          "type": "tab",
+          "settings": {
+            "label": "Manufacturing",
+            "link": "shopify:\/\/pages\/how-they-are-made"
+          }
+        },
+        "89748559-286b-4782-8a6c-aa5271e88194": {
+          "type": "tab",
+          "settings": {
+            "label": "Giving Back",
+            "link": "shopify:\/\/pages\/how-we-give-back-1"
+          }
+        }
+      },
+      "block_order": [
+        "16600563644c245f18-0",
+        "5d53a9ea-7590-4342-873a-d5eea219dd56",
+        "89748559-286b-4782-8a6c-aa5271e88194"
+      ],
+      "settings": {
+        "back_color": "#f4f4f4"
+      }
+    },
+    "1659989450e557bec5": {
+      "type": "rich-text",
+      "blocks": {
+        "16599894508befda93-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Doing our bit for your globes and the world’s globe<\/p>",
+            "heading_size": "hxl"
+          }
+        },
+        "16599894508befda93-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>At JustWears, our mission is to help our Ballers community (that’s you), to feel comfortable day-to-day through environmentally conscious fashion choices - starting with sustainable underwear. Our support goes far beyond your pecker; from providing you with sustainable underwear, empowering young people, and planting trees, we’ve been getting busy tackling ways to give back.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16599894508befda93-0",
+        "16599894508befda93-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 48,
+        "mobile_padding_top": 44,
+        "mobile_padding_bottom": 52,
+        "back_color": "#ffffff"
+      }
+    },
+    "bfa282dd-72cd-42ca-a650-92e1aa0e260e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14601302638669__bfa282dd-72cd-42ca-a650-92e1aa0e260e-16669528918f45e77f-0": {
+          "type": "column",
+          "settings": {
+            "title": "48",
+            "text": "<p>manufacturing line jobs added<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14601302638669__bfa282dd-72cd-42ca-a650-92e1aa0e260e-16669528918f45e77f-1": {
+          "type": "column",
+          "settings": {
+            "title": "1,469",
+            "text": "<p>trees planted<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14601302638669__bfa282dd-72cd-42ca-a650-92e1aa0e260e-16669528918f45e77f-2": {
+          "type": "column",
+          "settings": {
+            "title": "100",
+            "text": "<p>pairs of underwear donated<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14601302638669__bfa282dd-72cd-42ca-a650-92e1aa0e260e-16669528918f45e77f-0",
+        "template--14601302638669__bfa282dd-72cd-42ca-a650-92e1aa0e260e-16669528918f45e77f-1",
+        "template--14601302638669__bfa282dd-72cd-42ca-a650-92e1aa0e260e-16669528918f45e77f-2"
+      ],
+      "settings": {
+        "title": "How we give back",
+        "heading_size": "h1",
+        "description": "<p>Here are just some of the things we've been doing at JustWears to give back...<\/p>",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "caption": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36
+      }
+    },
+    "165998469832ff3cd1": {
+      "type": "image-with-text",
+      "blocks": {
+        "165998469861c1deca-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Planting wood for your wood",
+            "heading_size": "h1"
+          }
+        },
+        "165998469861c1deca-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>March 2022<\/p><p>You helped us to plant over 1,400 trees for the International Day of Forests and World Wood Day! We donated a portion of your purchase value to a groundbreaking project, run by One Tree Planted, focusing on the reforestation of Indonesia.<\/p><p><a href=\"https:\/\/onetreeplanted.org\/\" target=\"_blank\" title=\"https:\/\/onetreeplanted.org\/\">One Tree Planted<\/a> are restoring ecosystems and tropical forests, and are creating vital habitats for endangered wildlife. Alongside this, they are building communities through education programs and offering sustainable livelihood alternatives to farmers.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "165998469861c1deca-0",
+        "165998469861c1deca-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ballers-Page_01_9a58e9c7-efae-471b-be9f-41d9af023820.jpg",
+        "reverse": false,
+        "padding_top": 52,
+        "padding_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 24,
+        "back_color": "#ffffff"
+      }
+    },
+    "1659985299fb9e15f6": {
+      "type": "image-with-text",
+      "blocks": {
+        "1659985299b67f1f31-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Designed with a revolution in mind",
+            "heading_size": "h1"
+          }
+        },
+        "1659985299b67f1f31-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>February 2020<\/p><p>We’re here to help you make more conscious choices about the clothes on your body. No loopholes, no cutting corners - just creative, comfortable and conscious underpants.<\/p><p><\/p><p>For every 100 pairs of JustWears sold each month, we add one full-time job back to the assembly line. Each year, we participate in the global campaign ‘Fashion Revolution’ in which we bring you the answers to #IMadeYourClothes and #WhatsInMyClothes.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1659985299b67f1f31-0",
+        "1659985299b67f1f31-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ballers-Page_02_ee49afe4-cda5-490e-8478-de0a3b85fdb4.jpg",
+        "reverse": true,
+        "padding_top": 36,
+        "padding_bottom": 40,
+        "mobile_padding_top": 28,
+        "mobile_padding_bottom": 44,
+        "back_color": "#ffffff"
+      }
+    },
+    "074969f2-30f7-4ac9-8ba1-a9f51e7e0770": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14601302638669__074969f2-30f7-4ac9-8ba1-a9f51e7e0770-166695288348b5d5c6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Boldly go where no man has gone before",
+            "heading_size": "h1"
+          }
+        },
+        "template--14601302638669__074969f2-30f7-4ac9-8ba1-a9f51e7e0770-166695288348b5d5c6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>January 2020<\/p><p>Or ya know, boldly stroll to the kitchen for a boogie in your favourite JW underpants - whatever floats your boat! ‘Being bold’ can mean different things to different people; whether that’s owning your strengths and weaknesses, speaking up for what’s right or making better choices for the environment and your body.<\/p><p>Our bold move is giving back to charities that embody our values and beliefs. In January 2020, we were proud to partner with <a href=\"https:\/\/youpress.org.uk\/\" target=\"_blank\" title=\"https:\/\/youpress.org.uk\/\">You Press!<\/a><\/p><p>You Press run projects to empower young people and underrepresented communities through the creative arts and writing. We partnered with them to help young people gain the confidence to own their voice, advance their careers and make bold decisions.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14601302638669__074969f2-30f7-4ac9-8ba1-a9f51e7e0770-166695288348b5d5c6-0",
+        "template--14601302638669__074969f2-30f7-4ac9-8ba1-a9f51e7e0770-166695288348b5d5c6-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ballers-Page_03_b9d9dbf4-c51b-4501-b933-296d65959824.jpg",
+        "reverse": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "back_color": "#FFFFFF"
+      }
+    },
+    "5b2e2e69-f554-4968-8a43-69f354b7a3fd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14601302638669__5b2e2e69-f554-4968-8a43-69f354b7a3fd-1666952891ac09d781-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>For underwear that cares, shop now and help change lives today.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14601302638669__5b2e2e69-f554-4968-8a43-69f354b7a3fd-1666952891ac09d781-3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop JustWears",
+            "button_link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14601302638669__5b2e2e69-f554-4968-8a43-69f354b7a3fd-1666952891ac09d781-0",
+        "template--14601302638669__5b2e2e69-f554-4968-8a43-69f354b7a3fd-1666952891ac09d781-3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36,
+        "back_color": "#FFF"
+      }
+    }
+  },
+  "order": [
+    "166005636416a9e8a4",
+    "1659989450e557bec5",
+    "bfa282dd-72cd-42ca-a650-92e1aa0e260e",
+    "165998469832ff3cd1",
+    "1659985299fb9e15f6",
+    "074969f2-30f7-4ac9-8ba1-a9f51e7e0770",
+    "5b2e2e69-f554-4968-8a43-69f354b7a3fd"
+  ]
+}

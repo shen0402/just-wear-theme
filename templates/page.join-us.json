@@ -1,0 +1,45 @@
+{
+  "sections": {
+    "form": {
+      "type": "contact-form",
+      "blocks": {
+        "dbf186b2-2cf8-4365-9a34-49bb1b6cd66c": {
+          "type": "subject",
+          "settings": {
+            "subject": "Careers at JustWears"
+          }
+        },
+        "194a3217-da3e-4a94-981e-795fe5c87942": {
+          "type": "subject",
+          "settings": {
+            "subject": "Other"
+          }
+        },
+        "bf609863-592b-4b9b-b9f7-b3375a014b1d": {
+          "type": "info",
+          "settings": {
+            "info": "<p>You can email us at <br\/><a href=\"mailto:careers@just-wears.com\" title=\"mailto:careers@just-wears.com\">careers@just-wears.com<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "dbf186b2-2cf8-4365-9a34-49bb1b6cd66c",
+        "194a3217-da3e-4a94-981e-795fe5c87942",
+        "bf609863-592b-4b9b-b9f7-b3375a014b1d"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2021_JustWears_Brand_Guidelines_Email-12_3x_4beb71c1-415c-436f-ab93-76614fd36844.png",
+        "heading": "Join Us",
+        "description": "<p>We're looking for innovative, creative and motivated thinkers to join us. If you're passionate about sustainability and ready to grow your career then check out our open job positions below or (if none are listed) contact us via the below form.<\/p>",
+        "back_color": "#ffffff",
+        "padding_top": 80,
+        "padding_bottom": 100,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "form"
+  ]
+}

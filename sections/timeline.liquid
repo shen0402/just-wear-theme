@@ -1,0 +1,145 @@
+{%- style -%}
+  .section--{{ section.id }} {
+    background: {{ section.settings.background }};
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  @media screen and (min-width: 990px) {
+    .section--{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<link rel="stylesheet" href="{{ 'custom-timeline.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'custom-timeline.css' | asset_url | stylesheet_tag }}</noscript>
+<script src="{{ 'custom-timeline.js' | asset_url }}" defer="defer"></script>
+<div class="section--{{ section.id }}">
+    <div class="timeline page-width">
+        {% if section.settings.top_heading != blank %}
+            <div class="timeline__heading">
+                <h2>{{ section.settings.top_heading }}</h2>
+            </div>
+        {% endif %}
+        {% if section.blocks.size > 0 %}
+            <div class="timeline-wrapper">
+                {% if section.settings.image != blank %}
+                    <div class="timeline__header">
+                        {% render 'lazy-image' image: section.settings.image %}
+                    </div>
+                {% endif %}
+                <span class="tilmeline__default"></span>
+                <span class="timeline__drawer"></span>
+                {% for block in section.blocks %}
+                    <div class="timeline-item animation-mode {% if block.settings.reverse %}reverse{% endif %}" data-duration="{{ forloop.index }}">
+                        <span class="timeline__dot"></span>
+                        <div class="timeline__description">
+                            {{ block.settings.description }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+        {% if section.settings.bottom_heading != blank %}
+            <div class="timeline__heading">
+                <h2>{{ section.settings.bottom_heading }}</h2>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% schema %}
+{
+    "name": "Timeline",
+    "settings": [
+        {
+            "type": "text",
+            "id": "top_heading",
+            "label": "Top Heading"
+        },
+        {
+            "type": "text",
+            "id": "bottom_heading",
+            "label": "Bottom Heading"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Timeline Image"
+        },
+        {
+            "type": "color",
+            "id": "background",
+            "label": "Background",
+            "default": "#f4f6fc"
+        },
+        {
+            "type": "header",
+            "content": "t:sections.all.padding.section_padding_heading"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_top",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_bottom",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Top Padding",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Bottom Padding",
+            "default": 36
+        }
+    ],
+    "blocks": [
+        {
+            "type": "time",
+            "name": "Add Time",
+            "settings": [
+                {
+                    "type": "richtext",
+                    "id": "description",
+                    "label": "Description"
+                },
+                {
+                    "type": "checkbox",
+                    "id": "reverse",
+                    "label": "Reverse"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Timeline"
+        }
+    ]
+}
+{% endschema %}

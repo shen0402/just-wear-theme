@@ -1,0 +1,373 @@
+{{ 'custom-cart-drawer.css' | asset_url | stylesheet_tag }}
+<div class="custom-cart-drawer">
+    <div class="custom-cart-drawer--container {% if cart == empty %}empty__cart{% endif %}">
+        <form action="{{ routes.cart_url }}" method="post" id="cart-notification-form">
+            <div class="custom-cart-drawer--header">
+                <div class="cart-width">
+                    <div class="custom-cart-drawer--header__icon">
+                        <span class="icon">{% render 'icon-close' %}</span>
+                    </div>
+                    <div class="custom-cart-drawer--header__text">
+                        <h4 class="heading">
+                            {% if cart.item_count > 0 %}
+                                Your cart
+                            {% else %}
+                                Your cart is empty
+                            {% endif %}
+                        </h4>
+                    </div>
+                    {% if section.settings.cart_logo != blank %}
+                        <a href="{{ routes.root_url }}" class="custom-cart-drawer--header__logo">
+                            {{ section.settings.cart_logo | img_url: '75x' | img_tag }}
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="custom-cart-drawer--body">
+                <div class="custom-cart-drawer--items">
+                    <div class="cart-width">
+                        <div class="cart-items">
+                            {% for item in cart.items %}
+                                <div class="cart-item">
+                                    <a class="cart-item__image" href="{{ item.url }}">
+                                        {{ item.image | img_url: '750x' | img_tag }}
+                                    </a>
+                                    <div class="cart-item__details">
+                                        <p class="cart-item__title">
+                                            {{ item.product.title }}
+                                        </p>
+                                        {%- if item.product.has_only_default_variant == false -%}
+                                            <p class="cart-item__options">
+                                                {%- for option in item.options_with_values -%}
+                                                    {% unless forloop.first %} / {% endunless %}{{ option.value }}
+                                                {%- endfor -%}
+                                            </p>
+                                        {%- endif -%}
+                                        <div class="cart-item__form">
+                                            <div class="cart-item__price large-up-hide medium-hide">
+                                                {%- if item.original_line_price != item.final_line_price -%}
+                                                    <dl class="cart-item__discounted-prices">
+                                                        <dd>
+                                                            <s class="cart-item__old-price price price--end">
+                                                            {{ item.original_line_price | money }}
+                                                            </s>
+                                                        </dd>
+                                                        <dd class="price price--end">
+                                                            {{ item.final_line_price | money }}
+                                                        </dd>
+                                                    </dl>
+                                                {%- else -%}
+                                                    {%- if item.properties['_single_price'] != blank and item.properties['_single_price'] > 0 -%}
+                                                        <dl class="cart-item__discounted-prices">
+                                                            <dd>
+                                                                <s class="cart-item__old-price price price--end">
+                                                                {{ item.properties['_single_price'] | money }}
+                                                                </s>
+                                                            </dd>
+                                                            <dd class="price price--end">
+                                                                {{ item.original_line_price | money }}
+                                                            </dd>
+                                                        </dl>
+                                                    {%- else -%}
+                                                        <span class="price price--end">
+                                                            {{ item.original_line_price | money }}
+                                                            </span>
+                                                    {%- endif -%}
+                                                {%- endif -%}
+                                            </div>
+                                            <div class="cart-item__quantity" data-id="{{ item.id }}" data-line="{{ forloop.index }}" data-qty="{{ item.quantity }}" data-properties="{{ item.properties | json }}">
+                                                <div class="cart-item__quantity-button minus">
+                                                    <span>-</span>
+                                                </div>
+                                                <div class="cart-item__remove">
+                                                    {% render 'icon-remove' %}
+                                                </div>
+                                                <div class="cart-item__quantity-input">
+                                                    <input class="quantity__input" type="number" value="{{ item.quantity }}">
+                                                </div>
+                                                <div class="cart-item__quantity-button plus">
+                                                    <span>+</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart-item__price small-hide">
+                                        {%- if item.original_line_price != item.final_line_price -%}
+                                            <dl class="cart-item__discounted-prices">
+                                                <dd>
+                                                    <s class="cart-item__old-price price price--end">
+                                                    {{ item.original_line_price | money }}
+                                                    </s>
+                                                </dd>
+                                                <dd class="price price--end">
+                                                    {{ item.final_line_price | money }}
+                                                </dd>
+                                            </dl>
+                                        {%- else -%}
+                                            {%- if item.properties['_single_price'] != blank and item.properties['_single_price'] > 0 -%}
+                                                <dl class="cart-item__discounted-prices">
+                                                    <dd>
+                                                        <s class="cart-item__old-price price price--end">
+                                                        {{ item.properties['_single_price'] | money }}
+                                                        </s>
+                                                    </dd>
+                                                    <dd class="price price--end">
+                                                        {{ item.original_line_price | money }}
+                                                    </dd>
+                                                </dl>
+                                            {%- else -%}
+                                                <span class="price price--end">
+                                                    {{ item.original_line_price | money }}
+                                                    </span>
+                                            {%- endif -%}
+                                        {%- endif -%}
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                {% if section.settings.gift_message_enable %}
+                    <div class="custom-cart-drawer--gift-box cart-width">
+                        <div class="">
+                            <input type="checkbox" id="gift-box-checkbox">
+                            <label  for="gift-box-checkbox" class="custom-cart-drawer--gift-box__header">
+                                <p>
+                                    {{ section.settings.gift_message_header }}
+                                </p>
+                                <span for="gift-box-checkbox" class="custom-cart-drawer--gift-box__icon">
+                                    {% render 'icon-down-arrow' %}
+                                </span>
+                            </label>
+                            <div class="custom-cart-drawer--gift-box__body">
+                                <textarea id="note" name="note" rows="7" placeholder="{{ section.settings.gift_message_content }}">{{ cart.note }}</textarea>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+                <div class="upsell-products">
+                    <div class="cart-width">
+                        {% for block in section.blocks %}
+                            {% if block.type == 'upsell_header' %}
+                                <p class="upsell-products--heading">
+                                    {{ block.settings.heading }}
+                                </p>
+                            {% endif %}
+                            {% if block.type == 'upsell_product' %}
+                                {% for i in (0..2) %}
+                                    {% assign product = nil %}
+                                    {% case i %}
+                                        {% when 0 %}
+                                            {% assign product = block.settings.product1 %}
+                                        {% when 1 %}
+                                            {% assign product = block.settings.product2 %}
+                                        {% when 2 %}
+                                            {% assign product = block.settings.product3 %}
+                                    {% endcase %}
+                                    {% unless product == nil %}
+                                        <div class="upsell-product--item" data-product-id="{{ product.id }}">
+                                            <div class="upsell-product--image">
+                                                {{ product.featured_image | img_url: '750x' | img_tag }}
+                                            </div>
+                                            <div class="upsell-product--details">
+                                                <p class="upsell-product--title">
+                                                    {{ product.title }}
+                                                </p>
+                                                <div class="upsell-product--form">
+                                                    <div class="upsell-product--price">
+                                                        {%- if product.selected_or_first_available_variant.compare_at_price != nil -%}
+                                                            <dl class="cart-item__discounted-prices">
+                                                                <dd>
+                                                                    <s class="cart-item__old-price price price--end">
+                                                                    {{ product.selected_or_first_available_variant.compare_at_price | money }}
+                                                                    </s>
+                                                                </dd>
+                                                                <dd class="price price--end">
+                                                                    {{ product.selected_or_first_available_variant.price | money }}
+                                                                </dd>
+                                                            </dl>
+                                                        {%- else -%}
+                                                            <span class="price price--end">
+                                                            {{ product.selected_or_first_available_variant.price | money }}
+                                                            </span>
+                                                        {%- endif -%}
+                                                    </div>
+                                                    <div class="upsell-product--atc">
+                                                        <input type="hidden" class="upsell-input" value="{{ product.selected_or_first_available_variant.id }}">
+                                                        <button class="button button--primary upsell-atc--button">
+                                                            <span>ADD</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {% endunless %}
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="custom-cart-drawer--empty">
+                    <div class="cart-width">
+                        {% for block in section.blocks %}
+                            {% if block.type == 'empty_cart_header' %}
+                                {% if block.settings.heading != blank %}
+                                    <p class="custom-cart-drawer__heading">
+                                        {{ block.settings.heading }}
+                                    </p>
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                        <div class="custom-cart-drawer--buttons">
+                            {% for block in section.blocks %}
+                                {% if block.type == 'empty_button' %}
+                                    {% if block.settings.btn_link != blank and block.settings.btn_text != blank %}
+                                        <div class="custom-cart-drawer__button">
+                                            <a class="button button--primary button--full-width" href="{{ block.settings.btn_link}}">{{ block.settings.btn_text }}</a>
+                                        </div>
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-cart-drawer--overaly"></div>
+                <span class="icon-loading">
+                    {% render 'icon-loading' %}
+                </span>
+            </div>
+            <div class="custom-cart-drawer--footer">
+                <div class="cart-width">
+                    <p class="custom-cart-drawer__subtotal">
+                        <span class="item__count">
+                            Subtotal ({{ cart.item_count }} item{% if cart.item_count > 1 %}s{% endif %})
+                        </span>
+                        <span class="subtotal">
+                            {% if cart.original_total_price != cart.total_price %}
+                                <del>{{ cart.original_total_price | money }} </del>
+                            {% endif %}
+                            {{ cart.total_price | money }}
+                        </span>
+                    </p>
+                    <div class="cart-checkout--button">
+                        <button class="button button--checkout button--full-width" name="checkout">
+                            <span class="btn__icon">{% render 'icon-lock' %}</span>
+                            <span class="btn__text">{{ 'sections.cart.checkout' | t }}</span>
+                        </button>
+                    </div>
+                    <div class="custom-cart-drawer__tax-message">
+                        {{ section.settings.tax_message }}
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="{{ 'custom-cart-drawer.js' | asset_url }}" defer="defer"></script>
+{% schema %}
+{
+    "name": "Cart Drawer",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "cart_logo",
+            "label": "Cart logo image"
+        },
+        {
+            "type": "header",
+            "content": "Gift Message"
+        },
+        {
+            "type": "text",
+            "id": "gift_message_header",
+            "label": "Message",
+            "default": "Add a gift message!"
+        },
+        {
+            "type": "text",
+            "id": "gift_message_content",
+            "label": "Placeholder",
+            "default": "Type your gift message here (Max Characters: 160)"
+        },
+        {
+            "type": "checkbox",
+            "id": "gift_message_enable",
+            "label": "Enable",
+            "default": true
+        },
+        {
+            "type": "header",
+            "content": "Footer"
+        },
+        {
+            "type": "richtext",
+            "id": "tax_message",
+            "label": "Text",
+            "default": "<p>Shipping, taxes, and discounts applied at checkout.</p>"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "upsell_header",
+            "name": "Upsell header",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "heading",
+                    "label": "Heading"
+                }
+            ]
+        },
+        {
+            "type": "upsell_product",
+            "name": "Upsell product",
+            "limit": 1,
+            "settings": [
+                {
+                    "type": "product",
+                    "id": "product1",
+                    "label": "Product1"
+                },
+                {
+                    "type": "product",
+                    "id": "product2",
+                    "label": "Product2"
+                },
+                {
+                    "type": "product",
+                    "id": "product3",
+                    "label": "Product3"
+                }
+            ]
+        },
+        {
+            "type": "empty_cart_header",
+            "name": "Empty cart header",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "heading",
+                    "label": "Heading"
+                }
+            ]
+        },
+        {
+            "type": "empty_button",
+            "name": "Empty button",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "btn_text",
+                    "label": "Button label"
+                },
+                {
+                    "type": "url",
+                    "id": "btn_link",
+                    "label": "Button Link"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

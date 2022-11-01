@@ -1,0 +1,102 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "settings": {
+        "background": "#f4f6fc",
+        "padding_top": 52,
+        "padding_bottom": 100,
+        "mobile_padding_top": 28,
+        "mobile_padding_bottom": 80
+      }
+    },
+    "1660333994432c2ae0": {
+      "type": "featured-blogs",
+      "settings": {
+        "heading": "You May Also Like",
+        "scroll": 3,
+        "background": "#fafafa",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 100
+      }
+    },
+    "1660333455b14101ef": {
+      "type": "collection-list",
+      "blocks": {
+        "1660333455632e2988-0": {
+          "type": "featured_collection",
+          "settings": {
+            "link": "shopify:\/\/products\/boxer-briefs",
+            "title": "Boxer Briefs",
+            "image": "shopify:\/\/shop_images\/boxers-website2_1803f8a2-30b3-405d-8a26-a0e289e4ec10.jpg",
+            "description": "<p>Your perfect daily wear without the fly. Larger front prevents any awkward re-adjustments<\/p>"
+          }
+        },
+        "1660333455632e2988-1": {
+          "type": "featured_collection",
+          "settings": {
+            "link": "shopify:\/\/products\/briefs",
+            "title": "Briefs",
+            "image": "shopify:\/\/shop_images\/briefs-website2.jpg",
+            "description": "<p>Complete freedom, boasting ventilated back panels and absorbent pouch lining<\/p>"
+          }
+        },
+        "1660333455632e2988-2": {
+          "type": "featured_collection",
+          "settings": {
+            "link": "shopify:\/\/products\/trunks",
+            "title": "Trunks",
+            "image": "shopify:\/\/shop_images\/trunks-webstie2.jpg",
+            "description": "<p>Made of our exclusive, sustainable MicroModal Air fibres<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1660333455632e2988-0",
+        "1660333455632e2988-1",
+        "1660333455632e2988-2"
+      ],
+      "settings": {
+        "title": "Time For A Comfort Upgrade",
+        "heading_size": "h0",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "padding_top": 60,
+        "padding_bottom": 72,
+        "mobile_padding_top": 48,
+        "mobile_padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1660333994432c2ae0",
+    "1660333455b14101ef"
+  ]
+}

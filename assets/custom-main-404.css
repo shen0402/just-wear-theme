@@ -1,0 +1,58 @@
+.template-404 {
+    max-width: 95rem;
+}
+
+.template-404__image {
+    width: 100%;
+}
+
+.template-404__image--inner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.template-404__image--inner img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+.template-404__text {
+    margin-top: 6.5rem;
+    font-size: 3.4rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.12;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d1d1d;
+    padding: 0 3rem;
+}
+
+.template-404__button {
+    margin-top: 5.4rem;
+    text-align: center;
+}
+
+.template-404__button .button {
+    font-size: 1.9rem;
+    line-height: 1.53;
+    padding: 14px 88px 13px;
+}
+
+@media (max-width: 749px) {
+    .template-404__text {
+        font-size: 2.4rem;
+        padding: 0;
+    }
+
+    .template-404__button .button {
+        padding: 0.8rem 2.7rem;
+    }
+}

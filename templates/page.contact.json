@@ -1,0 +1,87 @@
+{
+  "sections": {
+    "form": {
+      "type": "contact-form",
+      "blocks": {
+        "dbf186b2-2cf8-4365-9a34-49bb1b6cd66c": {
+          "type": "subject",
+          "settings": {
+            "subject": "What's the difference between Active and Pro styles?"
+          }
+        },
+        "b5f4ea03-d367-4a15-aff6-b9c8a03e1bc8": {
+          "type": "subject",
+          "settings": {
+            "subject": "How do I pick the right size?"
+          }
+        },
+        "d5c59209-6487-456c-aa71-a1fb7fd5c4df": {
+          "type": "subject",
+          "settings": {
+            "subject": "What is your returns policy?"
+          }
+        },
+        "f8f48387-3fd0-48e4-8b29-f165f12f2032": {
+          "type": "subject",
+          "settings": {
+            "subject": "How do I redeem my Pouch Points?"
+          }
+        },
+        "f5964d3c-def1-46c3-9668-835311a7605c": {
+          "type": "subject",
+          "settings": {
+            "subject": "Do the pants have a fly?"
+          }
+        },
+        "194a3217-da3e-4a94-981e-795fe5c87942": {
+          "type": "subject",
+          "settings": {
+            "subject": "Other"
+          }
+        },
+        "bf609863-592b-4b9b-b9f7-b3375a014b1d": {
+          "type": "info",
+          "settings": {
+            "info": "<p>You can email us at <br\/><a href=\"mailto:hi@just-wears.com\" title=\"mailto:hi@just-wears.com\">hi@just-wears.com<\/a><\/p>"
+          }
+        },
+        "79787b4e-d673-4c32-9e92-6385f745cff6": {
+          "type": "info",
+          "settings": {
+            "info": "<p>Give us a ring on <br\/><a href=\"tel: +44 204 538 0858\" title=\"tel: +44 204 538 0858\">+44 204 538 0858<\/a><\/p>"
+          }
+        },
+        "925cd136-5ead-4380-9f09-542110be100c": {
+          "type": "info",
+          "settings": {
+            "info": "<p>Or SMS us on<\/p><p><a href=\"tel: +44 7480 569 571\" title=\"tel: +44 7480 569 571\">+44 7480 569 571<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "dbf186b2-2cf8-4365-9a34-49bb1b6cd66c",
+        "b5f4ea03-d367-4a15-aff6-b9c8a03e1bc8",
+        "d5c59209-6487-456c-aa71-a1fb7fd5c4df",
+        "f8f48387-3fd0-48e4-8b29-f165f12f2032",
+        "f5964d3c-def1-46c3-9668-835311a7605c",
+        "194a3217-da3e-4a94-981e-795fe5c87942",
+        "bf609863-592b-4b9b-b9f7-b3375a014b1d",
+        "79787b4e-d673-4c32-9e92-6385f745cff6",
+        "925cd136-5ead-4380-9f09-542110be100c"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/contact-us.jpg",
+        "heading": "Contact Us",
+        "description": "<p>Need some help? Want to tell us what you think about our amazing underwear? <\/p><p>Please just fill in the form below and someone from our team will be in touch within 24 hours.<\/p>",
+        "back_color": "#ffffff",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "form"
+  ]
+}

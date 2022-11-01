@@ -1,0 +1,46 @@
+.video-section .title-wrapper {
+    max-width: 80rem;
+    margin: auto;
+}
+.video-section .title-wrapper .title {
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d1d1d;
+}
+.video-section .text-wrapper {
+    max-width: 80rem;
+    margin: 1.5rem auto 0;
+}
+.video-section .text-wrapper * {
+    font-size: 1.9rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2d2d2d;
+}
+@media (max-width: 749px) {
+    .video-section .text-wrapper * {
+        font-size: 1.6rem;
+        line-height: 1.5;
+   }
+}
+.video-section .video-section__button {
+    margin-top: 4.5rem;
+    text-align: center;
+}
+@media (max-width: 749px) {
+    .video-section .video-section__button {
+        margin-top: 5rem;
+   }
+}
+.video-section .video-section__button .button {
+    padding: 11px 30px 10px;
+    font-size: 1.9rem;
+    line-height: 1.53;
+}

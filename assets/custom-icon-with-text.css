@@ -1,0 +1,30 @@
+.icon-with-text .icon-with-text-list {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.icon-with-text .icon-with-text-list .icon-with-text-item {
+    max-width: 30.7rem;
+    min-width: 24rem;
+    margin-left: 1rem;
+}
+.icon-with-text .icon-with-text-list .icon-with-text-item:first-of-type {
+    margin-left: 0;
+}
+.icon-with-text .icon-with-text-list .icon-with-text-item .icon-with-text__icon svg {
+    max-width: 22.8rem;
+    height: auto;
+}
+.icon-with-text .icon-with-text-list .icon-with-text-item .icon-with-text__text {
+    margin-top: 1.1rem;
+}
+.icon-with-text .icon-with-text-list .icon-with-text-item .icon-with-text__text * {
+    font-size: 1.6rem;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d2d2d;
+}

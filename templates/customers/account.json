@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-account",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "text": "<p><strong>Welcome to our Pouch Points Loyalty Scheme!<\/strong><\/p><p>This programme gives our most loyal customers (that’s you!) cash savings and many more perks.<\/p><p>Check them out <a href=\"\/pages\/rewards\" title=\"Rewards\">here<\/a>.<\/p>"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

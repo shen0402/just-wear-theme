@@ -1,0 +1,97 @@
+.collection-list-wrapper {
+    max-width: 135rem;
+}
+.collection-list-wrapper .title-wrapper-with-link {
+    justify-content: center;
+}
+.collection-list-wrapper .title-wrapper-with-link .collection-list-title {
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d1d1d;
+}
+.collection-list-wrapper .collection-list .slick-track {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+}
+.collection-list-wrapper .collection-list .collection-list__item {
+    padding: 0 10px;
+    height: auto;
+}
+@media (max-width: 749px) {
+    .collection-list-wrapper .collection-list .collection-list__item {
+        padding: 0 6px;
+   }
+}
+.collection-list-wrapper .collection-list .collection-list__item .card-wrapper .card .card__inner {
+    border-radius: 10px;
+    height: 0;
+}
+.collection-list-wrapper .collection-list .collection-list__item .card-wrapper .card .card__inner .card__media {
+    border-radius: 10px;
+}
+.collection-list-wrapper .collection-list .collection-list__item .card-wrapper .card .card__inner .card__content {
+    display: none;
+}
+.collection-list-wrapper .collection-list .collection-list__item .card-wrapper .card .card__content {
+    padding: 0 1.5rem;
+    position: relative;
+    padding-bottom: 5rem;
+}
+.collection-list-wrapper .collection-list .collection-list__item .card-wrapper .card .card__content .card__button {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+.collection-list-wrapper .collection-list .collection-list__item .card-wrapper .card .card__content .card__information {
+    max-width: 47rem;
+    margin: 0 auto;
+    position: relative;
+}
+.collection-list-wrapper .collection-list .collection-list__item .card-wrapper .card .card__content .card__information .card__heading {
+    font-size: 3.4rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.12;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d1d1d;
+}
+.collection-list-wrapper .collection-list .collection-list__item .card-wrapper .card .card__content .card__information .card__caption {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: center;
+    color: #020202;
+    letter-spacing: -0.5px;
+}
+.collection-list-wrapper .collection-list .collection-list__item .card-wrapper .card .card__content .card__information .card__button {
+    text-align: center;
+    width: 100%;
+}
+.collection-list-wrapper .collection-list .collection-list__item .card-wrapper .card .card__content .card__information .card__button .button {
+    font-size: 1.9rem;
+    line-height: 1.53;
+    padding: 9px 57px 8px;
+}
+@media (max-width: 749px) {
+    .collection-list-wrapper .collection-list .collection-list__item .card-wrapper .card .card__content .card__information .card__button .button {
+        padding: 13px 34px 12px;
+   }
+}
+
+@media (min-width: 750px) {
+    .collection-list {
+        justify-content: center;
+    }
+}

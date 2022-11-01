@@ -1,0 +1,38 @@
+.page-section .page-width--narrow {
+    max-width: 80rem;
+}
+.page-section .page-title {
+    text-align: center;
+}
+.page-section .rte {
+    font-size: 2.4rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2d2d2d;
+}
+.page-section .rte * {
+    font-size: 2.4rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2d2d2d;
+}
+@media (max-width: 749px) {
+    .page-section .rte {
+        font-size: 1.9rem;
+        line-height: 1.26;
+        color: black;
+   }
+    .page-section .rte * {
+        font-size: 1.9rem;
+        line-height: 1.26;
+        color: black;
+   }
+}

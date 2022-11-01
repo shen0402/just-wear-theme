@@ -1,0 +1,60 @@
+<div class="video-popup">
+    <div class="video-popup-container">
+        <button class="close-button">
+            {% render 'icon-close' %}
+        </button>
+        <div class="video-popup-wrapper">
+            <div class="banner-block">
+                <div class="video-popup-slider no-dots">
+                    <div class="embla">
+                        <div class="embla__viewport">
+                            <div class="embla__container">
+                                {% for block in blocks %}
+                                    {% if block.type == 'video' %}
+                                        {% if block.settings.mp4 != blank %}
+                                            <div class="item video embla__slide">
+                                                <div class="video_container">
+                                                    <video class="popup-video" width="auto" height="auto" loop playsinline>
+                                                        <source src="{{ block.settings.mp4 }}" type="video/mp4">
+                                                    </video>
+                                                </div>
+                                                <div class="video-info">
+                                                    <span class="name">{{ block.settings.name }}</span>
+                                                    <span class="caption">{{ block.settings.caption }}</span>
+                                                </div>
+                                            </div>
+                                        {% else %}
+                                            {%- if block.settings.video_url.type == 'youtube' -%}
+                                                <div class="item youtube embla__slide">
+                                                    <div class="iframe-container">
+                                                        <iframe class="embed-player slide-media" width="980" height="520" src="https://www.youtube.com/embed/{{ block.settings.video_url.id }}?autoplay=1&modestbranding=1&loop=1&playlist={{ block.settings.video_url.id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                    </div>
+                                                    <div class="video-info">
+                                                        <span class="name">{{ block.settings.name }}</span>
+                                                        <span class="caption">{{ block.settings.caption }}</span>
+                                                    </div>
+                                                </div>
+                                            {%- else -%}
+                                                <div class="item vimeo embla__slide">
+                                                    <div class="iframe-container">
+                                                        <iframe class="embed-player slide-media" src="https://player.vimeo.com/video/{{ block.settings.video_url.id }}?api=1&byline=0&portrait=0&title=0&background=1&mute=1&loop=1&autoplay=0&id={{ block.settings.video_url.id }}" width="980" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                                    </div>
+                                                    <div class="video-info">
+                                                        <span class="name">{{ block.settings.name }}</span>
+                                                        <span class="caption">{{ block.settings.caption }}</span>
+                                                    </div>
+                                                </div>
+                                            {%- endif -%}
+                                        {% endif %}
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% render 'video-popup-slider-buttons' %}
+                    </div>
+                    {% render 'embla-dots' %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

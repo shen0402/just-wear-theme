@@ -1,0 +1,237 @@
+@media (min-width: 990px) {
+    .product-package {
+        max-width: 1100px;
+        margin: auto;
+        padding: 0 50px;
+    }
+}
+
+.product-package__heading h2 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d1d1d;
+    margin: 0;
+}
+
+.product-package__description {
+    font-size: 1.6rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2d2d2d;
+    max-width: 70rem;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.product-package-wrapper {
+    margin-top: 30px;
+}
+
+.product-package__item {
+    display: flex;
+    padding: 25px 0;
+    border-bottom: solid 2px #ccd6e0;
+}
+
+.product-package__header {
+    width: calc(100% - 400px);
+}
+
+.product-package__header-heading {
+    max-width: 380px;
+}
+
+.product-package__header-heading h4 {
+    font-size: 1.9rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin: 0;
+}
+
+.product-package__header-description {
+    font-size: 1.6rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d2d2d;
+    max-width: 380px;
+}
+
+.product-package__header-description p {
+    margin: 0;
+}
+
+.product-package__pack {
+    width: 100px;
+    margin-left: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-package__item:first-of-type {
+    border-bottom: none;
+}
+
+.product-package__package-image {
+    text-align: center;
+}
+
+.product-package__package-image img {
+    width: 80%;
+}
+
+.product-package__package-text p {
+    font-size: 1.9rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00f;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.product-package-bottom {
+    margin-top: 30px;
+    max-width: 665px;
+    font-size: 1.4rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #323335;
+}
+
+@media (max-width: 989px) {
+    .product-package__heading h2 {
+        font-size: 2.8rem;
+        line-height: 1.21;
+    }
+
+    .product-package__description {
+        display: none;
+    }
+
+    .product-package-wrapper {
+        padding-top: 46px;
+        margin: 0;
+        overflow-x: auto;
+    }
+
+    .product-package__header {
+        min-width: 155px;
+        position: sticky;
+        left: 0;
+        background: #fafafa;
+        padding-right: 10px;
+        position: sticky;
+        left: 0;
+    }
+
+    .product-package__item {
+        padding: 18px 0;
+        width: min-content;
+        position: relative;
+    }
+
+    .product-package__header-heading h4 {
+        font-size: 1.7rem;
+        line-height: 1.12;
+        font-weight: 500;
+    }
+
+    .product-package__header-description {
+        display: none;
+    }
+
+    .product-package__package-text p {
+        font-size: 1.5rem;
+        line-height: 1.6;
+    }
+
+    .product-package__pack {
+        width: 50px;
+        margin-left: 27px;
+        min-width: 50px;
+    }
+
+    .product-package__pack svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .product-package-bottom {
+        margin-top: 16px;
+        font-size: 1.4rem;
+        line-height: 1.14;
+    }
+
+    .product-package__header-heading {
+        display: flex;
+        align-items: center;
+    }
+
+    .product-package__header-heading .icon-info {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 20px;
+        margin-left: auto;
+        position: relative;
+    }
+
+    .product-package__header-heading .icon-info svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .product-package__header-heading .icon-info input {
+        display: none;
+    }
+
+    .tooltip {
+        display: none;
+    }
+
+    .tooltip p {
+        margin: 0;
+    }
+
+    .product-package__header-heading .icon-info input:checked + .tooltip {
+        display: block;
+        padding: 10px;
+        border-radius: 5px;
+        background: white;
+        min-width: 270px;
+        position: absolute;
+        left: -90px;
+        bottom: 30px;
+        box-shadow: 0 0 10px #ccc;
+        line-height: 1.3;
+    }
+}

@@ -1,0 +1,95 @@
+var country_code = '';
+
+function checkIpinfo() {
+    console.log(country_code);
+
+    if (country_code == 'AT' || country_code == 'BE' || country_code == 'BG' || country_code == 'HR' || country_code == 'CZ' || country_code == 'DK' || country_code == 'FI' || country_code == 'FR' || country_code == 'DE' || country_code == 'GR' || country_code == 'HU' || country_code == 'IE' || country_code == 'IS' || country_code == 'IT' || country_code == 'LI' || country_code == 'LV' || country_code == 'LT' || country_code == 'LU' || country_code == 'MT' || country_code == 'MC' || country_code == 'NL' || country_code == 'NO' || country_code == 'PL' || country_code == 'PT' || country_code == 'RO' || country_code == 'SK' || country_code == 'SI' || country_code == 'ES' || country_code == 'SE' || country_code == 'CH' || country_code == 'CY' || country_code == 'EE' || country_code == 'RU' || country_code == 'GB-NIR' || window.location.search.indexOf('whitelabel=1') > -1) {
+        $('.euroshow').css({"display": "inline-block"});
+        $('body').addClass('eurousers');
+        $('a').each(function(){
+            if($(this).attr('href') == '/products/briefs' || $(this).attr('href') == '/products/briefs?pack=3') {
+                $(this).closest('li').addClass('hidden');
+                $(this).closest('.hero-banner__button').addClass('hidden');
+            }
+            if($(this).attr('href') == '/products/boxer-briefs?pack=3' || $(this).attr('href') == '/products/boxer-briefs') {
+                $(this).attr('href','/products/boxer-briefs-underwear-multipacks-europe?pack=3');
+            }
+            if($(this).attr('href') == '/products/trunks?pack=3' || $(this).attr('href') == '/products/trunks') {
+                $(this).attr('href','/products/trunks-europe?pack=3');
+            }
+        });
+
+        if(window.location.pathname == '/products/boxer-briefs') {
+            window.location.href = '/products/boxer-briefs-underwear-multipacks-europe?pack=3';
+        } else if (window.location.pathname == '/products/trunks') {
+            window.location.href = '/products/trunks-europe?pack=3';
+        } else if (window.location.pathname == '/products/duo-pack-yellow-red') {
+            window.location.href = '/products/limited-collection-duo-pack-europe?pack=2';
+        } else if (window.location.pathname == '/products/trunks-duo-pack') {
+            window.location.href = '/products/trunks-duo-pack-europe?pack=2';
+        }
+
+        $('[data-product-title="briefs"]').each(function(){
+            $(this).remove();
+        });
+
+    } else {
+        $('a').each(function(){
+            if($(this).attr('href') == '/products/briefs') {
+                $(this).attr('href','/products/briefs?pack=3');
+            }
+            if($(this).attr('href') == '/products/boxer-briefs') {
+                $(this).attr('href','/products/boxer-briefs?pack=3');
+            }
+            if($(this).attr('href') == '/products/trunks') {
+                $(this).attr('href','/products/trunks?pack=3');
+            }
+        });
+
+        $('.ukshow').css({"display": "inline-block"});
+        $('.variant-type--color').find('.form__label').find('strong').text('Color: ');
+        $('.variant-type--color').find('.label__text').text('Please select a color');
+    }
+}
+
+if (!navigator.userAgent.match(/bot|spider/i)) {
+    //Let's check if we have the value in localstorage
+    if (localStorage.getItem('country')) {
+        //Already have the value in localStorage, no need to make a call to IPinfo
+        country_code = localStorage.getItem('country');
+        checkIpinfo();
+        //console.log("IPInfo check 1 "+country_code);
+    } else {
+        // No cached data, let's get it from IPinfo
+        fetch('https://ipinfo.io/json?token=5be139d763948e')
+            .then(res => res.json())
+            .then(data => {
+                //We have the data, let's cache it in localStorage before redirecting
+                localStorage.setItem('country', data.country);
+                country_code = data.country;
+                $('.announcement-bar__localization').find('.disclosure__list').find('.disclosure__item').each(function(){
+                    if($(this).find('.disclosure__link').data('value') == country_code) {
+                        $('.announcement-bar__localization').find('[name=country_code]').val(country_code);
+                        $('.announcement-bar__localization').find('form').submit();
+                    }
+                });
+                checkIpinfo();
+                //console.log("IPInfo check 2 "+country_code);
+                if(data.country==''){
+                    $.ajax({
+                    type: "POST",
+                    url: 'https://justwears.myclientarea.co.uk/ipinfocheck.php',
+                    data: {
+                        country_code: 'empty'
+                    },
+                    success: function(data){
+                    console.log(data);
+                    },
+                    error: function(xhr, status, error){
+                        console.error(xhr);
+                    }
+                    });
+                }
+        })
+    }
+}

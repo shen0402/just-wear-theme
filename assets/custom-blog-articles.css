@@ -1,0 +1,67 @@
+.blog-articles .blog-articles__article {
+    padding-bottom: 3rem;
+}
+.blog-articles .blog-articles__article .article-card-wrapper .article-card .card__inner .article-card__image-wrapper .article-card__image {
+    border-radius: 7px;
+}
+.blog-articles .blog-articles__article .article-card-wrapper .article-card .card__content .card__information {
+    padding-bottom: 0;
+    height: 100%;
+}
+.blog-articles .blog-articles__article .article-card-wrapper .article-card .card__content .card__information .card__heading {
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    color: #323335;
+}
+@media (max-width: 749px) {
+    .blog-articles .blog-articles__article .article-card-wrapper .article-card .card__content .card__information .card__heading {
+        font-size: 1.9rem;
+        line-height: 1.26;
+   }
+}
+.blog-articles .blog-articles__article .article-card-wrapper .article-card .card__content .card__information .article-card__info {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #2d2d2d;
+    text-transform: none;
+}
+@media (max-width: 749px) {
+    .blog-articles .blog-articles__article .article-card-wrapper .article-card .card__content .card__information .article-card__info {
+        font-size: 1rem;
+        line-height: 1.6;
+   }
+}
+.blog-articles .blog-articles__article .article-card-wrapper .article-card .card__content .card__information .article-card__excerpt {
+    font-size: 1.6rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: #2d2d2d;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+@media (max-width: 749px) {
+    .blog-articles .blog-articles__article .article-card-wrapper .article-card .card__content .card__information .article-card__excerpt {
+        margin-top: 1.2rem;
+        margin-bottom: 1.6rem;
+   }
+}
+.blog-articles .blog-articles__article .featured-article__button {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.blog-articles .blog-articles__article .article-card-wrapper:hover + .featured-article__button .readmore__button {
+    border-bottom: 2px solid #00f;
+}

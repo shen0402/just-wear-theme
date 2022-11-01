@@ -1,0 +1,57 @@
+.review .review__title h2 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d1d1d;
+    margin: 0;
+}
+@media (max-width: 749px) {
+    .review .review__title h2 {
+        font-size: 3.4rem;
+        line-height: 1.18;
+   }
+}
+.review .review__button {
+    margin-top: 3.5rem;
+    text-align: center;
+}
+@media (max-width: 749px) {
+    .review .review__button {
+        margin-top: 2.3rem;
+   }
+}
+.review .review__button .button {
+    padding: 11.5px 41px;
+    line-height: 1.22;
+}
+@media (max-width: 749px) {
+    .review .review__button .button {
+        font-size: 1.9rem;
+   }
+}
+.review .review__star {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.review .review__star img {
+    width: 100%;
+    max-width: 9rem;
+    height: auto;
+}
+.review .review__description {
+    margin-top: 7px;
+}
+.review .review__description * {
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.12;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d1d1d;
+}

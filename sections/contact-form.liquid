@@ -1,0 +1,291 @@
+{{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
+{{ 'custom-contact-form.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'custom-contact-form.js' | asset_url }}" defer="defer"></script>
+
+{%- style -%}
+  .section--{{ section.id }} {
+    background-color: {{ section.settings.back_color }};
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  @media screen and (min-width: 990px) {
+    .section--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="section--{{ section.id }}">
+  <div class="contact page-width">
+    <div class="contact-image">
+      {% if section.settings.image != blank %}
+        <div class="contact-image--inner small-hide medium-hide" style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;">
+          <img
+              srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+                {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+                {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
+                {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+                {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                {{ section.settings.image | image_url }} {{ section.settings.image.width }}w"
+              src="{{ section.settings.image | image_url: width: 1500 }}"
+              sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+              alt="{{ section.settings.image.alt | escape }}"
+              loading="lazy"
+              width="{{ section.settings.image.width }}"
+              height="{{ section.settings.image.height }}"
+            >
+        </div>
+      {% endif %}
+    </div>
+    <div class="contact-form">
+      {%- if section.settings.heading != blank -%}
+        <div class="contact__heading">
+          <h2 class="title">{{ section.settings.heading | escape }}</h2>
+        </div>
+      {%- endif -%}
+      {% if section.settings.description != blank %}
+        <div class="contact__description">
+          {{ section.settings.description }}
+        </div>
+      {% endif %}
+      {%- form 'contact', id: 'CustomContactForm', class: 'isolate' -%}
+        {%- if form.posted_successfully? -%}
+          <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}</h2>
+        {%- elsif form.errors -%}
+          <div class="form__message">
+            <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>{% render 'icon-error' %} {{ 'templates.contact.form.error_heading' | t }}</h2>
+          </div>
+          <ul class="form-status-list caption-large" role="list">
+            <li>
+              <a href="#ContactFormEmail" class="link">
+                {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}
+              </a>
+            </li>
+          </ul>
+        {%- endif -%}
+        <div class="contact--field">
+          <label class="contact--field__label" for="ContactFormName">{{ 'templates.contact.form.name' | t }} <span aria-hidden="true">*</span></label>
+          <input
+            autocomplete="name"
+            type="text"
+            id="ContactFormName"
+            class="contact__input"
+            name="contact[name]"
+            spellcheck="false"
+            autocapitalize="off"
+            value="{% if form.name %}{{ form.name }}{% endif %}"
+            aria-required="true"
+          >
+          {%- if form.errors and form.name == blank -%}
+            <small class="contact__field-error" id="ContactForm-name-error">
+              <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+              <span class="form__message">Name is required</span>
+            </small>
+          {%- endif -%}
+        </div>
+        <div class="contact--fields mobile-column">
+          <div class="contact--field">
+            <label class="contact--field__label" for="ContactFormSubject">{{ 'templates.contact.form.subject' | t }} <span aria-hidden="true">*</span></label>
+            <label class="dropdown-select">
+              <div class="dropdown-select__button">
+                {% if form.subject %}
+                  {{ form.subject }}
+                {% else %}
+                  {% for block in section.blocks limit: 1 %}
+                    {% if block.type == 'subject' %}
+                      {{ block.settings.subject }}
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+              </div>
+              <input type="checkbox" class="dropdown-select__input">
+              <ul class="dropdown-select__menu">
+                {% for block in section.blocks %}
+                  {% if block.type == 'subject' %}
+                    <li rel="{{ block.settings.subject }}" class="{% if forloop.index == 1 %}active{% endif %}">{{ block.settings.subject }}</li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </label>
+            <select
+              autocomplete="subject"
+              type="text"
+              id="ContactFormSubject"
+              class="contact--selector contact__input"
+              name="contact[subject]"
+              spellcheck="false"
+              autocapitalize="off"
+              value="{% if form.subject %}{{ form.subject }}{% endif %}"
+              aria-required="true"
+            >
+              {% for block in section.blocks %}
+                {% if block.type == 'subject' %}
+                  <option value="{{ block.settings.subject }}" {% if form.subject == block.settings.subject %}selected{% endif %}>
+                    {{ block.settings.subject }}
+                  </option>
+                {% endif %}
+              {% endfor %}
+            </select>
+          </div>
+          <div class="contact--field">
+            <label class="contact--field__label" for="ContactFormPhone">{{ 'templates.contact.form.phone' | t }}</label>
+            <input type="tel" id="ContactFormPhone" class="" autocomplete="tel" name="contact[phone]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+          </div>
+        </div>
+        <div class="contact--field">
+          <label class="contact--field__label" for="ContactFormEmail">{{ 'templates.contact.form.email' | t }} <span aria-hidden="true">*</span></label>
+          <input
+            autocomplete="email"
+            type="email"
+            id="ContactFormEmail"
+            class="contact__input"
+            name="contact[email]"
+            spellcheck="false"
+            autocapitalize="off"
+            value="{% if form.email %}{{ form.email }}{% endif %}"
+            aria-required="true"
+          >
+          {%- if form.errors contains 'email' -%}
+            <small class="contact__field-error" id="ContactForm-email-error">
+              <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+              <span class="form__message">{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</span>
+            </small>
+          {%- endif -%}
+        </div>
+        <div class="contact--field">
+          <label class="form__label contact--field__label" for="ContactFormBody">{{ 'templates.contact.form.comment' | t }}</label>
+          <textarea
+            rows="5"
+            id="ContactFormBody"
+            class="text-area contact__input"
+            name="contact[body]"
+          >
+            {{- form.body -}}
+          </textarea>
+          {%- if form.errors and form.body == blank -%}
+            <small class="contact__field-error" id="ContactForm-body-error">
+              <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+              <span class="form__message">Message is required</span>
+            </small>
+          {%- endif -%}
+        </div>
+        <div class="contact__button">
+          <button type="submit" class="button button--primary">
+            {{ 'templates.contact.form.send' | t }}
+          </button>
+        </div>
+      {%- endform -%}
+      {% for block in section.blocks %}
+        {% if block.type == 'info' %}
+          <div class="contact__info">
+            {{ block.settings.info }}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.contact-form.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Contact form",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "color",
+      "id": "back_color",
+      "label": "Background",
+      "default": "#FFFFFF"
+    },
+    {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+    },
+    {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+    },
+    {
+        "type": "range",
+        "id": "mobile_padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "Mobile Top Padding",
+        "default": 36
+    },
+    {
+        "type": "range",
+        "id": "mobile_padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "Mobile Bottom Padding",
+        "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "subject",
+      "name": "Subject",
+      "settings": [
+        {
+          "type": "text",
+          "id": "subject",
+          "label": "Subject"
+        }
+      ]
+    },
+    {
+      "type": "info",
+      "name": "Info",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "info",
+          "label": "Info"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.contact-form.presets.name"
+    }
+  ]
+}
+{% endschema %}

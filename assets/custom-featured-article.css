@@ -1,0 +1,87 @@
+.featured-article {
+    max-width: 90rem;
+}
+.featured-article .featured-article__image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
+}
+@media (min-width: 900px) {
+    .featured-article .featured-article__image {
+        padding: 0 !important;
+        height: 400px;
+   }
+}
+@media (max-width: 749px) {
+    .featured-article .featured-article__image {
+        border-radius: 7px;
+   }
+}
+.featured-article .featured-article__image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+.featured-article .featured-article__image:hover img {
+    transform: scale(1.1);
+}
+.featured-article .featured-article__info .featured-article__date {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2d2d2d;
+    margin-top: 2.4rem;
+}
+@media (max-width: 749px) {
+    .featured-article .featured-article__info .featured-article__date {
+        margin-top: 1.2rem;
+   }
+}
+.featured-article .featured-article__info .featured-article__heading {
+    margin-top: 1rem;
+}
+.featured-article .featured-article__info .featured-article__heading .title {
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00f;
+    margin: 0;
+}
+.featured-article .featured-article__info .featured-article__description {
+    max-width: 70rem;
+    margin: auto;
+    padding: 0 2.5rem;
+    font-size: 1.6rem;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2d2d2d;
+}
+.featured-article .featured-article__info .featured-article__button {
+    text-align: center;
+}
+.featured-article .featured-article__image:hover + .featured-article__info .featured-article__button .readmore__button {
+    border-bottom: 2px solid #00f;
+}
+@media (max-width: 749px) {
+    .featured-article .featured-article__button, .featured-article .featured-article__description {
+        display: none;
+   }
+}

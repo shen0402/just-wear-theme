@@ -1,0 +1,449 @@
+{
+  "sections": {
+    "1660935504e7c87049": {
+      "type": "image-banner",
+      "blocks": {
+        "88b9ca45-913f-4b2e-9f36-9033297bb4f6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Have a question?",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "88b9ca45-913f-4b2e-9f36-9033297bb4f6"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FAQ_410c8547-555a-490a-9585-85a67ed34aaf.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/FAQ-mobile_52bd5569-fd56-4f65-9f05-ea0284219c43.jpg",
+        "video_url": "",
+        "mp4": "",
+        "image_overlay_opacity": 0,
+        "image_height": 350,
+        "mobile_image_height": 300,
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1660945296cbc32fe2": {
+      "type": "faq",
+      "blocks": {
+        "00c5719a-0029-4f5e-8121-38b4ce626776": {
+          "type": "question",
+          "settings": {
+            "question": "About Us"
+          }
+        },
+        "ae3204e0-6fe7-4de1-902a-af5d6bebfb69": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>Who are you?<\/strong><\/p><p>We’re JustWears, a disruptive, direct to consumer brand who are changing the way you think about pants. Our products bring together contemporary designs, next-generation fabrics and attention-grabbing innovation, without compromising on sustainability, cost or style.<\/p>"
+          }
+        },
+        "fbf16186-6bab-4c41-82b6-55f97ae76c4f": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>Why are you doing this?<\/strong><\/p><p>After speaking to hundreds of men, they all told us the same thing; their underwear was not fit for purpose, it was underwhelming and it was letting them down. We knew we could do better and we wanted to make underwear for men that was much more than just a utility purchase. <\/p><p>The more research we did, the more it became clear that there hadn’t been any innovation in men’s underwear for a very long time. There only seemed to be a stark choice between bank-breaking aspirational brands or poor quality value brands that would ride up, chafe and fall apart after a few wears. Nothing out there was really speaking to guys who were serious about their underwear, and so we came up with JustWears…<\/p>"
+          }
+        },
+        "fcf7cc69-9258-460f-8e1d-6f646cf45c1e": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>What do you offer that isn’t available from existing brands in the market?<\/strong><\/p><p>We produce what many of our customers describe as the most comfortable, sustainable and affordable underwear on the market, that’s unlike any pair of underwear you have ever worn before! JustWears contains a unique cooling pouch design that says no to sweat and gives your crown jewels the palace they deserve. Our unique fabric is made from soft cellulosic fibres sourced from sustainable Austrian beech trees, which means it’s 5x softer than cotton. Oh, and the fit is incomparable to anything you’ve tried before. No riding up and no chafing, simply bloomin’ comfy to JustWear.<\/p>"
+          }
+        },
+        "4d455fdb-bf8a-4de5-96d4-4492cd00368a": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>Whose idea was this?<\/strong><\/p><p>JustWears is the brainchild of entrepreneur Yang Liu, who gave up a stable career to follow her passion of founding a startup aimed at radically transforming the sorry state of the male underwear market.<\/p><p>And what does a woman know about these things we hear you ask? Well, as Yang herself says… “It’s funny how often you need an outside perspective to realise something’s up. Guys can’t stop talking or thinking about their junk. Surely, they’d all have really comfy, high-quality boxers to look after these jewels they’re so proud of – but they don’t! Men’s underwear is long overdue for a serious upgrade and that’s what JustWears is here for!”<\/p>"
+          }
+        },
+        "9841a3e1-2404-4183-972b-3de89ce3307d": {
+          "type": "question",
+          "settings": {
+            "question": "Sustainability"
+          }
+        },
+        "58a7fc7f-d287-44b1-8fef-6cce467ad91c": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>What is JustWears made of?<\/strong><\/p><p>JustWears is crafted from a super soft, anti-microbial fabric which comes from Austrian beech tree fibres (called micro-modal-air). The fabric is 5x softer than cotton and consumes significantly less water than cotton during the production process, making JustWears more environmentally friendly than many traditional underwear brands.<\/p><p>MicroModal feels as soft as a feather but is actually way more durable than traditional fabrics. It's the Stretch Armstrong of the fabric world and remains absorbent, soft and supple whilst retaining its shape even after repeated washes.<\/p>"
+          }
+        },
+        "cf71578b-9a6c-4808-9b1a-4e360064c8ca": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>Are your products sustainable?<\/strong><\/p><p>The fabric used to make JustWears comes from MicroModal air fibres sourced from sustainable Austrian beech trees. And any remaining wood leftover from the production process is recycled to heat and supply energy to our production facility, ensuring nothing goes to waste. Our fabric making process actually uses 10x less acreage to produce than cotton, whilst our fabric itself will spend 50x less time in landfill compared to polyester and requires 20x less water to produce than cotton. And our packaging is environmentally friendly too, as it's made of recycled cardboard. That means our packaging is 100% reusable and biodegradable, and it's FSC certified as well! For more information, feel free to check out our page dedicated to sustainability right <\/p>"
+          }
+        },
+        "1627c63d-3e9d-4033-be54-6518ba0e14fc": {
+          "type": "question",
+          "settings": {
+            "question": "Product Ranges"
+          }
+        },
+        "e0f5766c-bbaf-4b26-9a75-bf3e13c45531": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>What is this pouch all about in the JustWears Active range?<\/strong><\/p><p>We've spent a monumental amount of time and designed hundreds of different prototypes in order to craft the perfect home for your package or, *ahem*, palace for your phallus, as we like to call it! Our special pouch gives you more space and comfort whilst keeping everything in its rightful place. That means no more adjusting, no more chafing, no more riding up and most importantly, no more sweaty balls. How awesome is that?!<\/p>"
+          }
+        },
+        "f1a32c86-9783-451d-b990-6b6c75c1f6fb": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>How does the pouch work in the JustWears Active range?<\/strong><\/p><p>Our pouch is only meant for your boy and not the boys (if you're following 😉!). In fact, the JustWears design team didn't sleep for months while they worked out a way to ensure your banana got a zone of its own to stop chafing, reduce sweaty balls and to keep everything in place! Well done team; you nailed it!<\/p>"
+          }
+        },
+        "91820025-61e7-4246-9f98-48c01244c9a3": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>What's the difference between your Active and Pro designs?<\/strong><\/p><p>Our Active style is perfect for someone who favours comfort whilst also being active during the day, as they are designed with our signature pouch (which is used to keep banana and plums separate, so to speak!). Our Active design also has an opening at the front that ensures there's easy access when going to the bathroom, whilst allowing air to flow through to keep everything well ventilated and sweat free. <\/p><p>Our Pro style is suited for everyday wear and comes without the pouch and fly. There is still a larger front than most normal boxers, which prevents any awkward readjustments during the day. The underwear also has our signature soft fabric and anti-ride up and anti-chafing design. <\/p><p>If you're not sure which to go for, why not try one of our Duo Packs to start with, as these come with an Active and a Pro pair of underwear so you can take both for a spin and decide which one best suits you. Nice!<\/p>"
+          }
+        },
+        "a3abf89f-c81e-4e1b-85ed-8e57a9d81ffa": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>What's the difference between your Boxer Brief and Trunk designs?<\/strong><\/p><p>Our Boxer Briefs are longer than our Trunks and may be better suited to those customers who are more prone to chafing. The exact leg length depends on the size chosen, but generally our Boxer Briefs are around 5cm longer in the leg than our Trunks.<\/p>"
+          }
+        },
+        "4cf0daf7-6e49-4ad2-ad37-4eb53622dd39": {
+          "type": "question",
+          "settings": {
+            "question": "Product Care, Colours & Sizes"
+          }
+        },
+        "eab5f122-b258-4c70-8428-c7625ddf2987": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>How do I wash and care for my JustWears?<\/strong><\/p><p>We've actually done a huge amount of research on the best quality underwear material and how best to maintain the product over time and so we recommend hand washing your JustWears to ensure they retain their initial material quality and form. But, you can also machine wash the underwear at 30 degrees \/ with cold water and it will still give you great results! We only recommend hand washing for the most pristine maintenance but even without this, the product should still last for a long time. Please also remember not to tumble dry your JustWears. They'll dry super fast on their own!<\/p>"
+          }
+        },
+        "a1cf87d3-1f7f-427a-9507-5ebded0cbc8b": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>The colour I wanted is out of stock, can I be notified when it's restocked?<\/strong><\/p><p>Ah man, we hate it when that happens! You can sign up to be notified when the specific product you are looking for is back in stock by clicking the 'Notify Me When Available' button on each product page. Or, if it's easier, you can just email us on <\/p>"
+          }
+        },
+        "5b78813e-9ba7-4f5e-9430-d6f09e532853": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>Can I choose my own colour combinations?<\/strong><\/p><p>We're really sorry but unfortunately it's not possible to choose your own colour combinations. We do however have 'Surprise Me' packs available, which contain our most popular colours at any particular time!<\/p>"
+          }
+        },
+        "c4158eb1-f739-4cbe-80b1-ab36ab083a23": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>Do you do print designs?<\/strong><\/p><p>When JustWears launched, we wanted to get our core product right before adding anything else, so we started with a range of really vibrant colours. But we're already working on new patterns and styles, and we're developing partnerships with some cool designers, to make sure our future products cater for guys who like their underwear patterned with a bit more funk as well! We'll also be asking for your input too, so watch this space!<\/p>"
+          }
+        },
+        "092a238d-7b10-4b50-904f-362f46d01631": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>How do I know which size to choose?<\/strong><\/p><p>Good question! On each of our product pages, just click on the 'Size Guide' button (on desktop) or ruler logo (on mobile) to see which size is right for you. Alternatively, just check out the size guide below:<\/p><p>Waist Measurement:<\/p><p>- Small: 70-75cm (27-29\")<\/p><p>- Medium: 76-82cm (30-32\")<\/p><p>- Large: 83-89cm (33-35\")<\/p><p>- X-Large: 90-100cm (36-39\")<\/p><p>- XX-Large: 101-111cm (40-44\") <\/p>"
+          }
+        },
+        "c9979c4f-5a39-49f8-9996-b181628d4dab": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>Do you have kids or plus sizes?<\/strong><\/p><p>We're always looking to expand our product range and have had loads of feedback requesting items in both kids and plus sizes. Our team is working on this, so feel free to sign up to our mailing list to keep up to date with our latest news, new product ranges and to get exclusive deals too! To sign up, just scroll down to the sign up box at the bottom of our <\/p>"
+          }
+        },
+        "088cf1c6-7b86-4523-939a-cbe0c6bfa751": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>Can I buy a single pair?<\/strong><\/p><p>All of our products actually come nicely packed in boxes of 2, 3, 6 or 9 pairs. To fulfil a single pair or custom order, we would need to unpack a box and pick one pair out which unfortunately isn't possible. We used to have single pairs available for sale, however the majority of our customers were ordering 2 or more pairs at once, so it wasn't feasible to have every item, in every size and colour available in single packs anymore unfortunately!<\/p>"
+          }
+        },
+        "ae74dd9e-9bc8-45a3-aef6-032fe0622359": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>Can I make a suggestion?<\/strong><\/p><p>Yes, please do! We love receiving feedback from customers so please feel free to send an email to hi@just-wears.com or drop us a message in our online chat!<\/p>"
+          }
+        },
+        "a3d8f9ed-4b4a-4763-a3b3-2d9ea11f7f98": {
+          "type": "question",
+          "settings": {
+            "question": "Orders, Payments & Discounts"
+          }
+        },
+        "9f703080-16c1-4c06-b8bc-b45b6341928c": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>Can I edit or cancel my order after it's been placed?<\/strong><\/p><p>While we can't promise that we can change or cancel orders after they've been placed (especially if it's been more than an hour since that order was made), you can email us on hi@just-wears.com and we'll try our best to sort it out for you!<\/p>"
+          }
+        },
+        "04a27023-e9a6-4fa8-9a3c-8b21983199c8": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>What forms of payment do you accept?<\/strong><\/p><p>We accept most payment types, including Visa, Mastercard, American Express, PayPal, Amazon Pay and Klarna!<\/p>"
+          }
+        },
+        "06216a23-50f2-4ab1-9d33-b1e9bb8a2538": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>What payment options are available using Klarna?<\/strong><\/p><p>Customers who have signed up to Klarna will usually be able to access the following three additional payment methods when checking out of the JustWears store (please note that Klarna does not charge any interest and does not charge any fees for these payment options):<\/p><p>i. Pay in 3 instalments: The first instalment will be collected when your order is confirmed and instalments 2 and 3 are scheduled 30 and 60 days later respectively. Note that this option is only available for orders over £35 in value.<\/p><p>ii. Pay in 30 days: This allows you to receive your order up front with up to 30 days to pay. In the Klarna app, you should have the option to pay off the balance earlier or extend the due date to a later time if needed.<\/p><p>iii. One-time card usage: This is a virtual single-use card that can be used at most prepaid card-accepting online stores in the UK.<\/p><p>Please note that Klarna may update their payment options from time-to-time and that full details, terms and conditions can be found on Klarna's own website, linked here.<\/p>"
+          }
+        },
+        "f18bfd9a-525e-4bbe-961b-cecc4eb9b002": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>How do I use a promotional code?<\/strong><\/p><p>To redeem one of our promotional codes, desktop users should just make sure they enter it on the right hand side of our Checkout page, whilst mobile users should enter the code on our payments page at the last stage of Checkout (after entering your name, address details and selecting your shipping method). <\/p><p>Please note that only one JustWears discount code can be used per order. Where a bulk purchase discount code has been applied to any order, an additional customer discount code cannot be used.<\/p>"
+          }
+        },
+        "7102e49d-e188-483a-8284-99ebfecb1f07": {
+          "type": "question",
+          "settings": {
+            "question": "Shipping & Delivery"
+          }
+        },
+        "85744d00-a102-4ddc-b007-3659a3b1d206": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>Where do I get my hands on a pair?<\/strong><\/p><p>JustWears are only available online so head over to our product pages and buy a pack today! We'll ship them directly to your house, office, castle or beach hut.<\/p>"
+          }
+        },
+        "ac25bea1-0ec8-468f-8c4a-ee8df7917437": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>Where do you ship to?<\/strong><\/p><p>We currently ship to the UK, most of Europe, the USA, Canada, Australia, Singapore and the UAE.<\/p>"
+          }
+        },
+        "224863fe-50b7-4669-b29b-3774a34b176a": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>My order is marked as delivered but I haven't received it?<\/strong><\/p><p>We're really sorry that your order is missing. Please email hi@just-wears.com or drop us a message in our online chat and we'll get the team to locate your missing item or send you a replacement as soon as we can!<\/p>"
+          }
+        },
+        "a2a0e358-8a35-42e9-9159-0595b27cb449": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>What are your UK shipping options and when can I expect my order to arrive?<\/strong><\/p><p>Orders being delivered in the UK have three different shipping options to choose from: <\/p><p>- Royal Mail Standard Shipping: This is free of charge and takes 3-5 working days to arrive (with Royal Mail providing confirmation once the order has been delivered).<\/p><p>- Royal Mail Tracked Shipping: This costs £1.99 and takes 2 working days to arrive for orders placed before 2pm each weekday.<\/p><p>- DPD Express Shipping: This costs £4.99 and is delivered the next business day for orders placed before 2pm each weekday (please note that orders placed on Saturdays and Sundays will be delivered the following Tuesday).<\/p>"
+          }
+        },
+        "206930d6-17b3-4dbf-927a-f3964c37dad5": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>What are your International shipping options and when can I expect my order to arrive?<\/strong><\/p><p>Orders being delivered to Europe have two different shipping options to choose from:<\/p><p>- Tracked International Shipping: This is free of charge and takes between 3 and 7 working days to arrive.<\/p><p>- DHL Express International Shipping: This costs £19.99 and takes between 1 and 3 working days to arrive.<\/p><p>Orders being delivered to the USA, Canada, Australia, Singapore and the UAE have two different shipping options to choose from:<\/p><p>- Tracked International Shipping: This costs £9.99 and takes between 7 and 14 working days to arrive.<\/p><p>- DHL Express International Shipping: This costs between £20.99 and £28.99 and takes between 2 and 4 working days to arrive.<\/p><p>For regions not listed above, please contact us directly for a shipping quotation.<\/p><p>Please note that all prices exclude any potential customs clearance fees however, for EU based customers, no import duties should be payable on EU deliveries.<\/p>"
+          }
+        },
+        "2859bc91-93d7-4078-b393-f9d38aae8504": {
+          "type": "question",
+          "settings": {
+            "question": "Returns & Exchanges"
+          }
+        },
+        "d165eb3f-c2ad-43f0-bc11-9a44ef0e3681": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>What is your Exchanges and Returns Policy?<\/strong><\/p><p>What happens if our banana hammock doesn't leave you completely satisfied? Perhaps the phallus palace just isn't for you... We get it, these things happen! Luckily, we've got your back (even if we can’t help with your front!). <\/p><p>If your first pair of underwear doesn’t leave you completely comfortaball, we’ll exchange your remaining unworn pairs for FREE within 30 days. We’ve learned through our ballsy community that if JustWears doesn't send your bananas and plums straight to heaven, it’s often due to a sizing issue. Of course if we're totally not your style, we offer fair refunds on all unworn pairs.<\/p><p>As you can imagine, for health and safety reasons we can't exchange or accept returns of any used pairs of underwear and please note that we aren't able to cover the cost of sending the items back to us unfortunately. <\/p><p>Send an email to hi@just-wears.com or message us in our online chat and we'll get everything sorted for you!<\/p><p>If you've purchased one of our face masks, we want you to be completely satisfied with your order, but due to the nature of this product, masks cannot be returned or refunded.<\/p><p><\/p>"
+          }
+        },
+        "a26813c7-7281-49e4-a1a5-6c8b7797dc8e": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>The item I've received is not the one I ordered or is damaged. What should I do?<\/strong><\/p><p>We're really sorry that you've received the wrong item or that your item is damaged. Please email us on hi@just-wears.com or drop us a message in our online chat and we'll get the team to sort this out for you as quickly as possible!<\/p>"
+          }
+        },
+        "e838c346-fc11-4e48-bb52-5d37e98f8e2b": {
+          "type": "question",
+          "settings": {
+            "question": "Emails, Membership & Rewards"
+          }
+        },
+        "59bebdf4-2bf8-4991-a0d2-c9a222b6a38b": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>How can I stay up to date with all things JustWears?<\/strong><\/p><p>To stay up to date with all things JustWears, join our mailing list by dropping your deets in the box at the bottom of our <a href=\"https:\/\/just-wears.com\" title=\"Homepage\">homepage<\/a>. We'll also make sure you're the first to know about our newest products, exclusive events and much much more...! <\/p>"
+          }
+        },
+        "04ed048f-91a5-47ed-8e94-1b56eaf0b9b9": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>Do you have a rewards and referrals program?<\/strong><\/p><p>Our rewards program allows 'Pouch Points' (see what we've done there?!) to be collected by our most loyal customers (that’s you!) which can then be redeemed for cash savings and many more perks!<\/p><p>You can earn Pouch Points in a variety of ways, including:<\/p><p>- Pants for Pouch Points: For every £1 you spend, we'll give you 5 Pouch Points! 💸<\/p><p>- Refer Friends: At least 1000 Pouch Points for you, and your friends get 20% off as well! Win-win! 👨‍❤️‍👨<\/p><p>- Happy Birthday! At least 500 Pouch Points on your birthday! 🎂<\/p><p>- Leave a Review: 250 Pouch Points are coming your way! 🤑<\/p><p>- Add a Photo to Your Review: 250 Pouch Points are en route! 🤑 <\/p><p>- Sign up for a Pouch Points Account: 150 Pouch Points! Sweet! 😎<\/p><p>To sign up and find out how to redeem your Pouch Points, just click <a href=\"https:\/\/just-wears.com\/account\/register\" title=\"Sign Up Today!\">here<\/a>. <\/p><p>Please note that you have to sign up for a Pouch Points account before you can start earning rewards.<\/p>"
+          }
+        },
+        "56b94f75-0725-4829-a16f-83253ddd643d": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>How do I view my points balance or loyalty tier?<\/strong><\/p><p>To view your points balance or loyalty tier, please log into your account <a href=\"https:\/\/just-wears.com\/account\/login \" title=\"https:\/\/just-wears.com\/account\/login \">here<\/a>. Once logged in, you should be automatically redirected to our main loyalty webpage which shows your current points balance and loyalty tier <a href=\"https:\/\/just-wears.com\/pages\/pouch-points\" title=\"https:\/\/just-wears.com\/pages\/pouch-points\">here<\/a>.<\/p>"
+          }
+        },
+        "875bb773-cf3b-4e83-9c8a-d2cd7bad70a2": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>What are your loyalty tiers all about?!<\/strong><\/p><p>Our membership tiers are designed to give our most regular customers even more savings. All *members* start in the Ball Room tier and those customers that spend £150 with us in any 12 month period will then be upgraded to the Throne Room tier. Customers in the Throne Room benefit from additional points on their birthdays as well as additional points for referring friends. Customers in the Throne Room that spend another £150 in any 12 month period will then be upgraded to the Crown Jewels tier, where there are even more (yes, even more!) benefits and perks!<\/p>"
+          }
+        },
+        "cb307991-a7b8-48d0-90d0-e373b718eede": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>How do I redeem my points?<\/strong><\/p><p>To redeem points, please log into your account <a href=\"https:\/\/just-wears.com\/account\/login \" title=\"https:\/\/just-wears.com\/account\/login \">here<\/a>. Once logged in, you should be automatically redirected to our main loyalty webpage which shows the rewards that you currently have available <a href=\"https:\/\/just-wears.com\/pages\/pouch-points\" title=\"https:\/\/just-wears.com\/pages\/pouch-points\">here<\/a>.<\/p><p>If you have enough points, click ‘get reward’ under the percentage discount you’d like off of your next order. Then click ‘redeem’ and your discount will appear. Please copy and paste this into the discount code box at checkout.<\/p><p>You can also redeem points with our points slider at checkout. If you’re logged into your account, for desktop users a slider will appear at checkout and give you £1 off of your order per 100 points used. For mobile users, select ‘Show order summary’ on the checkout screen for a drop-down menu (rather than a slider) with these discounts available.<\/p>"
+          }
+        },
+        "102df950-8f55-4fd9-a681-b7bf079b7327": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>How do I refer friends?<\/strong><\/p><p>By referring friends, your lucky mates get 20% off and you get at least 1000 pouch points when they purchase. How awesome is that!<\/p><p>To refer friends, please log into your account <a href=\"https:\/\/just-wears.com\/account\/login \" title=\"https:\/\/just-wears.com\/account\/login \">here<\/a>. Once logged in, you should be automatically redirected to our main loyalty webpage which has a specific Refer Friends section <a href=\"https:\/\/just-wears.com\/pages\/pouch-points\" title=\"https:\/\/just-wears.com\/pages\/pouch-points\">here<\/a>.<\/p><p>Just click the ‘Refer Now!’ button to forward your bespoke referral link to friends by a variety of methods including Email, WhatsApp, Facebook, Twitter and Carrier Pigeon (ok, we made that last option up). Alternatively, just copy and paste our pre-composed onsite text if that’s easier. <\/p><p>Please note, your mates must use your bespoke referral link in order for these rewards to be applied. <\/p>"
+          }
+        },
+        "84dd487b-fdb5-4472-866b-b1675fd2def4": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>What do the 'approved', 'pending' and 'cancelled' statuses mean?<\/strong><\/p><p>‘Approved’ points are those that can be redeemed immediately, whilst ‘Pending’ points need to be verified before they can be redeemed (this typically applies to purchases and referrals). Pending points are generally approved within 48 hours. If points are showing as ‘cancelled’, this could be because a friend has cancelled their order, and so these referral points unfortunately won’t be added to your account. <\/p>"
+          }
+        },
+        "fc268c1d-31aa-4b59-80ae-4ee63bc3f343": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>How long do my points last?<\/strong><\/p><p>Points expire after 12 months. But don’t worry! If you spend or earn any points within those 12 months, your points will automatically renew for another year. Hurrah! <\/p>"
+          }
+        },
+        "b5c3310a-8b7b-41fa-aa24-c7ac0769a248": {
+          "type": "question",
+          "settings": {
+            "question": "Other Questions"
+          }
+        },
+        "bbda0df0-d166-460f-860f-ae018df6af8c": {
+          "type": "answer",
+          "settings": {
+            "answer": "<p><strong>I can't find the answer to my question... What should I do?<\/strong><\/p><p>If we haven't answered your question in this FAQs page, please feel free to email us on hi@just-wears.com or start a conversation with us in our online chat. We look forward to speaking to you soon!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "00c5719a-0029-4f5e-8121-38b4ce626776",
+        "ae3204e0-6fe7-4de1-902a-af5d6bebfb69",
+        "fbf16186-6bab-4c41-82b6-55f97ae76c4f",
+        "fcf7cc69-9258-460f-8e1d-6f646cf45c1e",
+        "4d455fdb-bf8a-4de5-96d4-4492cd00368a",
+        "9841a3e1-2404-4183-972b-3de89ce3307d",
+        "58a7fc7f-d287-44b1-8fef-6cce467ad91c",
+        "cf71578b-9a6c-4808-9b1a-4e360064c8ca",
+        "1627c63d-3e9d-4033-be54-6518ba0e14fc",
+        "e0f5766c-bbaf-4b26-9a75-bf3e13c45531",
+        "f1a32c86-9783-451d-b990-6b6c75c1f6fb",
+        "91820025-61e7-4246-9f98-48c01244c9a3",
+        "a3abf89f-c81e-4e1b-85ed-8e57a9d81ffa",
+        "4cf0daf7-6e49-4ad2-ad37-4eb53622dd39",
+        "eab5f122-b258-4c70-8428-c7625ddf2987",
+        "a1cf87d3-1f7f-427a-9507-5ebded0cbc8b",
+        "5b78813e-9ba7-4f5e-9430-d6f09e532853",
+        "c4158eb1-f739-4cbe-80b1-ab36ab083a23",
+        "092a238d-7b10-4b50-904f-362f46d01631",
+        "c9979c4f-5a39-49f8-9996-b181628d4dab",
+        "088cf1c6-7b86-4523-939a-cbe0c6bfa751",
+        "ae74dd9e-9bc8-45a3-aef6-032fe0622359",
+        "a3d8f9ed-4b4a-4763-a3b3-2d9ea11f7f98",
+        "9f703080-16c1-4c06-b8bc-b45b6341928c",
+        "04a27023-e9a6-4fa8-9a3c-8b21983199c8",
+        "06216a23-50f2-4ab1-9d33-b1e9bb8a2538",
+        "f18bfd9a-525e-4bbe-961b-cecc4eb9b002",
+        "7102e49d-e188-483a-8284-99ebfecb1f07",
+        "85744d00-a102-4ddc-b007-3659a3b1d206",
+        "ac25bea1-0ec8-468f-8c4a-ee8df7917437",
+        "224863fe-50b7-4669-b29b-3774a34b176a",
+        "a2a0e358-8a35-42e9-9159-0595b27cb449",
+        "206930d6-17b3-4dbf-927a-f3964c37dad5",
+        "2859bc91-93d7-4078-b393-f9d38aae8504",
+        "d165eb3f-c2ad-43f0-bc11-9a44ef0e3681",
+        "a26813c7-7281-49e4-a1a5-6c8b7797dc8e",
+        "e838c346-fc11-4e48-bb52-5d37e98f8e2b",
+        "59bebdf4-2bf8-4991-a0d2-c9a222b6a38b",
+        "04ed048f-91a5-47ed-8e94-1b56eaf0b9b9",
+        "56b94f75-0725-4829-a16f-83253ddd643d",
+        "875bb773-cf3b-4e83-9c8a-d2cd7bad70a2",
+        "cb307991-a7b8-48d0-90d0-e373b718eede",
+        "102df950-8f55-4fd9-a681-b7bf079b7327",
+        "84dd487b-fdb5-4472-866b-b1675fd2def4",
+        "fc268c1d-31aa-4b59-80ae-4ee63bc3f343",
+        "b5c3310a-8b7b-41fa-aa24-c7ac0769a248",
+        "bbda0df0-d166-460f-860f-ae018df6af8c"
+      ],
+      "settings": {
+        "heading": "",
+        "btn_label": "",
+        "btn_link": "",
+        "back_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 40,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36
+      }
+    },
+    "16609377620d9f6bf2": {
+      "type": "support",
+      "settings": {
+        "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"54.57\" height=\"45.685\" viewbox=\"0 0 54.57 45.685\">\n    <path data-name=\"Path 58745\" d=\"M46.243 14a5.094 5.094 0 0 1 5.116 5.017v3.45h5.1a5.108 5.108 0 0 1 5.116 5.057v17.034a5.108 5.108 0 0 1-5.116 5.057h-.912v9.439a.634.634 0 0 1-1.11.416l-8.566-9.853H22.309a5.1 5.1 0 0 1-5.1-5.057v-3.45h-5.132A5.08 5.08 0 0 1 7 36.073V19.02A5.063 5.063 0 0 1 12.077 14h34.166zm0 1.269H12.076a3.786 3.786 0 0 0-3.807 3.748V36.07a3.8 3.8 0 0 0 3.807 3.768h5.136V27.524a5.1 5.1 0 0 1 5.1-5.057H50.09v-3.45a3.824 3.824 0 0 0-3.847-3.748zm10.212 8.467H22.309a3.812 3.812 0 0 0-3.827 3.787v17.035a3.812 3.812 0 0 0 3.827 3.787h23.835a.642.642 0 0 1 .5.218l7.634 8.785V48.98a.636.636 0 0 1 .635-.635h1.547a3.834 3.834 0 0 0 3.84-3.787V27.524a3.834 3.834 0 0 0-3.847-3.787z\" transform=\"translate(-7 -14)\" style=\"fill:#00f;fill-rule:evenodd\"><\/path>\n    <path data-name=\"Path 58746\" d=\"M56.879 44.805a2.859 2.859 0 1 1-2.93 2.858 2.887 2.887 0 0 1 2.93-2.858zm0 1.269a1.588 1.588 0 1 0 1.628 1.586 1.6 1.6 0 0 0-1.628-1.586z\" transform=\"translate(-24.158 -25.258)\" style=\"fill:#00f;fill-rule:evenodd\"><\/path>\n    <path data-name=\"Path 58747\" d=\"M73.636 44.805a2.858 2.858 0 1 1-2.9 2.858 2.908 2.908 0 0 1 2.9-2.858zm0 1.269a1.588 1.588 0 1 0 0 3.175 1.589 1.589 0 1 0 0-3.175z\" transform=\"translate(-30.293 -25.258)\" style=\"fill:#00f;fill-rule:evenodd\"><\/path>\n    <path data-name=\"Path 58748\" d=\"M40.125 44.8a2.861 2.861 0 1 1-2.917 2.86 2.9 2.9 0 0 1 2.917-2.86zm0 1.269a1.592 1.592 0 1 0 1.648 1.591 1.632 1.632 0 0 0-1.648-1.59z\" transform=\"translate(-18.039 -25.256)\" style=\"fill:#00f;fill-rule:evenodd\"><\/path>\n<\/svg>",
+        "text": "Have questions about styling?",
+        "btn_label": "Chat with a specialist",
+        "back_color": "#ebebeb",
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "mobile_padding_top": 64,
+        "mobile_padding_bottom": 64
+      }
+    },
+    "16609357195d5b12ab": {
+      "type": "collection-list",
+      "blocks": {
+        "1660935719edcd96f8-0": {
+          "type": "featured_collection",
+          "settings": {
+            "link": "shopify:\/\/products\/boxer-briefs",
+            "title": "Boxer Briefs",
+            "image": "shopify:\/\/shop_images\/boxers-website2_1803f8a2-30b3-405d-8a26-a0e289e4ec10.jpg",
+            "description": "<p>Our boxer briefs treat your crown jewels like royalty. There are two ergonomic designs to give ultimate comfort and to eliminate sweat down under.<\/p>"
+          }
+        },
+        "1660935719edcd96f8-2": {
+          "type": "featured_collection",
+          "settings": {
+            "link": "shopify:\/\/products\/trunks",
+            "title": "Trunks",
+            "image": "shopify:\/\/shop_images\/trunks-webstie2.jpg",
+            "description": "<p>Our latest trunks are made from exclusive and sustainable MicroModal Air fibres. They're a best fit for men who like ultra comfort with shorter legs.<\/p>"
+          }
+        },
+        "1660935719edcd96f8-1": {
+          "type": "featured_collection",
+          "settings": {
+            "link": "shopify:\/\/products\/briefs",
+            "title": "Briefs",
+            "image": "shopify:\/\/shop_images\/briefs-website2.jpg",
+            "description": "<p>Streamlined for free motion. These briefs are a best fit for those who want complete freedom and boast ventilated back panels with an absorbent pouch lining.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1660935719edcd96f8-0",
+        "1660935719edcd96f8-2",
+        "1660935719edcd96f8-1"
+      ],
+      "settings": {
+        "title": "Time For A Comfort Upgrade",
+        "heading_size": "h0",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 48,
+        "mobile_padding_top": 56,
+        "mobile_padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "1660935504e7c87049",
+    "1660945296cbc32fe2",
+    "16609377620d9f6bf2",
+    "16609357195d5b12ab"
+  ]
+}

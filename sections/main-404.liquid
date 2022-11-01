@@ -1,0 +1,150 @@
+{{ 'custom-main-404.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  .section--{{ section.id }} {
+    background-color: {{ section.settings.back_color }};
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  @media screen and (min-width: 990px) {
+    .section--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="section--{{ section.id }}">
+  <div class="template-404 page-width center">
+    {% if section.settings.image != blank %}
+      <div class="template-404__image">
+        <div class="template-404__image--inner small-hide" style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;">
+          <img
+              srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+                {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+                {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
+                {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+                {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                {{ section.settings.image | image_url }} {{ section.settings.image.width }}w"
+              src="{{ section.settings.image | image_url: width: 1500 }}"
+              sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+              alt="{{ section.settings.image.alt | escape }}"
+              loading="lazy"
+              width="{{ section.settings.image.width }}"
+              height="{{ section.settings.image.height }}"
+            >
+        </div>
+        {% assign mobile_image = section.settings.mobile_image | default: section.settings.image %}
+        <div class="template-404__image--inner medium-hide large-up-hide" style="padding-bottom: {{ 1 | divided_by: mobile_image.aspect_ratio | times: 100 }}%;">
+          <img
+              srcset="{%- if mobile_image.width >= 165 -%}{{ mobile_image | image_url: width: 165 }} 165w,{%- endif -%}
+                {%- if mobile_image.width >= 360 -%}{{ mobile_image | image_url: width: 360 }} 360w,{%- endif -%}
+                {%- if mobile_image.width >= 535 -%}{{ mobile_image | image_url: width: 535 }} 535w,{%- endif -%}
+                {%- if mobile_image.width >= 750 -%}{{ mobile_image | image_url: width: 750 }} 750w,{%- endif -%}
+                {%- if mobile_image.width >= 1070 -%}{{ mobile_image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                {%- if mobile_image.width >= 1500 -%}{{ mobile_image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                {{ mobile_image | image_url }} {{ mobile_image.width }}w"
+              src="{{ mobile_image | image_url: width: 1500 }}"
+              sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+              alt="{{ mobile_image.alt | escape }}"
+              loading="lazy"
+              width="{{ mobile_image.width }}"
+              height="{{ mobile_image.height }}"
+            >
+        </div>
+      </div>
+    {% endif %}
+    {% if section.settings.text != blank %}
+      <div class="template-404__text">
+        {{ section.settings.text }}
+      </div>
+    {% endif %}
+    {% if section.settings.btn_label != blank and section.settings.btn_link %}
+      <div class="template-404__button">
+        <a class="button button--primary" href="{{ section.settings.btn_link }}">
+          {{ section.settings.btn_label }}
+        </a>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Main 404",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile Image"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "btn_label",
+      "label": "Button Label"
+    },
+    {
+      "type": "url",
+      "id": "btn_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "color",
+      "id": "back_color",
+      "label": "Background",
+      "default": "#FFFFFF"
+    },
+    {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+    },
+    {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+    },
+    {
+        "type": "range",
+        "id": "mobile_padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "Mobile Top Padding",
+        "default": 36
+    },
+    {
+        "type": "range",
+        "id": "mobile_padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "Mobile Bottom Padding",
+        "default": 36
+    }
+  ]
+}
+{% endschema %}

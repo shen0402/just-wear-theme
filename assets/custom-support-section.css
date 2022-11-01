@@ -1,0 +1,48 @@
+.support-section .support__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support-section .support__icon span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support-section .support__text {
+    margin-top: 1rem;
+}
+@media (max-width: 749px) {
+    .support-section .support__text {
+        margin-top: 1.3rem;
+   }
+}
+.support-section .support__text h2 {
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    margin: 0;
+}
+@media (max-width: 749px) {
+    .support-section .support__text h2 {
+        font-size: 1.9rem;
+        line-height: 1.26;
+   }
+}
+.support-section .support__button {
+    margin-top: 1.7rem;
+    text-align: center;
+}
+@media (max-width: 749px) {
+    .support-section .support__button {
+        margin-top: 1.3rem;
+   }
+}
+.support-section .support__button .readmore__button {
+    font-size: 15px;
+    line-height: 1.6;
+}

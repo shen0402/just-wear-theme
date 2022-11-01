@@ -1,0 +1,190 @@
+<link rel="stylesheet" href="{{ 'custom-icon-with-text2.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'custom-icon-with-text2.css' | asset_url | stylesheet_tag }}</noscript>
+{%- style -%}
+  .section--{{ section.id }} {
+    background: {{ section.settings.background }};
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  @media screen and (min-width: 990px) {
+    .section--{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section--{{ section.id }}">
+    <div class="icon-with-text2 page-width">
+        {% if section.settings.heading != blank %}
+            <div class="icon-with-text2__heading">
+                <h2 class="title">
+                    {{ section.settings.heading }}
+                </h2>
+            </div>
+        {% endif %}
+        {% if section.settings.description != blank %}
+            <div class="icon-with-text2__description">
+                {{ section.settings.description }}
+            </div>
+        {% endif %}
+        {% if section.blocks.size > 0 %}
+            <div class="icon-with-text2__icons-list">
+                {% for block in section.blocks %}
+                    <div class="icon-with-text2__item animation-mode" data-duration="{{ forloop.index }}">
+                        {% assign item = block.settings %}
+                        {% if item.image != blank %}
+                            <div class="icon-with-text2__icon">
+                                {{ item.image | img_url: '250x' | img_tag }}
+                            </div>
+                        {% elsif item.icon != blank %}
+                            <div class="icon-with-text2__icon">
+                                {{ item.icon }}
+                            </div>
+                        {% else %}
+                            <div class="icon-with-text2__icon video">
+                                <video width="auto" height="auto" autoplay loop muted playsinline>
+                                    <source src="{{ item.video }}" type="video/mp4">
+                                </video>
+                            </div>
+                        {% endif %}
+                        <p class="icon-with-text2__caption">
+                            {{ item.caption }}
+                        </p>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+        {% if section.settings.btn_label != blank and section.settings.btn_link != blank %}
+            <div class="icon-with-text2__button">
+                <a class="button button--primary" href="{{ section.settings.btn_link }}">
+                    {{ section.settings.btn_label }}
+                </a>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% schema %}
+{
+    "name": "Icon With Text2",
+    "settings": [
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading",
+            "default": "Meet your new favourite underwear"
+        },
+        {
+            "type": "richtext",
+            "id": "description",
+            "label": "Description",
+            "default": "<p>Our fabric is made from soft cellulosic fibre sourced from sustainable Austrian beech trees. Our products are made in a non-toxic and renewable manufacturing process for your peace of mind.</p>"
+        },
+        {
+            "type": "text",
+            "id": "btn_label",
+            "label": "Button Label",
+            "default": "Visit the palace"
+        },
+        {
+            "type": "url",
+            "id": "btn_link",
+            "label": "Button Link"
+        },
+        {
+            "type": "color",
+            "id": "background",
+            "label": "Background",
+            "default": "#f4f6fc"
+        },
+        {
+            "type": "header",
+            "content": "t:sections.all.padding.section_padding_heading"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_top",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_bottom",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Top Padding",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Bottom Padding",
+            "default": 36
+        }
+    ],
+    "blocks": [
+        {
+            "type": "icon",
+            "name": "Icon",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Icon"
+                },
+                {
+                    "type": "html",
+                    "id": "icon",
+                    "label": "Icon"
+                },
+                {
+                    "type": "url",
+                    "id": "video",
+                    "label": "Video url"
+                },
+                {
+                    "type": "text",
+                    "id": "caption",
+                    "label": "Caption"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Icon With Text2",
+            "blocks": [
+                {
+                    "type": "icon"
+                },
+                {
+                    "type": "icon"
+                },
+                {
+                    "type": "icon"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

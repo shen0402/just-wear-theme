@@ -1,0 +1,130 @@
+{
+  "sections": {
+    "166024387999ee8260": {
+      "type": "featured-article",
+      "settings": {
+        "article": "mens-health\/how-this-female-founder-is-improving-comfort-for-mens-balls",
+        "back_color": "#ffffff",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36
+      }
+    },
+    "1660246112f7924241": {
+      "type": "page-tab",
+      "blocks": {
+        "1660246112e76d7e15-0": {
+          "type": "tab",
+          "settings": {
+            "label": "All",
+            "link": "shopify:\/\/pages\/all-blog"
+          }
+        },
+        "b522d2e3-76ca-4370-bb61-5bc1faabdcaa": {
+          "type": "tab",
+          "settings": {
+            "label": "News",
+            "link": "shopify:\/\/blogs\/news"
+          }
+        },
+        "4c8c7cdc-ee38-483a-8e01-fac040597196": {
+          "type": "tab",
+          "settings": {
+            "label": "Sustainability",
+            "link": "shopify:\/\/blogs\/sustainability"
+          }
+        },
+        "1f1d489d-2742-4ce0-96b9-dd478c5e1e3d": {
+          "type": "tab",
+          "settings": {
+            "label": "Comfort",
+            "link": "shopify:\/\/blogs\/comfort"
+          }
+        },
+        "931d14c3-b2c6-49ae-9203-3d8c641bd8dc": {
+          "type": "tab",
+          "settings": {
+            "label": "Health",
+            "link": "shopify:\/\/blogs\/mens-health"
+          }
+        }
+      },
+      "block_order": [
+        "1660246112e76d7e15-0",
+        "b522d2e3-76ca-4370-bb61-5bc1faabdcaa",
+        "4c8c7cdc-ee38-483a-8e01-fac040597196",
+        "1f1d489d-2742-4ce0-96b9-dd478c5e1e3d",
+        "931d14c3-b2c6-49ae-9203-3d8c641bd8dc"
+      ],
+      "settings": {
+        "back_color": "#ccd6e0"
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "layout": "grid",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 48,
+        "padding_bottom": 68,
+        "mobile_padding_top": 48,
+        "mobile_padding_bottom": 48,
+        "back_color": "#f4f6fc"
+      }
+    },
+    "facd5ab5-bf82-4451-8d77-937970ff9473": {
+      "type": "slider-list",
+      "blocks": {
+        "2dfa849d-fe06-48ed-ad8d-a73d67affda0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_3474_3x_766143ac-b844-47de-aee9-9ad624b5c934.png"
+          }
+        },
+        "32017487-c58d-4bf4-972f-093ca7df18e9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_3471_3x_fe0f2464-177f-43d5-9a56-cdf4e3cb602c.png"
+          }
+        },
+        "c6777a84-9787-4bbd-b365-ae788dcb9e73": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_3472_3x_9f84dc0f-9040-4717-86f0-8ea94d344073.png"
+          }
+        },
+        "5cb70b99-d9c3-450f-b053-f57c32ed40d4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_3471_3x_fe0f2464-177f-43d5-9a56-cdf4e3cb602c.png"
+          }
+        }
+      },
+      "block_order": [
+        "2dfa849d-fe06-48ed-ad8d-a73d67affda0",
+        "32017487-c58d-4bf4-972f-093ca7df18e9",
+        "c6777a84-9787-4bbd-b365-ae788dcb9e73",
+        "5cb70b99-d9c3-450f-b053-f57c32ed40d4"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "back_color": "#FFFFFF",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "166024387999ee8260",
+    "1660246112f7924241",
+    "main",
+    "facd5ab5-bf82-4451-8d77-937970ff9473"
+  ]
+}

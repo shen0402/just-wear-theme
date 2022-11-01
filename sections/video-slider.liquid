@@ -1,0 +1,244 @@
+{{ 'custom-video-slider.css' | asset_url | stylesheet_tag }}
+{{ 'custom-video-popup.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  .section--{{ section.id }} {
+    background: {{ section.settings.background }};
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  @media screen and (min-width: 990px) {
+    .section--{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section--{{ section.id }}">
+    <div class="video-slider page-width">
+        {% if section.settings.stars != blank %}
+            <div class="video-slider__image">
+                {{ section.settings.stars }}
+            </div>
+        {% endif %}
+        {% if section.settings.text != blank %}
+            <div class="video-slider__text">
+                <h2>
+                    {{ section.settings.text }}
+                </h2>
+            </div>
+        {% endif %}
+        {% if section.blocks.size > 0 %}
+            <div class="video-slider-list">
+                <div class="video-slider-list__text">
+                    {% for block in section.blocks %}
+                        {% if block.type == 'header' %}
+                            <div class="video-slider-list__text-item">
+                                {% if block.settings.heading != blank %}
+                                    <div class="video-slider-list__text-item--heading">
+                                        <h2 class="title">
+                                            {{ block.settings.heading }}
+                                        </h2>
+                                    </div>
+                                {% endif %}
+                                {% if block.settings.description != blank %}
+                                    <div class="video-slider-list__text-item--description">
+                                        {{ block.settings.description }}
+                                    </div>
+                                {% endif %}
+                                {% if block.settings.label != blank and block.settings.link != blank %}
+                                    <div class="video-slider-list__text-item--button">
+                                        <a class="button video--button" href="{{ block.settings.link }}">
+                                            {{ block.settings.label }}
+                                        </a>
+                                    </div>
+                                {% endif %}
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="video-slider-list__video">
+                    <div class="embla-slider no-buttons">
+                        <div class="embla">
+                            <div class="embla__viewport">
+                                <div class="embla__container">
+                                    {% assign slideno = 1 %}
+                                    {% for block in section.blocks %}
+                                        {% if block.type == 'video' %}
+                                            <div class="video-slider-list__video-item embla__slide" data-embla-scroll="2" data-embla-medium-scroll="2" data-embla-small-scroll="1">
+                                                <div class="video-slider-list__video-item--image" data-video-slideno="{{ slideno }}">
+                                                    {% render 'lazy-image' image: block.settings.image %}
+                                                </div>
+                                                <div class="video-slider-list__video-item--info">
+                                                    <div class="video-slider-list__video-item--play">
+                                                        <a href="#" data-video-slideno="{{ slideno }}">
+                                                            {% render 'icon-video-player' %}
+                                                        </a>
+                                                    </div>
+                                                    <div class="video-slider-list__video-item--text">
+                                                        <div class="video-slider-list__video-item--name">
+                                                            <span>{{ block.settings.name }}</span>
+                                                        </div>
+                                                        <div class="video-slider-list__video-item--caption">
+                                                            <span>{{ block.settings.caption }}</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {% assign slideno = slideno | plus: 1 %}
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                                {% render 'embla-buttons' %}
+                            </div>
+                        </div>
+                        {% render 'embla-dots' %}
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+</div>
+<div id="video-popup--{{ section.id }}">
+    {% render 'video-popup' blocks: section.blocks %}
+</div>
+<script src="{{ 'video-popup.js' | asset_url }}" defer="defer"></script>
+{% schema %}
+{
+    "name": "Video Slider",
+    "settings": [
+        {
+            "type": "html",
+            "id": "stars",
+            "label": "Stars"
+        },
+        {
+            "type": "text",
+            "id": "text",
+            "label": "Text"
+        },
+        {
+            "type": "color",
+            "id": "background",
+            "label": "Background",
+            "default": "#f4f6fc"
+        },
+        {
+            "type": "header",
+            "content": "t:sections.all.padding.section_padding_heading"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_top",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_bottom",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Top Padding",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Bottom Padding",
+            "default": 36
+        }
+    ],
+    "blocks": [
+        {
+            "type": "header",
+            "name": "Header",
+            "limit": 1,
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "heading",
+                    "label": "Heading"
+                },
+                {
+                    "type": "richtext",
+                    "id": "description",
+                    "label": "Description"
+                },
+                {
+                    "type": "text",
+                    "id": "label",
+                    "label": "Label"
+                },
+                {
+                    "type": "url",
+                    "id": "link",
+                    "label": "Link"
+                }
+            ]
+        },
+        {
+            "type": "video",
+            "name": "Video",
+            "settings": [
+                {
+                    "type": "video_url",
+                    "id": "video_url",
+                    "accept": [
+                        "youtube",
+                        "vimeo"
+                    ],
+                    "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+                    "label": "t:sections.video.settings.video_url.label",
+                    "placeholder": "t:sections.video.settings.video_url.placeholder",
+                    "info": "t:sections.video.settings.video_url.info"
+                },
+                {
+                    "type": "url",
+                    "id": "mp4",
+                    "label": "MP4"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "name",
+                    "label": "Name"
+                },
+                {
+                    "type": "text",
+                    "id": "caption",
+                    "label": "Caption"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Video Slider"
+        }
+    ]
+}
+{% endschema %}

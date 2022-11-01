@@ -1,0 +1,113 @@
+{{ 'custom-support-section.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  .section--{{ section.id }} {
+    background-color: {{ section.settings.back_color }};
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  @media screen and (min-width: 990px) {
+    .section--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section--{{ section.id }}">
+    <div class="support-section page-width">
+        {% if section.settings.icon != blank %}
+            <div class="support__icon">
+                <span>
+                    {{ section.settings.icon }}
+                </span>
+            </div>
+        {% endif %}
+        {% if section.settings.text != blank %}
+            <div class="support__text">
+                <h2>
+                    {{ section.settings.text }}
+                </h2>
+            </div>
+        {% endif %}
+        {% if section.settings.btn_label != blank%}
+            <div class="support__button">
+                <a class="readmore__button trigger-chat-box" href="#">
+                    {{ section.settings.btn_label }}
+                </a>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% schema %}
+{
+    "name": "Support",
+    "settings": [
+        {
+            "type": "html",
+            "id": "icon",
+            "label": "Icon"
+        },
+        {
+            "type": "text",
+            "id": "text",
+            "label": "Text"
+        },
+        {
+            "type": "text",
+            "id": "btn_label",
+            "label": "Button Label"
+        },
+        {
+            "type": "color",
+            "id": "back_color",
+            "label": "Background",
+            "default": "#FFFFFF"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_top",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_bottom",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Top Padding",
+            "default": 36
+        },
+        {
+            "type": "range",
+            "id": "mobile_padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Mobile Bottom Padding",
+            "default": 36
+        }
+    ],
+    "presets": [
+        {
+            "name": "Support"
+        }
+    ]
+}
+{% endschema %}

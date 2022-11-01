@@ -1,0 +1,289 @@
+.contact {
+    max-width: 124.4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contact-image, .contact-form {
+    width: 50%;
+}
+
+.contact-image--inner {
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.contact-image--inner img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+.contact-form {
+    padding: 5.8rem 0.8rem 5.8rem 5rem;
+}
+
+.contact-form .contact__heading .title {
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1d1d1d;
+    margin: 0;
+}
+
+.contact-form .contact__description {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d2d2d;
+}
+
+.contact--fields {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    width: 100%;
+}
+
+.contact--field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.contact--fields .contact--field {
+    width: 50%;
+}
+
+.contact--field__label {
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d2d2d;
+    margin-top: 1.5rem;
+}
+
+.contact--field input, .contact--field textarea {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d2d2d;
+    padding: 11px;
+    border-radius: 5px;
+    border: solid 1px #ccd6e0;
+}
+
+.contact--field input:hover, .contact--field textarea:hover {
+    border-color: #00ebc3;
+}
+
+.contact--field select {
+    display: none !important;
+}
+
+.contact--field input:focus-visible, .contact--field textarea:focus-visible {
+    box-shadow: none;
+    outline: unset;
+    outline-offset: unset;
+    border-color: #00ebc3;
+}
+
+.contact__button {
+    margin-top: 2.5rem;
+}
+
+.contact__button .button {
+    padding: 8.5px 42px;;
+}
+
+.contact__info {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d2d2d;
+    margin-top: 2rem;
+}
+
+.contact__info p {
+    margin: 0;
+}
+
+.contact__info a {
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.contact__info a:hover {
+    border-bottom: 1px solid;
+}
+
+.contact--field .error {
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: red;
+}
+
+.contact--field input.error, .contact--field textarea.error {
+    border: 1px dashed red;
+}
+
+/* dropdown-select */
+
+.dropdown-select {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.dropdown-select__button {
+    display: inline-block;
+    border: 1px solid #ccd6e0;
+    border-radius: 6px;
+    padding: 10px 30px 10px 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dropdown-select__button:after {
+    content: '';
+    position: absolute;
+    top: 24px;
+    right: 15px;
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    z-index: 2;
+}
+
+.dropdown-select__button::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 30px;
+    height: 48px;
+    background: white;
+    border-radius: 5px;
+}
+
+.dropdown-select__button:hover, .dropdown-select__button:focus-visible {
+    border-color: #00ebc3;
+}
+
+
+.dropdown-select__input {
+    display: none !important;
+}
+
+.dropdown-select__menu {
+    position: absolute;
+    top: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    list-style-type: none;
+    z-index: 1;
+    width: 100%;
+}
+
+.dropdown-select__input + .dropdown-select__menu {
+    display: none;
+} 
+
+.dropdown-select__input:checked + .dropdown-select__menu {
+    display: block;
+    border-color: #00ebc3;
+} 
+
+.dropdown-select__menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+    line-height: 1.4;
+}
+
+.dropdown-select__menu li:hover, .dropdown-select__menu li.active {
+    background-color: #00ebc3;
+}
+
+.contact .form__message {
+    color: red;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+@media (max-width: 990px) {
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact-form {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contact-form .contact__heading .title {
+        font-size: 3.4rem;
+        line-height: 1.18;
+    }
+
+    .contact--fields.mobile-column {
+        flex-direction: column;
+    }
+
+    .contact--fields.mobile-column .contact--field, .contact__button .button {
+        width: 100%;
+    }
+
+    .dropdown-select__button::before {
+        height: 47px;
+    }
+}
